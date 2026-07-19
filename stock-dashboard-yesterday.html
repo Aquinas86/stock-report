@@ -613,9 +613,14 @@
     const SHEET_ID = "1cWdydzWsSSZE2ySlBSkD4FxGZdHp2Z63SLO0caNqSio";
     const GID = "0";
     const CSV_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&gid=${GID}`;
-    function targetDate() {
+    let targetBusinessDate = "";
+
+    function previousWeekday() {
       const date = new Date();
       date.setDate(date.getDate() - 1);
+      while (date.getDay() === 0 || date.getDay() === 6) {
+        date.setDate(date.getDate() - 1);
+      }
       return date.toISOString().slice(0, 10);
     }
 
@@ -778,7 +783,7 @@
     function fillFilters() {
       const dates = unique(allRows.map(r => r.date)).sort().reverse();
       const themes = unique(allRows.map(r => r.theme)).sort((a, b) => a.localeCompare(b, "ko"));
-      const TARGET_DATE = targetDate();
+      const TARGET_DATE = targetBusinessDate || previousWeekday();
       const dateOptions = dates.includes(TARGET_DATE) ? dates : [TARGET_DATE, ...dates];
       state.date.innerHTML = `<option value="">전체 일자</option>` + dateOptions.map(v => `<option>${escapeHtml(v)}</option>`).join("");
       state.theme.innerHTML = `<option value="">전체 테마</option>` + themes.map(v => `<option>${escapeHtml(v)}</option>`).join("");
@@ -911,6 +916,15 @@
       return [headers, ...body].map(row => row.map(v => `"${String(v ?? "").replace(/"/g, '""')}"`).join(",")).join("\n");
     }
 
+    async function loadMetadata() {
+      try {
+        const res = await fetch(`last-updated.json?ts=${Date.now()}`, { cache: "no-store" });
+        if (!res.ok) return;
+        const meta = await res.json();
+        if (meta.targetBusinessDate) targetBusinessDate = meta.targetBusinessDate;
+      } catch (err) {}
+    }
+
     async function loadSheet() {
       setStatus("", "구글 시트 연결 중");
       try {
@@ -925,6 +939,7 @@
         allRows = sampleRows;
         setStatus("bad", "시트 접근 불가 · 예시 데이터 표시 중");
       }
+      await loadMetadata();
       fillFilters();
       applyFilters();
     }

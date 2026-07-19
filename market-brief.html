@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>미장과 증시 영향 브리핑</title>
+  <style>
+    :root {
+      --bg: #f7f8fa;
+      --panel: #fff;
+      --ink: #18202a;
+      --muted: #687385;
+      --line: #dfe4eb;
+      --red: #d7474d;
+      --green: #14815b;
+      --blue: #2166b5;
+      --amber: #aa6b12;
+      --shadow: 0 12px 28px rgba(19, 33, 49, 0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+      letter-spacing: 0;
+    }
+    .wrap {
+      width: min(1180px, calc(100vw - 28px));
+      margin: 0 auto;
+      padding: 22px 0 36px;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: flex-start;
+      margin-bottom: 16px;
+    }
+    h1 {
+      margin: 0 0 6px;
+      font-size: 25px;
+      line-height: 1.2;
+    }
+    .sub {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.55;
+    }
+    .nav {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+    .nav a, button {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      color: #223044;
+      padding: 10px 12px;
+      font: inherit;
+      font-size: 13px;
+      font-weight: 700;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 360px;
+      gap: 14px;
+      align-items: start;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+    .head {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--line);
+    }
+    .head h2 {
+      margin: 0;
+      font-size: 15px;
+    }
+    .head span {
+      color: var(--muted);
+      font-size: 12px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+      padding: 14px;
+    }
+    .quote {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 13px;
+      min-height: 104px;
+      background: #fbfcfd;
+    }
+    .quote b {
+      display: block;
+      font-size: 13px;
+      margin-bottom: 8px;
+    }
+    .quote strong {
+      display: block;
+      font-size: 22px;
+      line-height: 1.1;
+      margin-bottom: 7px;
+    }
+    .quote small {
+      color: var(--muted);
+      font-size: 12px;
+    }
+    .up { color: var(--red); }
+    .down { color: var(--blue); }
+    .flat { color: var(--muted); }
+    .signals, .news {
+      display: grid;
+      gap: 10px;
+      padding: 14px;
+    }
+    .signal, .item {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 13px;
+      background: #fbfcfd;
+    }
+    .signal strong, .item a {
+      display: block;
+      color: var(--ink);
+      font-weight: 800;
+      text-decoration: none;
+      line-height: 1.4;
+      margin-bottom: 6px;
+    }
+    .signal p, .item p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .badge {
+      display: inline-block;
+      border-radius: 999px;
+      padding: 4px 8px;
+      margin-bottom: 8px;
+      background: #edf2f7;
+      color: #344154;
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .badge.positive { background: #e8f5ef; color: var(--green); }
+    .badge.negative { background: #fcebed; color: var(--red); }
+    .badge.watch { background: #fff5df; color: var(--amber); }
+    .empty {
+      padding: 26px 16px;
+      text-align: center;
+      color: var(--muted);
+      line-height: 1.6;
+      font-size: 14px;
+    }
+    @media (max-width: 920px) {
+      header { display: grid; }
+      .nav { justify-content: flex-start; }
+      .grid { grid-template-columns: 1fr; }
+      .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 560px) {
+      .cards { grid-template-columns: 1fr; }
+      h1 { font-size: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <h1>미장과 증시 영향 브리핑</h1>
+        <p class="sub" id="summary">데이터를 불러오는 중입니다.</p>
+      </div>
+      <nav class="nav">
+        <a href="stock-dashboard.html">전체 보드</a>
+        <a href="stock-dashboard-yesterday.html">전 거래일 보드</a>
+        <button id="reload">새로고침</button>
+      </nav>
+    </header>
+
+    <section class="panel" style="margin-bottom:14px">
+      <div class="head">
+        <h2>전날 미장 핵심 지표</h2>
+        <span id="marketMeta">-</span>
+      </div>
+      <div class="cards" id="quotes"></div>
+    </section>
+
+    <div class="grid">
+      <section class="panel">
+        <div class="head">
+          <h2>증시에 영향을 줄 만한 체크포인트</h2>
+          <span id="signalMeta">-</span>
+        </div>
+        <div class="signals" id="signals"></div>
+      </section>
+
+      <section class="panel">
+        <div class="head">
+          <h2>관련 뉴스</h2>
+          <span id="newsMeta">-</span>
+        </div>
+        <div class="news" id="news"></div>
+      </section>
+    </div>
+  </div>
+
+  <script>
+    const $ = (id) => document.getElementById(id);
+
+    function fmt(n, digits = 2) {
+      if (n === null || n === undefined || Number.isNaN(Number(n))) return "-";
+      return Number(n).toLocaleString("ko-KR", { maximumFractionDigits: digits });
+    }
+
+    function cls(n) {
+      if (Number(n) > 0) return "up";
+      if (Number(n) < 0) return "down";
+      return "flat";
+    }
+
+    function sign(n) {
+      return Number(n) > 0 ? "+" : "";
+    }
+
+    function render(data) {
+      $("summary").textContent = `${data.updatedAt || "-"} 업데이트 · 기준 전 거래일 ${data.targetBusinessDate || "-"}`;
+      $("marketMeta").textContent = data.marketSource || "Yahoo Finance";
+      $("signalMeta").textContent = `${(data.signals || []).length}개`;
+      $("newsMeta").textContent = `${(data.news || []).length}개`;
+
+      $("quotes").innerHTML = (data.usMarket || []).map(q => `
+        <article class="quote">
+          <b>${q.label}</b>
+          <strong>${fmt(q.price, q.digits || 2)}</strong>
+          <div class="${cls(q.changePercent)}">${sign(q.changePercent)}${fmt(q.changePercent, 2)}%</div>
+          <small>${q.asOf || ""}</small>
+        </article>
+      `).join("") || `<div class="empty">지수 데이터가 없습니다.</div>`;
+
+      $("signals").innerHTML = (data.signals || []).map(s => `
+        <article class="signal">
+          <span class="badge ${s.tone || ""}">${s.badge || "체크"}</span>
+          <strong>${s.title}</strong>
+          <p>${s.body}</p>
+        </article>
+      `).join("") || `<div class="empty">체크포인트가 없습니다.</div>`;
+
+      $("news").innerHTML = (data.news || []).map(n => `
+        <article class="item">
+          <a href="${n.link}" target="_blank" rel="noopener">${n.title}</a>
+          <p>${n.source || "뉴스"} · ${n.published || ""}</p>
+        </article>
+      `).join("") || `<div class="empty">뉴스 데이터가 없습니다.</div>`;
+    }
+
+    async function load() {
+      $("summary").textContent = "데이터를 불러오는 중입니다.";
+      try {
+        const res = await fetch(`market-brief-data.json?ts=${Date.now()}`, { cache: "no-store" });
+        if (!res.ok) throw new Error("data not found");
+        render(await res.json());
+      } catch (err) {
+        $("summary").textContent = "브리핑 데이터를 불러오지 못했습니다. 스케줄러 실행 상태를 확인하세요.";
+        $("quotes").innerHTML = `<div class="empty">데이터가 없습니다.</div>`;
+        $("signals").innerHTML = `<div class="empty">데이터가 없습니다.</div>`;
+        $("news").innerHTML = `<div class="empty">데이터가 없습니다.</div>`;
+      }
+    }
+
+    $("reload").addEventListener("click", load);
+    load();
+  </script>
+</body>
+</html>
