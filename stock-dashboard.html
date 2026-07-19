@@ -1,0 +1,973 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>급등주 데일리 보드</title>
+  <style>
+    :root {
+      --bg: #f7f8fa;
+      --panel: #ffffff;
+      --ink: #18202a;
+      --muted: #687385;
+      --line: #dfe4eb;
+      --red: #df3f4f;
+      --blue: #2166b5;
+      --green: #11875d;
+      --amber: #b46b08;
+      --chip: #edf2f7;
+      --shadow: 0 12px 28px rgba(19, 33, 49, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+      letter-spacing: 0;
+    }
+
+    .app {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: 280px 1fr;
+    }
+
+    aside {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      border-right: 1px solid var(--line);
+      background: #fbfcfd;
+      padding: 24px 18px;
+      overflow: auto;
+    }
+
+    main {
+      min-width: 0;
+      padding: 24px;
+    }
+
+    h1 {
+      margin: 0 0 6px;
+      font-size: 25px;
+      line-height: 1.2;
+    }
+
+    .subtitle {
+      margin: 0 0 22px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.55;
+    }
+
+    .source {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 12px;
+      padding: 10px 0 18px;
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 18px;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: var(--amber);
+      flex: 0 0 auto;
+    }
+
+    .dot.ok { background: var(--green); }
+    .dot.bad { background: var(--red); }
+
+    label {
+      display: block;
+      font-size: 12px;
+      font-weight: 700;
+      color: #344154;
+      margin: 14px 0 7px;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      color: var(--ink);
+      padding: 10px 11px;
+      font: inherit;
+      font-size: 13px;
+      outline: none;
+    }
+
+    textarea {
+      min-height: 96px;
+      resize: vertical;
+      line-height: 1.45;
+    }
+
+    input:focus, select:focus, textarea:focus {
+      border-color: #7aa5d8;
+      box-shadow: 0 0 0 3px rgba(33, 102, 181, 0.13);
+    }
+
+    .seg {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      background: #fff;
+    }
+
+    .seg button {
+      border: 0;
+      padding: 9px 6px;
+      background: transparent;
+      color: var(--muted);
+      font: inherit;
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+    .seg button.active {
+      background: #1e2938;
+      color: #fff;
+      font-weight: 700;
+    }
+
+    .checks {
+      display: grid;
+      gap: 8px;
+      margin-top: 8px;
+    }
+
+    .check {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      color: #344154;
+      cursor: pointer;
+    }
+
+    .check input {
+      width: 16px;
+      height: 16px;
+      accent-color: var(--blue);
+    }
+
+    .actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+    button.action {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      color: #223044;
+      padding: 10px;
+      font: inherit;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    button.primary {
+      border-color: #1e2938;
+      background: #1e2938;
+      color: #fff;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 18px;
+      margin-bottom: 18px;
+    }
+
+    .headline h2 {
+      margin: 0 0 5px;
+      font-size: 22px;
+      line-height: 1.25;
+    }
+
+    .headline p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 9px;
+      flex-wrap: wrap;
+    }
+
+    .iconbtn {
+      width: 38px;
+      height: 38px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      color: #28374b;
+      cursor: pointer;
+      font-size: 17px;
+      display: inline-grid;
+      place-items: center;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    .stat {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 16px;
+      box-shadow: var(--shadow);
+      min-height: 94px;
+    }
+
+    .stat small {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      margin-bottom: 8px;
+    }
+
+    .stat strong {
+      display: block;
+      font-size: 25px;
+      line-height: 1.1;
+    }
+
+    .stat span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      margin-top: 7px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 360px;
+      gap: 16px;
+      align-items: start;
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .panelhead {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .panelhead h3 {
+      margin: 0;
+      font-size: 15px;
+    }
+
+    .panelhead span {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .tablewrap {
+      overflow: auto;
+      max-height: calc(100vh - 265px);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 900px;
+    }
+
+    th, td {
+      border-bottom: 1px solid #edf0f4;
+      padding: 12px 10px;
+      text-align: left;
+      font-size: 13px;
+      vertical-align: top;
+    }
+
+    th {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      background: #f9fafc;
+      color: #526074;
+      font-size: 12px;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+
+    td.reason {
+      min-width: 230px;
+      max-width: 360px;
+      line-height: 1.45;
+    }
+
+    .name {
+      font-weight: 800;
+      color: #111827;
+      white-space: nowrap;
+    }
+
+    .code {
+      display: block;
+      color: var(--muted);
+      font-size: 11px;
+      margin-top: 3px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      max-width: 180px;
+      border-radius: 999px;
+      background: var(--chip);
+      color: #253248;
+      padding: 5px 9px;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 1;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .up {
+      color: var(--red);
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .money {
+      color: #1f5f9f;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .volume {
+      color: #2b6b4c;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .sidebody {
+      padding: 12px 14px 16px;
+      display: grid;
+      gap: 14px;
+    }
+
+    .bars {
+      display: grid;
+      gap: 9px;
+    }
+
+    .barrow {
+      display: grid;
+      grid-template-columns: 92px 1fr 42px;
+      gap: 8px;
+      align-items: center;
+      font-size: 12px;
+    }
+
+    .barrow b {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .bar {
+      height: 9px;
+      border-radius: 999px;
+      background: #edf1f5;
+      overflow: hidden;
+    }
+
+    .bar i {
+      display: block;
+      height: 100%;
+      border-radius: inherit;
+      background: #2166b5;
+    }
+
+    .timeline {
+      display: grid;
+      gap: 9px;
+    }
+
+    .day {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px;
+      background: #fbfcfd;
+      cursor: pointer;
+    }
+
+    .day.active {
+      border-color: #2166b5;
+      box-shadow: inset 0 0 0 1px #2166b5;
+    }
+
+    .day strong {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      font-size: 13px;
+      margin-bottom: 7px;
+    }
+
+    .day span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .empty {
+      padding: 38px 18px;
+      color: var(--muted);
+      text-align: center;
+      line-height: 1.6;
+      font-size: 14px;
+    }
+
+    .pastebox {
+      display: none;
+      margin-top: 12px;
+    }
+
+    .pastebox.show { display: block; }
+
+    @media (max-width: 1080px) {
+      .app { grid-template-columns: 1fr; }
+      aside {
+        position: static;
+        height: auto;
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+      main { padding: 18px; }
+      .grid { grid-template-columns: 1fr; }
+      .tablewrap { max-height: none; }
+      .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+
+    @media (max-width: 640px) {
+      aside { padding: 18px 14px; }
+      main { padding: 14px; }
+      .topbar { display: grid; }
+      .toolbar { justify-content: flex-start; }
+      .stats { grid-template-columns: 1fr; }
+      .stat { min-height: 82px; }
+      .panelhead { align-items: flex-start; }
+      .barrow { grid-template-columns: 78px 1fr 34px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <aside>
+      <h1>급등주 데일리 보드</h1>
+      <p class="subtitle">15% 이상 상승, 거래대금 500억/1000억, 거래량 1000만주 조건을 날짜별로 훑어보는 화면입니다.</p>
+      <div class="source"><span class="dot" id="statusDot"></span><span id="statusText">구글 시트 연결 중</span></div>
+
+      <label for="dateFilter">일자</label>
+      <select id="dateFilter"></select>
+
+      <label for="themeFilter">테마</label>
+      <select id="themeFilter"></select>
+
+      <label for="searchInput">검색</label>
+      <input id="searchInput" type="search" placeholder="종목명, 코드, 상승 이유" />
+
+      <label>보기</label>
+      <div class="seg" role="group" aria-label="보기 방식">
+        <button class="active" data-view="all">전체</button>
+        <button data-view="watch">핵심 조건</button>
+      </div>
+
+      <label>조건</label>
+      <div class="checks">
+        <label class="check"><input id="only500" type="checkbox" /> 거래대금 500억 이상</label>
+        <label class="check"><input id="only1000" type="checkbox" /> 거래대금 1000억 이상</label>
+        <label class="check"><input id="onlyVolume" type="checkbox" /> 거래량 1000만주 이상</label>
+      </div>
+
+      <div class="actions">
+        <button class="action primary" id="reloadBtn">새로고침</button>
+        <button class="action" id="pasteToggle">CSV 붙여넣기</button>
+      </div>
+
+      <div class="pastebox" id="pasteBox">
+        <label for="csvPaste">시트 데이터를 CSV로 붙여넣기</label>
+        <textarea id="csvPaste" placeholder="구글 시트에서 파일 > 다운로드 > CSV 내용을 붙여넣기"></textarea>
+        <button class="action primary" id="applyCsv" style="margin-top:8px;width:100%">적용</button>
+      </div>
+    </aside>
+
+    <main>
+      <div class="topbar">
+        <div class="headline">
+          <h2 id="mainTitle">전체 흐름</h2>
+          <p id="mainDesc">날짜, 테마, 거래대금, 거래량, 유보율을 한 화면에서 비교합니다.</p>
+        </div>
+        <div class="toolbar">
+          <button class="iconbtn" id="copyBtn" title="현재 목록 복사">⧉</button>
+          <button class="iconbtn" id="exportBtn" title="CSV 다운로드">↓</button>
+        </div>
+      </div>
+
+      <section class="stats" aria-label="요약 지표">
+        <div class="stat"><small>표시 종목</small><strong id="statCount">0</strong><span id="statDays">-</span></div>
+        <div class="stat"><small>1000억 이상</small><strong id="statMoney">0</strong><span>거래대금 강도</span></div>
+        <div class="stat"><small>1000만주 이상</small><strong id="statVolume">0</strong><span>거래량 집중</span></div>
+        <div class="stat"><small>최다 테마</small><strong id="statTheme">-</strong><span id="statThemeSub">-</span></div>
+      </section>
+
+      <div class="grid">
+        <section class="panel">
+          <div class="panelhead">
+            <h3>종목 리스트</h3>
+            <span id="tableMeta">0개</span>
+          </div>
+          <div class="tablewrap">
+            <table>
+              <thead>
+                <tr>
+                  <th data-sort="date">일자</th>
+                  <th data-sort="name">종목</th>
+                  <th data-sort="change">등락률</th>
+                  <th data-sort="amount">거래대금</th>
+                  <th data-sort="volume">거래량</th>
+                  <th data-sort="theme">테마</th>
+                  <th data-sort="reserve">유보율</th>
+                  <th>상승 이유</th>
+                </tr>
+              </thead>
+              <tbody id="stockRows"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panelhead">
+            <h3>테마와 날짜</h3>
+            <span>클릭해서 필터</span>
+          </div>
+          <div class="sidebody">
+            <div>
+              <div class="panelhead" style="padding:0 0 10px;border:0">
+                <h3>테마 랭킹</h3>
+                <span id="themeMeta">-</span>
+              </div>
+              <div class="bars" id="themeBars"></div>
+            </div>
+            <div>
+              <div class="panelhead" style="padding:0 0 10px;border:0">
+                <h3>일자별 요약</h3>
+                <span id="dayMeta">-</span>
+              </div>
+              <div class="timeline" id="timeline"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    const SHEET_ID = "1cWdydzWsSSZE2ySlBSkD4FxGZdHp2Z63SLO0caNqSio";
+    const GID = "0";
+    const CSV_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&gid=${GID}`;
+
+    const sampleRows = [
+      { date: "2026-07-04", code: "000000", name: "예시바이오", change: 29.9, amount: 1320, volume: 1850, theme: "바이오", reserve: 420, reason: "신약 후보물질 기대감과 기관 매수세 유입" },
+      { date: "2026-07-04", code: "111111", name: "예시전력", change: 18.4, amount: 760, volume: 980, theme: "전력설비", reserve: 880, reason: "전력망 투자 확대 기대감" },
+      { date: "2026-07-03", code: "222222", name: "예시로봇", change: 21.7, amount: 1045, volume: 1230, theme: "로봇", reserve: 510, reason: "대기업 자동화 투자 확대 보도" },
+      { date: "2026-07-03", code: "333333", name: "예시반도체", change: 16.2, amount: 540, volume: 1450, theme: "반도체", reserve: 1160, reason: "AI 서버 수요 회복 기대" }
+    ];
+
+    let allRows = [];
+    let filteredRows = [];
+    let currentView = "all";
+    let sortKey = "date";
+    let sortDir = -1;
+
+    const $ = (id) => document.getElementById(id);
+    const state = {
+      date: $("dateFilter"),
+      theme: $("themeFilter"),
+      search: $("searchInput"),
+      only500: $("only500"),
+      only1000: $("only1000"),
+      onlyVolume: $("onlyVolume")
+    };
+
+    function parseCsv(text) {
+      const rows = [];
+      let row = [], cell = "", quote = false;
+      for (let i = 0; i < text.length; i++) {
+        const c = text[i], n = text[i + 1];
+        if (c === '"' && quote && n === '"') { cell += '"'; i++; continue; }
+        if (c === '"') { quote = !quote; continue; }
+        if (c === "," && !quote) { row.push(cell); cell = ""; continue; }
+        if ((c === "\n" || c === "\r") && !quote) {
+          if (c === "\r" && n === "\n") i++;
+          row.push(cell); cell = "";
+          if (row.some(v => String(v).trim() !== "")) rows.push(row);
+          row = [];
+          continue;
+        }
+        cell += c;
+      }
+      row.push(cell);
+      if (row.some(v => String(v).trim() !== "")) rows.push(row);
+      return rows;
+    }
+
+    function normalizeHeader(value) {
+      return String(value || "").replace(/\s/g, "").toLowerCase();
+    }
+
+    function pick(record, names) {
+      for (const name of names) {
+        if (record[name] !== undefined && record[name] !== "") return record[name];
+      }
+      return "";
+    }
+
+    function numberFrom(value) {
+      if (value === null || value === undefined) return 0;
+      const text = String(value).replace(/,/g, "").replace(/[^\d.-]/g, "");
+      return Number(text) || 0;
+    }
+
+    function inferAmount(value) {
+      const raw = numberFrom(value);
+      const text = String(value || "");
+      if (text.includes("조")) return raw * 10000;
+      if (text.includes("억")) return raw;
+      if (raw > 100000000) return raw / 100000000;
+      return raw;
+    }
+
+    function inferSheetAmount(value, headerText) {
+      const raw = numberFrom(value);
+      const header = String(headerText || "");
+      const text = String(value || "");
+      if (text.includes("억") || header.includes("억")) return inferAmount(value);
+      if (raw > 100000000) return raw / 100000000;
+      if (raw > 0) return raw / 100;
+      return 0;
+    }
+
+    function inferVolume(value) {
+      const raw = numberFrom(value);
+      const text = String(value || "");
+      if (text.includes("만")) return raw;
+      if (raw > 10000) return raw / 10000;
+      return raw;
+    }
+
+    function yes(value) {
+      return /^(y|yes|true|1|o|ok|터짐|해당)$/i.test(String(value || "").trim());
+    }
+
+    function compactDate(record) {
+      const direct = pick(record, ["일자", "날짜", "date", "거래일", "기준일"]);
+      if (direct) return direct;
+      const month = numberFrom(pick(record, ["월", "month"]));
+      const day = numberFrom(pick(record, ["일", "day"]));
+      if (!month || !day) return "";
+      const year = new Date().getFullYear();
+      return `${year}-${String(month).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+    }
+
+    function mapRows(csvText) {
+      const parsed = parseCsv(csvText);
+      if (parsed.length < 2) return [];
+      const headers = parsed[0].map(normalizeHeader);
+      return parsed.slice(1).map(cols => {
+        const r = {};
+        headers.forEach((h, i) => r[h] = String(cols[i] || "").trim());
+        const amountValue = pick(r, ["거래대금", "대금", "거래금액", "amount", "거래대금억"]);
+        const volumeValue = pick(r, ["거래량", "volume", "거래량만주"]);
+        const over500 = yes(pick(r, ["500억이상터짐", "500억이상", "500억", "over500"]));
+        const over1000 = yes(pick(r, ["1000억이상", "1000억이상터짐", "천억이상", "over1000"]));
+        const overVolume = yes(pick(r, ["천만주이상터짐", "천만주이상", "1000만주이상", "overvolume"]));
+        return {
+          date: compactDate(r),
+          code: pick(r, ["종목코드", "코드", "code", "티커"]),
+          name: pick(r, ["종목명", "종목", "name", "기업명"]),
+          change: numberFrom(pick(r, ["등락률", "상승률", "수익률", "change", "급등률"])),
+          amount: inferSheetAmount(amountValue, "거래대금"),
+          volume: inferVolume(volumeValue),
+          over500,
+          over1000,
+          overVolume,
+          theme: pick(r, ["테마", "theme", "섹터", "업종"]),
+          reserve: numberFrom(pick(r, ["유보율", "reserve", "유보율%", "유보"])),
+          reason: pick(r, ["상승이유", "상승사유", "이유", "reason", "메모", "비고"])
+        };
+      }).filter(r => r.name || r.code || r.theme || r.reason);
+    }
+
+    function fmtAmount(n) {
+      if (!n) return "-";
+      return `${Math.round(n).toLocaleString("ko-KR")}억`;
+    }
+
+    function fmtVolume(n) {
+      if (!n) return "-";
+      return `${Math.round(n).toLocaleString("ko-KR")}만주`;
+    }
+
+    function fmtPct(n) {
+      if (!n) return "-";
+      return `${Number(n).toLocaleString("ko-KR", { maximumFractionDigits: 1 })}%`;
+    }
+
+    function unique(list) {
+      return [...new Set(list.filter(Boolean))];
+    }
+
+    function setStatus(type, text) {
+      $("statusDot").className = `dot ${type || ""}`;
+      $("statusText").textContent = text;
+    }
+
+    function fillFilters() {
+      const dates = unique(allRows.map(r => r.date)).sort().reverse();
+      const themes = unique(allRows.map(r => r.theme)).sort((a, b) => a.localeCompare(b, "ko"));
+      state.date.innerHTML = `<option value="">전체 일자</option>` + dates.map(v => `<option>${escapeHtml(v)}</option>`).join("");
+      state.theme.innerHTML = `<option value="">전체 테마</option>` + themes.map(v => `<option>${escapeHtml(v)}</option>`).join("");
+    }
+
+    function escapeHtml(value) {
+      return String(value ?? "").replace(/[&<>"']/g, m => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[m]));
+    }
+
+    function applyFilters() {
+      const q = state.search.value.trim().toLowerCase();
+      filteredRows = allRows.filter(r => {
+        const hay = `${r.date} ${r.code} ${r.name} ${r.theme} ${r.reason}`.toLowerCase();
+        if (state.date.value && r.date !== state.date.value) return false;
+        if (state.theme.value && r.theme !== state.theme.value) return false;
+        if (q && !hay.includes(q)) return false;
+        if (state.only1000.checked && !(r.over1000 || r.amount >= 1000)) return false;
+        if (state.only500.checked && !(r.over500 || r.over1000 || r.amount >= 500)) return false;
+        if (state.onlyVolume.checked && !(r.overVolume || r.volume >= 1000)) return false;
+        if (currentView === "watch" && !(r.over1000 || r.overVolume || r.amount >= 1000 || r.volume >= 1000 || r.reserve >= 1000)) return false;
+        return true;
+      });
+      sortRows();
+      render();
+    }
+
+    function sortRows() {
+      filteredRows.sort((a, b) => {
+        const av = a[sortKey] ?? "";
+        const bv = b[sortKey] ?? "";
+        if (typeof av === "number" || typeof bv === "number") return (av - bv) * sortDir;
+        return String(av).localeCompare(String(bv), "ko") * sortDir;
+      });
+    }
+
+    function render() {
+      renderStats();
+      renderTable();
+      renderThemes();
+      renderTimeline();
+      const dateText = state.date.value || "전체 기간";
+      $("mainTitle").textContent = `${dateText} 급등주`;
+      $("mainDesc").textContent = `${filteredRows.length.toLocaleString("ko-KR")}개 종목을 조건에 맞춰 표시 중입니다.`;
+    }
+
+    function renderStats() {
+      const dates = unique(filteredRows.map(r => r.date));
+      const counts = countBy(filteredRows, "theme");
+      const topTheme = Object.entries(counts).sort((a, b) => b[1] - a[1])[0];
+      $("statCount").textContent = filteredRows.length.toLocaleString("ko-KR");
+      $("statDays").textContent = dates.length ? `${dates.length}개 일자` : "-";
+      $("statMoney").textContent = filteredRows.filter(r => r.over1000 || r.amount >= 1000).length.toLocaleString("ko-KR");
+      $("statVolume").textContent = filteredRows.filter(r => r.overVolume || r.volume >= 1000).length.toLocaleString("ko-KR");
+      $("statTheme").textContent = topTheme ? topTheme[0] : "-";
+      $("statThemeSub").textContent = topTheme ? `${topTheme[1]}개 종목` : "-";
+    }
+
+    function renderTable() {
+      $("tableMeta").textContent = `${filteredRows.length.toLocaleString("ko-KR")}개`;
+      if (!filteredRows.length) {
+        $("stockRows").innerHTML = `<tr><td colspan="8"><div class="empty">조건에 맞는 종목이 없습니다.</div></td></tr>`;
+        return;
+      }
+      $("stockRows").innerHTML = filteredRows.map(r => `
+        <tr>
+          <td>${escapeHtml(r.date || "-")}</td>
+          <td><span class="name">${escapeHtml(r.name || "-")}</span><span class="code">${escapeHtml(r.code || "")}</span></td>
+          <td class="up">${fmtPct(r.change)}</td>
+          <td class="money">${fmtAmount(r.amount)}</td>
+          <td class="volume">${fmtVolume(r.volume)}</td>
+          <td><span class="pill">${escapeHtml(r.theme || "미분류")}</span></td>
+          <td>${r.reserve ? fmtPct(r.reserve) : "-"}</td>
+          <td class="reason">${escapeHtml(r.reason || "-")}</td>
+        </tr>
+      `).join("");
+    }
+
+    function countBy(rows, key) {
+      return rows.reduce((acc, r) => {
+        const k = r[key] || "미분류";
+        acc[k] = (acc[k] || 0) + 1;
+        return acc;
+      }, {});
+    }
+
+    function renderThemes() {
+      const entries = Object.entries(countBy(filteredRows, "theme")).sort((a, b) => b[1] - a[1]).slice(0, 10);
+      const max = Math.max(1, ...entries.map(e => e[1]));
+      $("themeMeta").textContent = entries.length ? `${entries.length}개` : "-";
+      $("themeBars").innerHTML = entries.length ? entries.map(([theme, count]) => `
+        <div class="barrow" role="button" tabindex="0" data-theme="${escapeHtml(theme)}">
+          <b>${escapeHtml(theme)}</b>
+          <span class="bar"><i style="width:${Math.max(8, count / max * 100)}%"></i></span>
+          <span>${count}개</span>
+        </div>
+      `).join("") : `<div class="empty">테마 데이터가 없습니다.</div>`;
+      document.querySelectorAll(".barrow").forEach(el => {
+        el.addEventListener("click", () => { state.theme.value = el.dataset.theme; applyFilters(); });
+      });
+    }
+
+    function renderTimeline() {
+      const byDate = {};
+      filteredRows.forEach(r => {
+        const d = r.date || "일자 없음";
+        byDate[d] ||= [];
+        byDate[d].push(r);
+      });
+      const dates = Object.keys(byDate).sort().reverse().slice(0, 12);
+      $("dayMeta").textContent = dates.length ? `${dates.length}일` : "-";
+      $("timeline").innerHTML = dates.length ? dates.map(d => {
+        const themes = unique(byDate[d].map(r => r.theme)).slice(0, 3).join(", ");
+        const strong = byDate[d].filter(r => r.over1000 || r.amount >= 1000).length;
+        return `<div class="day ${state.date.value === d ? "active" : ""}" data-date="${escapeHtml(d)}">
+          <strong><span>${escapeHtml(d)}</span><span>${byDate[d].length}개</span></strong>
+          <span>1000억 이상 ${strong}개 · ${escapeHtml(themes || "미분류")}</span>
+        </div>`;
+      }).join("") : `<div class="empty">일자 데이터가 없습니다.</div>`;
+      document.querySelectorAll(".day").forEach(el => {
+        el.addEventListener("click", () => { state.date.value = el.dataset.date; applyFilters(); });
+      });
+    }
+
+    function rowsToCsv(rows) {
+      const headers = ["일자", "종목코드", "종목명", "등락률", "거래대금(억)", "거래량(만주)", "테마", "유보율", "상승이유"];
+      const body = rows.map(r => [r.date, r.code, r.name, r.change, r.amount, r.volume, r.theme, r.reserve, r.reason]);
+      return [headers, ...body].map(row => row.map(v => `"${String(v ?? "").replace(/"/g, '""')}"`).join(",")).join("\n");
+    }
+
+    async function loadSheet() {
+      setStatus("", "구글 시트 연결 중");
+      try {
+        const res = await fetch(CSV_URL, { cache: "no-store" });
+        if (!res.ok) throw new Error("sheet fetch failed");
+        const text = await res.text();
+        const rows = mapRows(text);
+        if (!rows.length) throw new Error("empty sheet");
+        allRows = rows;
+        setStatus("ok", `구글 시트 연결됨 · ${rows.length.toLocaleString("ko-KR")}개`);
+      } catch (err) {
+        allRows = sampleRows;
+        setStatus("bad", "시트 접근 불가 · 예시 데이터 표시 중");
+      }
+      fillFilters();
+      applyFilters();
+    }
+
+    $("reloadBtn").addEventListener("click", loadSheet);
+    $("pasteToggle").addEventListener("click", () => $("pasteBox").classList.toggle("show"));
+    $("applyCsv").addEventListener("click", () => {
+      const rows = mapRows($("csvPaste").value);
+      if (!rows.length) {
+        setStatus("bad", "CSV에서 데이터를 찾지 못했습니다");
+        return;
+      }
+      allRows = rows;
+      setStatus("ok", `붙여넣은 CSV 적용됨 · ${rows.length.toLocaleString("ko-KR")}개`);
+      fillFilters();
+      applyFilters();
+    });
+
+    $("copyBtn").addEventListener("click", async () => {
+      await navigator.clipboard.writeText(rowsToCsv(filteredRows));
+      $("copyBtn").textContent = "✓";
+      setTimeout(() => $("copyBtn").textContent = "⧉", 900);
+    });
+
+    $("exportBtn").addEventListener("click", () => {
+      const blob = new Blob(["\ufeff" + rowsToCsv(filteredRows)], { type: "text/csv;charset=utf-8" });
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = `급등주_필터_${new Date().toISOString().slice(0, 10)}.csv`;
+      a.click();
+      URL.revokeObjectURL(a.href);
+    });
+
+    document.querySelectorAll(".seg button").forEach(btn => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll(".seg button").forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        currentView = btn.dataset.view;
+        applyFilters();
+      });
+    });
+
+    document.querySelectorAll("th[data-sort]").forEach(th => {
+      th.addEventListener("click", () => {
+        const key = th.dataset.sort;
+        sortDir = sortKey === key ? sortDir * -1 : -1;
+        sortKey = key;
+        applyFilters();
+      });
+    });
+
+    Object.values(state).forEach(el => el.addEventListener("input", applyFilters));
+    loadSheet();
+  </script>
+</body>
+</html>
