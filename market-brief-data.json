@@ -1,5 +1,5 @@
 ﻿{
-    "updatedAt":  "2026-07-19 20:51:14 +09:00",
+    "updatedAt":  "2026-07-19 20:53:10 +09:00",
     "targetBusinessDate":  "2026-07-17",
     "marketSource":  "Yahoo Finance",
     "newsSource":  "Google News RSS",
@@ -158,12 +158,6 @@
                      "published":  "2026-07-16 10:08"
                  },
                  {
-                     "title":  "올해 코스피 75.6% 상승···G20·OECD 1위 - Korea.net",
-                     "link":  "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVjZOVWRlZm10SGd6VGdaYWRJNFNMNFZTV2Z0emVMZE9YQWkwZmhzSktSV1paTFBLMTFpd0NXZjFzdmtORVBUUGJyamZidU52LXdfcWxTcU9JTlpxQmhOc3R0cXNqMl9ZSFBuTjFLUUFWRWFBbnRkYUp5TUJER1h4cThqNG0?oc=5",
-                     "source":  "Korea.net",
-                     "published":  "2025-12-31 17:00"
-                 },
-                 {
                      "title":  "Feeling left out of Korea’s chip stock boom? - Korea JoongAng Daily",
                      "link":  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZk9uNkhhVUk4SGE2SzFWalk0WVBKYmxYVnJBMFFBbjBnZWJvbXk5V2NydmNCOF9RdVRCRVhseTVxdE51UnljV0Y4RkZ3dEItMEJvSEt2dUIzSVhZcWRwUms3WUN4c0NVRnk0MzIwM3Y5R2dQR0dGWVVKdHFNWUtBckZ4LXRhQ09ueWQ2Rzg5WWxHc285UXBZdHZnUnhuaVhfc1hzTmx1MGZ1eHc?oc=5",
                      "source":  "Korea JoongAng Daily",
@@ -180,6 +174,12 @@
                      "link":  "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYlU4bTJXa1E0bl9wWVZOVXh3SHhzTHo1WXZzd25SQktBWktJc2FNUmQ4NldRNDg4WGxVLVowTENUYTlOSlh6LXRqQzY0U052bEMwT3RRaTRMWnNRTHQxa1NXVUlUZjNhQ3VfTExxTlp5QV9ScExWVjRmeDkwSFZQNkFYWXdKZzBSbmI5dnRn?oc=5",
                      "source":  "조선일보",
                      "published":  "2026-03-04 17:00"
+                 },
+                 {
+                     "title":  "Lee orders swift measures for single-stock leveraged ETFs amid market volatility - 네이트",
+                     "link":  "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAyMHhUdGc3YlRqYVBYZTNLc2l3QURiXzA0TGJQUUdLR1R6WnR1YlVzS19hb3NLVUxtTXg1cEFzTDRjOEJQT1kzcURPSjFNWmFWdmp3cExDR281YmVBX1p1Mg?oc=5",
+                     "source":  "네이트",
+                     "published":  "2026-07-15 15:54"
                  }
              ]
 }

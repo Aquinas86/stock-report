@@ -242,10 +242,65 @@
       return Number(n) > 0 ? "+" : "";
     }
 
+    function findQuote(data, symbol) {
+      return (data.usMarket || []).find(q => q.symbol === symbol) || {};
+    }
+
+    function buildSignals(data) {
+      const nasdaq = findQuote(data, "^IXIC");
+      const sox = findQuote(data, "^SOX");
+      const vix = findQuote(data, "^VIX");
+      const usdkrw = findQuote(data, "USDKRW=X");
+      const oil = findQuote(data, "CL=F");
+      const items = [];
+      if (nasdaq.changePercent !== null && nasdaq.changePercent !== undefined) {
+        items.push({
+          badge: "미장",
+          tone: nasdaq.changePercent >= 0.5 ? "positive" : nasdaq.changePercent <= -0.5 ? "negative" : "watch",
+          title: "나스닥 흐름 확인",
+          body: `나스닥 전일 등락률은 ${sign(nasdaq.changePercent)}${fmt(nasdaq.changePercent, 2)}%입니다. 성장주, AI, 반도체 테마의 장 초반 수급에 영향을 줄 수 있습니다.`
+        });
+      }
+      if (sox.changePercent !== null && sox.changePercent !== undefined) {
+        items.push({
+          badge: "반도체",
+          tone: sox.changePercent >= 0.7 ? "positive" : sox.changePercent <= -0.7 ? "negative" : "watch",
+          title: "필라델피아 반도체 지수",
+          body: `SOX 전일 등락률은 ${sign(sox.changePercent)}${fmt(sox.changePercent, 2)}%입니다. 국내 반도체 장비, 소재, HBM 관련주의 민감도가 높습니다.`
+        });
+      }
+      if (vix.price !== null && vix.price !== undefined) {
+        items.push({
+          badge: "변동성",
+          tone: vix.price >= 20 ? "negative" : vix.price <= 14 ? "positive" : "watch",
+          title: "VIX 위험 선호도",
+          body: `VIX는 ${fmt(vix.price, 2)}입니다. 20 이상이면 위험 회피, 14 이하이면 위험 선호 쪽으로 해석할 여지가 있습니다.`
+        });
+      }
+      if (usdkrw.changePercent !== null && usdkrw.changePercent !== undefined) {
+        items.push({
+          badge: "환율",
+          tone: usdkrw.changePercent > 0 ? "watch" : "positive",
+          title: "달러/원 방향",
+          body: `달러/원 전일 변동률은 ${sign(usdkrw.changePercent)}${fmt(usdkrw.changePercent, 2)}%입니다. 환율 상승은 외국인 수급과 수입 원가에 부담이 될 수 있습니다.`
+        });
+      }
+      if (oil.changePercent !== null && oil.changePercent !== undefined) {
+        items.push({
+          badge: "유가",
+          tone: oil.changePercent > 1 ? "watch" : oil.changePercent < -1 ? "positive" : "watch",
+          title: "WTI 유가",
+          body: `WTI 전일 변동률은 ${sign(oil.changePercent)}${fmt(oil.changePercent, 2)}%입니다. 항공, 화학, 정유, 물류 업종 체크가 필요합니다.`
+        });
+      }
+      return items;
+    }
+
     function render(data) {
       $("summary").textContent = `${data.updatedAt || "-"} 업데이트 · 기준 전 거래일 ${data.targetBusinessDate || "-"}`;
       $("marketMeta").textContent = data.marketSource || "Yahoo Finance";
-      $("signalMeta").textContent = `${(data.signals || []).length}개`;
+      const signals = buildSignals(data);
+      $("signalMeta").textContent = `${signals.length}개`;
       $("newsMeta").textContent = `${(data.news || []).length}개`;
 
       $("quotes").innerHTML = (data.usMarket || []).map(q => `
@@ -257,7 +312,7 @@
         </article>
       `).join("") || `<div class="empty">지수 데이터가 없습니다.</div>`;
 
-      $("signals").innerHTML = (data.signals || []).map(s => `
+      $("signals").innerHTML = signals.map(s => `
         <article class="signal">
           <span class="badge ${s.tone || ""}">${s.badge || "체크"}</span>
           <strong>${s.title}</strong>
