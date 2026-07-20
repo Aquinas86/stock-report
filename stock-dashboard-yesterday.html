@@ -614,6 +614,8 @@
     const GID = "0";
     const CSV_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&gid=${GID}`;
     let targetBusinessDate = "";
+    let requestedBusinessDate = "";
+    let fallbackBusinessDate = "";
 
     function previousWeekday() {
       const date = new Date();
@@ -784,10 +786,13 @@
       const dates = unique(allRows.map(r => r.date)).sort().reverse();
       const themes = unique(allRows.map(r => r.theme)).sort((a, b) => a.localeCompare(b, "ko"));
       const TARGET_DATE = targetBusinessDate || previousWeekday();
+      const selectedDate = dates.includes(TARGET_DATE) ? TARGET_DATE : (dates[0] || TARGET_DATE);
+      requestedBusinessDate = TARGET_DATE;
+      fallbackBusinessDate = selectedDate !== TARGET_DATE ? selectedDate : "";
       const dateOptions = dates.includes(TARGET_DATE) ? dates : [TARGET_DATE, ...dates];
       state.date.innerHTML = `<option value="">전체 일자</option>` + dateOptions.map(v => `<option>${escapeHtml(v)}</option>`).join("");
       state.theme.innerHTML = `<option value="">전체 테마</option>` + themes.map(v => `<option>${escapeHtml(v)}</option>`).join("");
-      state.date.value = TARGET_DATE;
+      state.date.value = selectedDate;
     }
 
     function escapeHtml(value) {
@@ -827,7 +832,9 @@
       renderTimeline();
       const dateText = state.date.value || "전체 기간";
       $("mainTitle").textContent = `${dateText} 급등주`;
-      $("mainDesc").textContent = filteredRows.length
+      $("mainDesc").textContent = fallbackBusinessDate && state.date.value === fallbackBusinessDate
+        ? `전 거래일 ${requestedBusinessDate} 데이터가 아직 없어 시트 최신 입력일 ${fallbackBusinessDate} 데이터를 표시 중입니다.`
+        : filteredRows.length
         ? `${filteredRows.length.toLocaleString("ko-KR")}개 종목을 조건에 맞춰 표시 중입니다.`
         : `${dateText} 데이터가 아직 시트에 없습니다. 시트에 해당 날짜가 추가되면 자동으로 표시됩니다.`;
     }
