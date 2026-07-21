@@ -1,5 +1,5 @@
 ﻿{
-    "updatedAt":  "2026-07-21 07:55:09 +09:00",
+    "updatedAt":  "2026-07-21 16:00:05 +09:00",
     "targetBusinessDate":  "2026-07-20",
     "marketSource":  "Yahoo Finance",
     "newsSource":  "Google News RSS",
@@ -58,9 +58,9 @@
                      {
                          "label":  "USD/KRW",
                          "symbol":  "USDKRW=X",
-                         "price":  1475.7,
-                         "change":  -11.7,
-                         "changePercent":  -0.79,
+                         "price":  1474.7,
+                         "change":  -12.7,
+                         "changePercent":  -0.85,
                          "digits":  1,
                          "asOf":  "2026-07-21",
                          "source":  "Yahoo Finance"
@@ -68,11 +68,11 @@
                      {
                          "label":  "WTI",
                          "symbol":  "CL=F",
-                         "price":  82.61,
-                         "change":  0.12,
-                         "changePercent":  0.15,
+                         "price":  82.11,
+                         "change":  -1.12,
+                         "changePercent":  -1.35,
                          "digits":  2,
-                         "asOf":  "2026-07-20",
+                         "asOf":  "2026-07-21",
                          "source":  "Yahoo Finance"
                      }
                  ],
@@ -99,13 +99,13 @@
                         "badge":  "FX",
                         "tone":  "positive",
                         "title":  "USD/KRW direction",
-                        "body":  "USD/KRW changed -0.79% in the latest session. A stronger dollar can pressure foreign flows and import-cost-sensitive sectors."
+                        "body":  "USD/KRW changed -0.85% in the latest session. A stronger dollar can pressure foreign flows and import-cost-sensitive sectors."
                     },
                     {
                         "badge":  "Oil",
-                        "tone":  "watch",
+                        "tone":  "positive",
                         "title":  "WTI crude oil",
-                        "body":  "WTI changed 0.15% in the latest session. Check airlines, chemicals, refiners and logistics names."
+                        "body":  "WTI changed -1.35% in the latest session. Check airlines, chemicals, refiners and logistics names."
                     }
                 ],
     "news":  [
@@ -134,28 +134,22 @@
                      "published":  "2026-07-14 20:14"
                  },
                  {
-                     "title":  "“Could it rise again in August?”···With the Bank of Korea tightening the reins, is the curtain rising again on the era of ‘high-interest deposits’? - 경향신문",
-                     "link":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBsT3BDc3hqWFhXZjQ4aEdHbEdCYW9Pc1J3MDRLeHRHbWNRMFhKNEJYZmR5X3pMV0hzMGVBMXg1a3VINTg3MDA4b05NVzR6UjVHQ1hwd2FmVFA1ajktemc?oc=5",
-                     "source":  "경향신문",
-                     "published":  "2026-07-17 17:01"
-                 },
-                 {
                      "title":  "Feeling left out of Korea’s chip stock boom? - Korea JoongAng Daily",
                      "link":  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZk9uNkhhVUk4SGE2SzFWalk0WVBKYmxYVnJBMFFBbjBnZWJvbXk5V2NydmNCOF9RdVRCRVhseTVxdE51UnljV0Y4RkZ3dEItMEJvSEt2dUIzSVhZcWRwUms3WUN4c0NVRnk0MzIwM3Y5R2dQR0dGWVVKdHFNWUtBckZ4LXRhQ09ueWQ2Rzg5WWxHc285UXBZdHZnUnhuaVhfc1hzTmx1MGZ1eHc?oc=5",
                      "source":  "Korea JoongAng Daily",
                      "published":  "2026-07-06 16:00"
                  },
                  {
+                     "title":  "“Could it rise again in August?”···With the Bank of Korea tightening the reins, is the curtain rising again on the era of ‘high-interest deposits’? - 경향신문",
+                     "link":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBsT3BDc3hqWFhXZjQ4aEdHbEdCYW9Pc1J3MDRLeHRHbWNRMFhKNEJYZmR5X3pMV0hzMGVBMXg1a3VINTg3MDA4b05NVzR6UjVHQ1hwd2FmVFA1ajktemc?oc=5",
+                     "source":  "경향신문",
+                     "published":  "2026-07-17 17:01"
+                 },
+                 {
                      "title":  "황금시대인가 위기의 시대인가? 한국은행 기준금리 인상 임박, 증권사 증거금 5 배 인상 추진 - odaily.news",
                      "link":  "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ONmxYc1dnNTN2VWs1bENDcG1rTE9HbndsQU5MUG9FekdTTzFaMHU5bmRmMWtQSHZyTUJUcTZUdkhCTGhENmc2cVNzdkhTUHpR?oc=5",
                      "source":  "odaily.news",
                      "published":  "2026-07-15 02:26"
-                 },
-                 {
-                     "title":  "Foreign Investors Return to Korean Stocks, Driving KOSPI Rally Near Record High - 알파경제",
-                     "link":  "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mYjdGZDQ3bnRxcEVVZ2dmdjVsSDZiQmVvTkhqZUE0d1FZdUFweklqZXQtTWs2TlBaQm1CaEdFQ21yQ3ZZaVhfV0g1OWYwZkdkSHIxNjZ6N0d6aGVYdDZzUE9jNWRGZ2tvakVQM2R3?oc=5",
-                     "source":  "알파경제",
-                     "published":  "2026-06-17 16:00"
                  },
                  {
                      "title":  "올해 코스피 75.6% 상승···G20·OECD 1위 - Korea.net",
@@ -180,6 +174,12 @@
                      "link":  "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYlU4bTJXa1E0bl9wWVZOVXh3SHhzTHo1WXZzd25SQktBWktJc2FNUmQ4NldRNDg4WGxVLVowTENUYTlOSlh6LXRqQzY0U052bEMwT3RRaTRMWnNRTHQxa1NXVUlUZjNhQ3VfTExxTlp5QV9ScExWVjRmeDkwSFZQNkFYWXdKZzBSbmI5dnRn?oc=5",
                      "source":  "조선일보",
                      "published":  "2026-03-04 17:00"
+                 },
+                 {
+                     "title":  "Foreigners pull out record $110 bn from Korean equities H1 - 네이트",
+                     "link":  "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5FMUFUT2VQVVFlcUVDanVTOHEwbUhyVWh2MlQxNnpkb05NV01hV0xBX0FkandPSzQ2c1ZlSXhIQmdPWDN0SUhHOGloVHNDN0E5ZDVF?oc=5",
+                     "source":  "네이트",
+                     "published":  "2026-07-14 12:53"
                  }
              ]
 }
