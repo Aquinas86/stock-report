@@ -1,6 +1,6 @@
 ﻿{
-    "updatedAt":  "2026-07-21 16:00:05 +09:00",
-    "targetBusinessDate":  "2026-07-20",
+    "updatedAt":  "2026-07-22 16:00:06 +09:00",
+    "targetBusinessDate":  "2026-07-21",
     "marketSource":  "Yahoo Finance",
     "newsSource":  "Google News RSS",
     "holidaySource":  "Nager.Date KR public holidays",
@@ -8,104 +8,104 @@
                      {
                          "label":  "S\u0026P 500",
                          "symbol":  "^GSPC",
-                         "price":  7443.28,
-                         "change":  -14.41,
-                         "changePercent":  -0.19,
+                         "price":  7509.2,
+                         "change":  65.92,
+                         "changePercent":  0.89,
                          "digits":  2,
-                         "asOf":  "2026-07-20",
+                         "asOf":  "2026-07-21",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "Nasdaq",
                          "symbol":  "^IXIC",
-                         "price":  25508.07,
-                         "change":  -12.17,
-                         "changePercent":  -0.05,
+                         "price":  25837.21,
+                         "change":  329.14,
+                         "changePercent":  1.29,
                          "digits":  2,
-                         "asOf":  "2026-07-20",
+                         "asOf":  "2026-07-21",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "Dow",
                          "symbol":  "^DJI",
-                         "price":  51839.26,
-                         "change":  -307.16,
-                         "changePercent":  -0.59,
+                         "price":  52224.64,
+                         "change":  385.38,
+                         "changePercent":  0.74,
                          "digits":  2,
-                         "asOf":  "2026-07-20",
+                         "asOf":  "2026-07-21",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "SOX",
                          "symbol":  "^SOX",
-                         "price":  11743.85,
-                         "change":  69.96,
-                         "changePercent":  0.6,
+                         "price":  12356.16,
+                         "change":  612.31,
+                         "changePercent":  5.21,
                          "digits":  2,
-                         "asOf":  "2026-07-20",
+                         "asOf":  "2026-07-21",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "VIX",
                          "symbol":  "^VIX",
-                         "price":  18.65,
-                         "change":  -0.12,
-                         "changePercent":  -0.64,
+                         "price":  17.05,
+                         "change":  -1.6,
+                         "changePercent":  -8.58,
                          "digits":  2,
-                         "asOf":  "2026-07-20",
+                         "asOf":  "2026-07-21",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "USD/KRW",
                          "symbol":  "USDKRW=X",
-                         "price":  1474.7,
-                         "change":  -12.7,
-                         "changePercent":  -0.85,
+                         "price":  1478.8,
+                         "change":  3.8,
+                         "changePercent":  0.26,
                          "digits":  1,
-                         "asOf":  "2026-07-21",
+                         "asOf":  "2026-07-22",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "WTI",
                          "symbol":  "CL=F",
-                         "price":  82.11,
-                         "change":  -1.12,
-                         "changePercent":  -1.35,
+                         "price":  86.32,
+                         "change":  1.41,
+                         "changePercent":  1.66,
                          "digits":  2,
-                         "asOf":  "2026-07-21",
+                         "asOf":  "2026-07-22",
                          "source":  "Yahoo Finance"
                      }
                  ],
     "signals":  [
                     {
                         "badge":  "US",
-                        "tone":  "watch",
+                        "tone":  "positive",
                         "title":  "Nasdaq trend check",
-                        "body":  "Nasdaq changed -0.05% in the latest session. This can affect growth, AI and semiconductor themes at the Korean open."
+                        "body":  "Nasdaq changed 1.29% in the latest session. This can affect growth, AI and semiconductor themes at the Korean open."
                     },
                     {
                         "badge":  "Semi",
-                        "tone":  "watch",
+                        "tone":  "positive",
                         "title":  "Philadelphia Semiconductor Index",
-                        "body":  "SOX changed 0.6% in the latest session. Korean semiconductor equipment, materials and HBM names are sensitive to this."
+                        "body":  "SOX changed 5.21% in the latest session. Korean semiconductor equipment, materials and HBM names are sensitive to this."
                     },
                     {
                         "badge":  "Risk",
                         "tone":  "watch",
                         "title":  "VIX risk appetite",
-                        "body":  "VIX is 18.65. Above 20 usually points to risk-off pressure; below 14 usually points to stronger risk appetite."
+                        "body":  "VIX is 17.05. Above 20 usually points to risk-off pressure; below 14 usually points to stronger risk appetite."
                     },
                     {
                         "badge":  "FX",
-                        "tone":  "positive",
+                        "tone":  "watch",
                         "title":  "USD/KRW direction",
-                        "body":  "USD/KRW changed -0.85% in the latest session. A stronger dollar can pressure foreign flows and import-cost-sensitive sectors."
+                        "body":  "USD/KRW changed 0.26% in the latest session. A stronger dollar can pressure foreign flows and import-cost-sensitive sectors."
                     },
                     {
                         "badge":  "Oil",
-                        "tone":  "positive",
+                        "tone":  "watch",
                         "title":  "WTI crude oil",
-                        "body":  "WTI changed -1.35% in the latest session. Check airlines, chemicals, refiners and logistics names."
+                        "body":  "WTI changed 1.66% in the latest session. Check airlines, chemicals, refiners and logistics names."
                     }
                 ],
     "news":  [
@@ -116,8 +116,8 @@
                      "published":  "2026-07-16 16:37"
                  },
                  {
-                     "title":  "변동성 커진 한국 증시… 금융위 규제에 野.시민단체, “졸속·미봉책” - 브레이크뉴스",
-                     "link":  "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5DRFFUNEYxbEwwQ1o3bHN6a0RJWWdhNHBwQVlNQW1yWm00ZHlYNkJiTmVjSXNUN1FvSmFHZG9ONS1oUQ?oc=5",
+                     "title":  "변동성 커진 한국 증시…금융위 규제에 야당+시민단체 “졸속·미봉책” - 브레이크뉴스",
+                     "link":  "https://news.google.com/rss/articles/CBMiSEFVX3lxTE80bGF0ZVJISEs4bGM5VG5naHI3Q0RtUGhsdkRlbHBqeHZWajRQazVJaXY5NGRZWHRKZ3p3ZHFZYmw3M1J2VnJmag?oc=5",
                      "source":  "브레이크뉴스",
                      "published":  "2026-07-18 22:34"
                  },
@@ -126,12 +126,6 @@
                      "link":  "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB0MVhGelFNNlk2bm50WVdvWWExVUlnRTdiekczUjhHR3ItMTVuem5rSUw0ZXM2ME9JeVN1ZlZLeHp6QjhCNElGVHRFdkJCajR4Q1owUVB1bVdQeVpRR2VmSw?oc=5",
                      "source":  "네이트",
                      "published":  "2026-07-16 17:22"
-                 },
-                 {
-                     "title":  "Retail Investors’ Accounts Wiped Out, Yet Stock Transaction Tax Revenue Doubles Last Year’s Total in Just Six Months - IT조선",
-                     "link":  "https://news.google.com/rss/articles/CBMicEFVX3lxTE9wSXQyZ2JvZmRCM1NLUXZBaUR4RW13UGJEeUhNYnlmVHVTa3o3Q2RtN2pMNVVTSDF4Z3VjNS11R2VrdUJFYm5HQUhzSDg3S2RuVm40aWZXMVFjZGRzbDZfNy1sYzdSSjNRc0dLeXBJMDfSAXRBVV95cUxNZ0dEeDA5cTBaY2xVTm1FcXB6bENGS09kSzlodnFlMTkxZl81Y0lzMHREMWk1UDhuRGM5bFhsY0YzeGxQV3lNZ0MxcVNuTkVOUGloVjBaaWYtSWVZRjFFT0JEUlpRbldfODFrbFAzSnlvZ0tVLQ?oc=5",
-                     "source":  "IT조선",
-                     "published":  "2026-07-14 20:14"
                  },
                  {
                      "title":  "Feeling left out of Korea’s chip stock boom? - Korea JoongAng Daily",
@@ -146,16 +140,28 @@
                      "published":  "2026-07-17 17:01"
                  },
                  {
-                     "title":  "황금시대인가 위기의 시대인가? 한국은행 기준금리 인상 임박, 증권사 증거금 5 배 인상 추진 - odaily.news",
-                     "link":  "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ONmxYc1dnNTN2VWs1bENDcG1rTE9HbndsQU5MUG9FekdTTzFaMHU5bmRmMWtQSHZyTUJUcTZUdkhCTGhENmc2cVNzdkhTUHpR?oc=5",
-                     "source":  "odaily.news",
-                     "published":  "2026-07-15 02:26"
+                     "title":  "Retail Investors’ Accounts Wiped Out, Yet Stock Transaction Tax Revenue Doubles Last Year’s Total in Just Six Months - IT조선",
+                     "link":  "https://news.google.com/rss/articles/CBMicEFVX3lxTE9wSXQyZ2JvZmRCM1NLUXZBaUR4RW13UGJEeUhNYnlmVHVTa3o3Q2RtN2pMNVVTSDF4Z3VjNS11R2VrdUJFYm5HQUhzSDg3S2RuVm40aWZXMVFjZGRzbDZfNy1sYzdSSjNRc0dLeXBJMDfSAXRBVV95cUxNZ0dEeDA5cTBaY2xVTm1FcXB6bENGS09kSzlodnFlMTkxZl81Y0lzMHREMWk1UDhuRGM5bFhsY0YzeGxQV3lNZ0MxcVNuTkVOUGloVjBaaWYtSWVZRjFFT0JEUlpRbldfODFrbFAzSnlvZ0tVLQ?oc=5",
+                     "source":  "IT조선",
+                     "published":  "2026-07-14 20:14"
+                 },
+                 {
+                     "title":  "Foreign Investors Return to Korean Stocks, Driving KOSPI Rally Near Record High - 알파경제",
+                     "link":  "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mYjdGZDQ3bnRxcEVVZ2dmdjVsSDZiQmVvTkhqZUE0d1FZdUFweklqZXQtTWs2TlBaQm1CaEdFQ21yQ3ZZaVhfV0g1OWYwZkdkSHIxNjZ6N0d6aGVYdDZzUE9jNWRGZ2tvakVQM2R3?oc=5",
+                     "source":  "알파경제",
+                     "published":  "2026-06-17 16:00"
                  },
                  {
                      "title":  "올해 코스피 75.6% 상승···G20·OECD 1위 - Korea.net",
                      "link":  "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVjZOVWRlZm10SGd6VGdaYWRJNFNMNFZTV2Z0emVMZE9YQWkwZmhzSktSV1paTFBLMTFpd0NXZjFzdmtORVBUUGJyamZidU52LXdfcWxTcU9JTlpxQmhOc3R0cXNqMl9ZSFBuTjFLUUFWRWFBbnRkYUp5TUJER1h4cThqNG0?oc=5",
                      "source":  "Korea.net",
                      "published":  "2025-12-31 17:00"
+                 },
+                 {
+                     "title":  "황금시대인가 위기의 시대인가? 한국은행 기준금리 인상 임박, 증권사 증거금 5 배 인상 추진 - odaily.news",
+                     "link":  "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ONmxYc1dnNTN2VWs1bENDcG1rTE9HbndsQU5MUG9FekdTTzFaMHU5bmRmMWtQSHZyTUJUcTZUdkhCTGhENmc2cVNzdkhTUHpR?oc=5",
+                     "source":  "odaily.news",
+                     "published":  "2026-07-15 02:26"
                  },
                  {
                      "title":  "KOSPI slips below 7,000 again as Morgan Stanley sparks chip sell-off - 네이트",
@@ -174,12 +180,6 @@
                      "link":  "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYlU4bTJXa1E0bl9wWVZOVXh3SHhzTHo1WXZzd25SQktBWktJc2FNUmQ4NldRNDg4WGxVLVowTENUYTlOSlh6LXRqQzY0U052bEMwT3RRaTRMWnNRTHQxa1NXVUlUZjNhQ3VfTExxTlp5QV9ScExWVjRmeDkwSFZQNkFYWXdKZzBSbmI5dnRn?oc=5",
                      "source":  "조선일보",
                      "published":  "2026-03-04 17:00"
-                 },
-                 {
-                     "title":  "Foreigners pull out record $110 bn from Korean equities H1 - 네이트",
-                     "link":  "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5FMUFUT2VQVVFlcUVDanVTOHEwbUhyVWh2MlQxNnpkb05NV01hV0xBX0FkandPSzQ2c1ZlSXhIQmdPWDN0SUhHOGloVHNDN0E5ZDVF?oc=5",
-                     "source":  "네이트",
-                     "published":  "2026-07-14 12:53"
                  }
              ]
 }
