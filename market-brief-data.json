@@ -1,5 +1,5 @@
 ﻿{
-    "updatedAt":  "2026-07-25 16:00:06 +09:00",
+    "updatedAt":  "2026-07-26 16:00:07 +09:00",
     "targetBusinessDate":  "2026-07-24",
     "marketSource":  "Yahoo Finance",
     "newsSource":  "Google News RSS",
@@ -62,7 +62,7 @@
                          "change":  -11.9,
                          "changePercent":  -0.81,
                          "digits":  1,
-                         "asOf":  "2026-07-25",
+                         "asOf":  "2026-07-26",
                          "source":  "Yahoo Finance"
                      },
                      {
@@ -113,7 +113,7 @@
                      "title":  "‘To make matters worse’ KOSPI plunges 6%… Semiconductors wobble, plus a rate hike - 경향신문",
                      "link":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9HZnFoV0o0OENuV0RuZ1MxVjJTVVI4eTY5N0liRDZoMGdwcmZNNHpTLVc5NzY0c01qaDdqX0RPLV81dlMyemhiRDhZZEhHOVRORFl4cHNDU2dNVVNXb2c?oc=5",
                      "source":  "경향신문",
-                     "published":  "2026-07-16 16:37"
+                     "published":  "2026-07-16 16:00"
                  },
                  {
                      "title":  "Feeling left out of Korea’s chip stock boom? - Korea JoongAng Daily",
@@ -146,16 +146,16 @@
                      "published":  "2026-06-17 16:00"
                  },
                  {
-                     "title":  "올해 코스피 75.6% 상승···G20·OECD 1위 - Korea.net",
+                     "title":  "올해 코스피 75.6% 상승···G20·OECD 1위 - KOREA.net",
                      "link":  "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVjZOVWRlZm10SGd6VGdaYWRJNFNMNFZTV2Z0emVMZE9YQWkwZmhzSktSV1paTFBLMTFpd0NXZjFzdmtORVBUUGJyamZidU52LXdfcWxTcU9JTlpxQmhOc3R0cXNqMl9ZSFBuTjFLUUFWRWFBbnRkYUp5TUJER1h4cThqNG0?oc=5",
-                     "source":  "Korea.net",
+                     "source":  "KOREA.net",
                      "published":  "2025-12-31 17:00"
                  },
                  {
                      "title":  "“Could it rise again in August?”···With the Bank of Korea tightening the reins, is the curtain rising again on the era of ‘high-interest deposits’? - 경향신문",
                      "link":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBsT3BDc3hqWFhXZjQ4aEdHbEdCYW9Pc1J3MDRLeHRHbWNRMFhKNEJYZmR5X3pMV0hzMGVBMXg1a3VINTg3MDA4b05NVzR6UjVHQ1hwd2FmVFA1ajktemc?oc=5",
                      "source":  "경향신문",
-                     "published":  "2026-07-17 17:01"
+                     "published":  "2026-07-17 16:00"
                  },
                  {
                      "title":  "Has the Semiconductor Market Peaked? \"The Extent of the Correction Depends on This\" - news.sbs.co.kr",
