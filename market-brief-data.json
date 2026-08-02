@@ -1,5 +1,5 @@
 ﻿{
-    "updatedAt":  "2026-08-01 16:00:10 +09:00",
+    "updatedAt":  "2026-08-02 16:00:12 +09:00",
     "targetBusinessDate":  "2026-07-31",
     "marketSource":  "Yahoo Finance",
     "newsSource":  "Google News RSS",
@@ -62,7 +62,7 @@
                          "change":  16,
                          "changePercent":  1.13,
                          "digits":  1,
-                         "asOf":  "2026-08-01",
+                         "asOf":  "2026-08-02",
                          "source":  "Yahoo Finance"
                      },
                      {
@@ -146,9 +146,9 @@
                      "published":  "2026-06-26 16:00"
                  },
                  {
-                     "title":  "The mystery behind the near-flat Korea-U.S. sovereign yield gap - news.nate.com",
+                     "title":  "The mystery behind the near-flat Korea-U.S. sovereign yield gap - 네이트",
                      "link":  "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBOeldubndoc1dUNUJzYjFiOVVCWWZlT3ZsRUNpVm16V1kwTFBzNXlMOWtkQ2RyaHhtdldJdnI2MUtfUkN0M3hrdE1tbDY0alA3M1hDVzlCT1dDVjhCd2xrYg?oc=5",
-                     "source":  "news.nate.com",
+                     "source":  "네이트",
                      "published":  "2026-07-09 16:00"
                  },
                  {
