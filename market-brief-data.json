@@ -1,5 +1,5 @@
 ﻿{
-    "updatedAt":  "2026-08-02 16:00:12 +09:00",
+    "updatedAt":  "2026-08-03 16:00:15 +09:00",
     "targetBusinessDate":  "2026-07-31",
     "marketSource":  "Yahoo Finance",
     "newsSource":  "Google News RSS",
@@ -58,21 +58,21 @@
                      {
                          "label":  "USD/KRW",
                          "symbol":  "USDKRW=X",
-                         "price":  1436.6,
-                         "change":  16,
-                         "changePercent":  1.13,
+                         "price":  1430.3,
+                         "change":  9.7,
+                         "changePercent":  0.68,
                          "digits":  1,
-                         "asOf":  "2026-08-02",
+                         "asOf":  "2026-08-03",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "WTI",
                          "symbol":  "CL=F",
-                         "price":  84.67,
-                         "change":  1.08,
-                         "changePercent":  1.29,
+                         "price":  79.09,
+                         "change":  -5.58,
+                         "changePercent":  -6.59,
                          "digits":  2,
-                         "asOf":  "2026-07-31",
+                         "asOf":  "2026-08-03",
                          "source":  "Yahoo Finance"
                      }
                  ],
@@ -99,13 +99,13 @@
                         "badge":  "FX",
                         "tone":  "watch",
                         "title":  "USD/KRW direction",
-                        "body":  "USD/KRW changed 1.13% in the latest session. A stronger dollar can pressure foreign flows and import-cost-sensitive sectors."
+                        "body":  "USD/KRW changed 0.68% in the latest session. A stronger dollar can pressure foreign flows and import-cost-sensitive sectors."
                     },
                     {
                         "badge":  "Oil",
-                        "tone":  "watch",
+                        "tone":  "positive",
                         "title":  "WTI crude oil",
-                        "body":  "WTI changed 1.29% in the latest session. Check airlines, chemicals, refiners and logistics names."
+                        "body":  "WTI changed -6.59% in the latest session. Check airlines, chemicals, refiners and logistics names."
                     }
                 ],
     "news":  [
@@ -116,9 +116,9 @@
                      "published":  "2026-07-29 09:44"
                  },
                  {
-                     "title":  "Won-dollar exchange rate falls to the 1,450-won range, with the key variable being ‘Middle East war’ - 경향신문",
+                     "title":  "Won-dollar exchange rate falls to the 1,450-won range, with the key variable being ‘Middle East war’ - khan.co.kr",
                      "link":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9GOENPTnVsSlNEa09jRGtXVkVjbjR3SDh0LS1hMzMzZDNmTFlaZVJOQUpiVmxjcUZON3F2aGtBM0dHTXJlR3FER3NPNU9YVnU2aTBCeUltR2E4Ui1xa2c?oc=5",
-                     "source":  "경향신문",
+                     "source":  "khan.co.kr",
                      "published":  "2026-07-26 21:49"
                  },
                  {
@@ -134,9 +134,15 @@
                      "published":  "2026-01-12 17:00"
                  },
                  {
-                     "title":  "‘To make matters worse’ KOSPI plunges 6%… Semiconductors wobble, plus a rate hike - 경향신문",
+                     "title":  "Foreign Investors Return to Korean Stocks, Driving KOSPI Rally Near Record High - 알파경제",
+                     "link":  "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mYjdGZDQ3bnRxcEVVZ2dmdjVsSDZiQmVvTkhqZUE0d1FZdUFweklqZXQtTWs2TlBaQm1CaEdFQ21yQ3ZZaVhfV0g1OWYwZkdkSHIxNjZ6N0d6aGVYdDZzUE9jNWRGZ2tvakVQM2R3?oc=5",
+                     "source":  "알파경제",
+                     "published":  "2026-06-17 16:00"
+                 },
+                 {
+                     "title":  "‘To make matters worse’ KOSPI plunges 6%… Semiconductors wobble, plus a rate hike - khan.co.kr",
                      "link":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9HZnFoV0o0OENuV0RuZ1MxVjJTVVI4eTY5N0liRDZoMGdwcmZNNHpTLVc5NzY0c01qaDdqX0RPLV81dlMyemhiRDhZZEhHOVRORFl4cHNDU2dNVVNXb2c?oc=5",
-                     "source":  "경향신문",
+                     "source":  "khan.co.kr",
                      "published":  "2026-07-16 16:00"
                  },
                  {
@@ -146,16 +152,10 @@
                      "published":  "2026-06-26 16:00"
                  },
                  {
-                     "title":  "The mystery behind the near-flat Korea-U.S. sovereign yield gap - 네이트",
+                     "title":  "The mystery behind the near-flat Korea-U.S. sovereign yield gap - news.nate.com",
                      "link":  "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBOeldubndoc1dUNUJzYjFiOVVCWWZlT3ZsRUNpVm16V1kwTFBzNXlMOWtkQ2RyaHhtdldJdnI2MUtfUkN0M3hrdE1tbDY0alA3M1hDVzlCT1dDVjhCd2xrYg?oc=5",
-                     "source":  "네이트",
+                     "source":  "news.nate.com",
                      "published":  "2026-07-09 16:00"
-                 },
-                 {
-                     "title":  "Feeling left out of Korea’s chip stock boom? - Korea JoongAng Daily",
-                     "link":  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZk9uNkhhVUk4SGE2SzFWalk0WVBKYmxYVnJBMFFBbjBnZWJvbXk5V2NydmNCOF9RdVRCRVhseTVxdE51UnljV0Y4RkZ3dEItMEJvSEt2dUIzSVhZcWRwUms3WUN4c0NVRnk0MzIwM3Y5R2dQR0dGWVVKdHFNWUtBckZ4LXRhQ09ueWQ2Rzg5WWxHc285UXBZdHZnUnhuaVhfc1hzTmx1MGZ1eHc?oc=5",
-                     "source":  "Korea JoongAng Daily",
-                     "published":  "2026-07-06 16:00"
                  },
                  {
                      "title":  "Asian Markets Plunge on Middle East Oil Surge - 조선일보",
@@ -164,22 +164,22 @@
                      "published":  "2026-03-04 17:00"
                  },
                  {
+                     "title":  "Feeling left out of Korea’s chip stock boom? - Korea JoongAng Daily",
+                     "link":  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZk9uNkhhVUk4SGE2SzFWalk0WVBKYmxYVnJBMFFBbjBnZWJvbXk5V2NydmNCOF9RdVRCRVhseTVxdE51UnljV0Y4RkZ3dEItMEJvSEt2dUIzSVhZcWRwUms3WUN4c0NVRnk0MzIwM3Y5R2dQR0dGWVVKdHFNWUtBckZ4LXRhQ09ueWQ2Rzg5WWxHc285UXBZdHZnUnhuaVhfc1hzTmx1MGZ1eHc?oc=5",
+                     "source":  "Korea JoongAng Daily",
+                     "published":  "2026-07-06 16:00"
+                 },
+                 {
                      "title":  "올해 코스피 75.6% 상승···G20·OECD 1위 - KOREA.net",
                      "link":  "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVjZOVWRlZm10SGd6VGdaYWRJNFNMNFZTV2Z0emVMZE9YQWkwZmhzSktSV1paTFBLMTFpd0NXZjFzdmtORVBUUGJyamZidU52LXdfcWxTcU9JTlpxQmhOc3R0cXNqMl9ZSFBuTjFLUUFWRWFBbnRkYUp5TUJER1h4cThqNG0?oc=5",
                      "source":  "KOREA.net",
                      "published":  "2025-12-31 17:00"
                  },
                  {
-                     "title":  "“Could it rise again in August?”···With the Bank of Korea tightening the reins, is the curtain rising again on the era of ‘high-interest deposits’? - 경향신문",
+                     "title":  "“Could it rise again in August?”···With the Bank of Korea tightening the reins, is the curtain rising again on the era of ‘high-interest deposits’? - khan.co.kr",
                      "link":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBsT3BDc3hqWFhXZjQ4aEdHbEdCYW9Pc1J3MDRLeHRHbWNRMFhKNEJYZmR5X3pMV0hzMGVBMXg1a3VINTg3MDA4b05NVzR6UjVHQ1hwd2FmVFA1ajktemc?oc=5",
-                     "source":  "경향신문",
+                     "source":  "khan.co.kr",
                      "published":  "2026-07-17 16:00"
-                 },
-                 {
-                     "title":  "Time to rein in leveraged ETFs (KOR) - Korea JoongAng Daily",
-                     "link":  "https://news.google.com/rss/articles/CBMimAFBVV95cUxPU3pSTDVFZmUxUEgxRDRYSU9ZaW1pdGtQeHdyNFlBSHZiSFhMVFktLUlkZ05ZYTlzQ0RYNVd4SkloUnU2dnhwWU52TGM5TmM3djlaZ0hHTEdlZWsxcFFfSGF5YTYzdWg3b3BNSF9MUWViMGc4ZGp2SHlieWVNNy1GQTJicHQxNTM4RmhMajRQQnJ0ZGRDVW84ag?oc=5",
-                     "source":  "Korea JoongAng Daily",
-                     "published":  "2026-07-08 16:00"
                  }
              ]
 }
