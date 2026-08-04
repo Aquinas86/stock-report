@@ -1,6 +1,6 @@
 ﻿{
-    "updatedAt":  "2026-08-03 16:00:15 +09:00",
-    "targetBusinessDate":  "2026-07-31",
+    "updatedAt":  "2026-08-04 16:00:10 +09:00",
+    "targetBusinessDate":  "2026-08-03",
     "marketSource":  "Yahoo Finance",
     "newsSource":  "Google News RSS",
     "holidaySource":  "Nager.Date KR public holidays",
@@ -58,21 +58,21 @@
                      {
                          "label":  "USD/KRW",
                          "symbol":  "USDKRW=X",
-                         "price":  1430.3,
-                         "change":  9.7,
-                         "changePercent":  0.68,
+                         "price":  1432.7,
+                         "change":  -3,
+                         "changePercent":  -0.21,
                          "digits":  1,
-                         "asOf":  "2026-08-03",
+                         "asOf":  "2026-08-04",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "WTI",
                          "symbol":  "CL=F",
-                         "price":  79.09,
-                         "change":  -5.58,
-                         "changePercent":  -6.59,
+                         "price":  80.7,
+                         "change":  -3.97,
+                         "changePercent":  -4.69,
                          "digits":  2,
-                         "asOf":  "2026-08-03",
+                         "asOf":  "2026-08-04",
                          "source":  "Yahoo Finance"
                      }
                  ],
@@ -97,18 +97,24 @@
                     },
                     {
                         "badge":  "FX",
-                        "tone":  "watch",
+                        "tone":  "positive",
                         "title":  "USD/KRW direction",
-                        "body":  "USD/KRW changed 0.68% in the latest session. A stronger dollar can pressure foreign flows and import-cost-sensitive sectors."
+                        "body":  "USD/KRW changed -0.21% in the latest session. A stronger dollar can pressure foreign flows and import-cost-sensitive sectors."
                     },
                     {
                         "badge":  "Oil",
                         "tone":  "positive",
                         "title":  "WTI crude oil",
-                        "body":  "WTI changed -6.59% in the latest session. Check airlines, chemicals, refiners and logistics names."
+                        "body":  "WTI changed -4.69% in the latest session. Check airlines, chemicals, refiners and logistics names."
                     }
                 ],
     "news":  [
+                 {
+                     "title":  "Odds of Korea\u0027s back-to-back rate hike fall on softer headline inflation - 네이트",
+                     "link":  "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9zb3RRbnIzRDNaX3RnSG0zQWxuZ2Jsc2hSa1pCOWFzaXRMeERJVWx4TnhTRmVQTGpOcW9leE9uV2FDUklpRkFtQzIwdEFpOTlwRW1FLW5KdVJDVnRTYW9WMQ?oc=5",
+                     "source":  "네이트",
+                     "published":  "2026-08-04 15:15"
+                 },
                  {
                      "title":  "Policy failure is behind roller coaster market (KOR) - Korea JoongAng Daily",
                      "link":  "https://news.google.com/rss/articles/CBMirgFBVV95cUxOU1FZUHVCNF9seC1RalRRbGVIT2YxcTNXWUpMOEk4WXdmMDR5UldIWVpxMkdTN2l0Yk5NOGRiQ2R4RWlyRVpubTZCMWNPcFg1RmthWkNfVF90Y3V6a3FoNFQ5Y1ZLOVlDeVRzTWhTQ1pSZHlQbVN1ZFNoRnZVSUt5X1o4QWxMblVBM2l4V05OUnBnV2JZUDV3dl9XclJNWlBzV3hCcVdfTEhyU181VEE?oc=5",
@@ -116,9 +122,9 @@
                      "published":  "2026-07-29 09:44"
                  },
                  {
-                     "title":  "Won-dollar exchange rate falls to the 1,450-won range, with the key variable being ‘Middle East war’ - khan.co.kr",
+                     "title":  "Won-dollar exchange rate falls to the 1,450-won range, with the key variable being ‘Middle East war’ - 경향신문",
                      "link":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9GOENPTnVsSlNEa09jRGtXVkVjbjR3SDh0LS1hMzMzZDNmTFlaZVJOQUpiVmxjcUZON3F2aGtBM0dHTXJlR3FER3NPNU9YVnU2aTBCeUltR2E4Ui1xa2c?oc=5",
-                     "source":  "khan.co.kr",
+                     "source":  "경향신문",
                      "published":  "2026-07-26 21:49"
                  },
                  {
@@ -140,9 +146,9 @@
                      "published":  "2026-06-17 16:00"
                  },
                  {
-                     "title":  "‘To make matters worse’ KOSPI plunges 6%… Semiconductors wobble, plus a rate hike - khan.co.kr",
+                     "title":  "‘To make matters worse’ KOSPI plunges 6%… Semiconductors wobble, plus a rate hike - 경향신문",
                      "link":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9HZnFoV0o0OENuV0RuZ1MxVjJTVVI4eTY5N0liRDZoMGdwcmZNNHpTLVc5NzY0c01qaDdqX0RPLV81dlMyemhiRDhZZEhHOVRORFl4cHNDU2dNVVNXb2c?oc=5",
-                     "source":  "khan.co.kr",
+                     "source":  "경향신문",
                      "published":  "2026-07-16 16:00"
                  },
                  {
@@ -150,12 +156,6 @@
                      "link":  "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBDa0lHZk1jMmVnWUhVa0g4WFYzYnZnTWQ1TFg2QkdPR0tiNEFzdElzckh4WUpMMlk2bi11SVJBazl3WVVKTndCU1hXeUpCM1NSUVRRaWRsWQ?oc=5",
                      "source":  "The Korea Herald",
                      "published":  "2026-06-26 16:00"
-                 },
-                 {
-                     "title":  "The mystery behind the near-flat Korea-U.S. sovereign yield gap - news.nate.com",
-                     "link":  "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBOeldubndoc1dUNUJzYjFiOVVCWWZlT3ZsRUNpVm16V1kwTFBzNXlMOWtkQ2RyaHhtdldJdnI2MUtfUkN0M3hrdE1tbDY0alA3M1hDVzlCT1dDVjhCd2xrYg?oc=5",
-                     "source":  "news.nate.com",
-                     "published":  "2026-07-09 16:00"
                  },
                  {
                      "title":  "Asian Markets Plunge on Middle East Oil Surge - 조선일보",
@@ -176,9 +176,9 @@
                      "published":  "2025-12-31 17:00"
                  },
                  {
-                     "title":  "“Could it rise again in August?”···With the Bank of Korea tightening the reins, is the curtain rising again on the era of ‘high-interest deposits’? - khan.co.kr",
+                     "title":  "“Could it rise again in August?”···With the Bank of Korea tightening the reins, is the curtain rising again on the era of ‘high-interest deposits’? - 경향신문",
                      "link":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBsT3BDc3hqWFhXZjQ4aEdHbEdCYW9Pc1J3MDRLeHRHbWNRMFhKNEJYZmR5X3pMV0hzMGVBMXg1a3VINTg3MDA4b05NVzR6UjVHQ1hwd2FmVFA1ajktemc?oc=5",
-                     "source":  "khan.co.kr",
+                     "source":  "경향신문",
                      "published":  "2026-07-17 16:00"
                  }
              ]
