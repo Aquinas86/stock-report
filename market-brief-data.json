@@ -1,5 +1,5 @@
 ﻿{
-    "updatedAt":  "2026-08-22 16:00:04 +09:00",
+    "updatedAt":  "2026-08-23 16:00:04 +09:00",
     "targetBusinessDate":  "2026-08-21",
     "marketSource":  "Yahoo Finance",
     "newsSource":  "Google News RSS",
@@ -62,7 +62,7 @@
                          "change":  -6.9,
                          "changePercent":  -0.5,
                          "digits":  1,
-                         "asOf":  "2026-08-22",
+                         "asOf":  "2026-08-23",
                          "source":  "Yahoo Finance"
                      },
                      {
@@ -110,6 +110,12 @@
                 ],
     "news":  [
                  {
+                     "title":  "트럼프發 관세 폭탄 속 반도체 ‘110조 주주환원’ 증시 구원투수 등판 - 브레이크뉴스",
+                     "link":  "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9MSmFNdFY1VU5KV3R2X1FhdFdZOEIydTdxVllxRmJrOEotdVRiZHZMVkxQUG5TQzRwVTFnVWw4QzFZTjN3QWZ3eA?oc=5",
+                     "source":  "브레이크뉴스",
+                     "published":  "2026-08-22 20:26"
+                 },
+                 {
                      "title":  "South Korea\u0027s net foreign assets shrink as stock rally boosts foreign-held shares - 네이트",
                      "link":  "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1UZER4LUZNenpxSVgwX1h5QnRMbm1RVW1LdG14MWh3SVRxUkk0UWZ4a2VCQ0pUMVVQTkhabHFPY20wYWRRNWF4UlZuNTFJRkxaRnBZWlM4a1VXUm5fenNzVg?oc=5",
                      "source":  "네이트",
@@ -128,16 +134,16 @@
                      "published":  "2026-07-26 16:00"
                  },
                  {
-                     "title":  "Samsung and KB Take Early Lead in ‘Samsung Electronics-SK hynix + Bonds’ ETFs… Mirae Asset and Korea Investment Strike Back - IT조선",
-                     "link":  "https://news.google.com/rss/articles/CBMicEFVX3lxTE8zM0xDNk5SamM0Y1RoSlRlSmQ3b1RGVngtaFRhSFZuTXFNSWN4US11a0RVWTlRWG5meVZmb2NfV0Zhb1hzdXplNHFuVW83X1lVMndSMnZjQ2otN3Izb2o3R0dEamFfWG55NFF5NlhwUUXSAXRBVV95cUxNbmtZeGZfYUhRLTlWd1JHMFotbmZ0eGVfd25FTEtjTzNnTkt5SGt2MzVVOG9WeDA4OV9yV0NwMEktbXdrVE1sSFlpQ1ZHSGVma0U2SlVpd0dnbFc5NF9CNDh1RHJNSmFmZkh3R1dfQm94Sktqcg?oc=5",
-                     "source":  "IT조선",
-                     "published":  "2026-08-17 04:41"
+                     "title":  "정부, MSCI 선진국지수 추진···7월 외환시장 24시간 개방 - KOREA.net",
+                     "link":  "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOFJZX3NvWXdaLUtSVUVQYUFoaWljeXBFMXlxRi1xQ29jdXBUbTQwVUlMZGtPbDRnb18yU3NubVZScnhLU0d2SzFETm00U0lpMGZvTFNfNUxfYUkyemZpVmJzb2RSYXN6WTZVbEZhSGgxOGRCLVpYMXRodXlteGl0b0VkVkQ?oc=5",
+                     "source":  "KOREA.net",
+                     "published":  "2026-01-12 17:00"
                  },
                  {
-                     "title":  "정부, MSCI 선진국지수 추진···7월 외환시장 24시간 개방 - Korea Net",
-                     "link":  "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOFJZX3NvWXdaLUtSVUVQYUFoaWljeXBFMXlxRi1xQ29jdXBUbTQwVUlMZGtPbDRnb18yU3NubVZScnhLU0d2SzFETm00U0lpMGZvTFNfNUxfYUkyemZpVmJzb2RSYXN6WTZVbEZhSGgxOGRCLVpYMXRodXlteGl0b0VkVkQ?oc=5",
-                     "source":  "Korea Net",
-                     "published":  "2026-01-12 17:00"
+                     "title":  "Asian Markets Plunge on Middle East Oil Surge - 조선일보",
+                     "link":  "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZnFPV3NjSFgwNTJwQTltUGtSMVJXdWMzVThkN2ozX0FGOVhBeWlIdWxiSlBqZ0VDM1NVNGYxQjJfVExvRXhELXRPQVA0a3JHa20zSzFZS3pvaTlld0d3R0hjejlIZFhEc0hDaWxqTGwwcmRES1JvaTZCYU1YN09zVWh4U1hzaU5XNXNXeGVR?oc=5",
+                     "source":  "조선일보",
+                     "published":  "2026-03-04 17:00"
                  },
                  {
                      "title":  "Asian stocks rise on soft US CPI, AI earnings rally - tmgm.com",
@@ -170,16 +176,10 @@
                      "published":  "2026-07-16 16:00"
                  },
                  {
-                     "title":  "Asian Markets Plunge on Middle East Oil Surge - 조선일보",
-                     "link":  "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZnFPV3NjSFgwNTJwQTltUGtSMVJXdWMzVThkN2ozX0FGOVhBeWlIdWxiSlBqZ0VDM1NVNGYxQjJfVExvRXhELXRPQVA0a3JHa20zSzFZS3pvaTlld0d3R0hjejlIZFhEc0hDaWxqTGwwcmRES1JvaTZCYU1YN09zVWh4U1hzaU5XNXNXeGVR?oc=5",
-                     "source":  "조선일보",
-                     "published":  "2026-03-04 17:00"
-                 },
-                 {
-                     "title":  "올해 코스피 75.6% 상승···G20·OECD 1위 - Korea Net",
-                     "link":  "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVjZOVWRlZm10SGd6VGdaYWRJNFNMNFZTV2Z0emVMZE9YQWkwZmhzSktSV1paTFBLMTFpd0NXZjFzdmtORVBUUGJyamZidU52LXdfcWxTcU9JTlpxQmhOc3R0cXNqMl9ZSFBuTjFLUUFWRWFBbnRkYUp5TUJER1h4cThqNG0?oc=5",
-                     "source":  "Korea Net",
-                     "published":  "2025-12-31 17:00"
+                     "title":  "Samsung and KB Take Early Lead in ‘Samsung Electronics-SK hynix + Bonds’ ETFs… Mirae Asset and Korea Investment Strike Back - IT조선",
+                     "link":  "https://news.google.com/rss/articles/CBMicEFVX3lxTE8zM0xDNk5SamM0Y1RoSlRlSmQ3b1RGVngtaFRhSFZuTXFNSWN4US11a0RVWTlRWG5meVZmb2NfV0Zhb1hzdXplNHFuVW83X1lVMndSMnZjQ2otN3Izb2o3R0dEamFfWG55NFF5NlhwUUXSAXRBVV95cUxNbmtZeGZfYUhRLTlWd1JHMFotbmZ0eGVfd25FTEtjTzNnTkt5SGt2MzVVOG9WeDA4OV9yV0NwMEktbXdrVE1sSFlpQ1ZHSGVma0U2SlVpd0dnbFc5NF9CNDh1RHJNSmFmZkh3R1dfQm94Sktqcg?oc=5",
+                     "source":  "IT조선",
+                     "published":  "2026-08-17 04:41"
                  }
              ]
 }
