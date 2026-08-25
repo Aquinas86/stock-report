@@ -1,6 +1,6 @@
 ﻿{
-    "updatedAt":  "2026-08-24 16:00:04 +09:00",
-    "targetBusinessDate":  "2026-08-21",
+    "updatedAt":  "2026-08-25 16:00:06 +09:00",
+    "targetBusinessDate":  "2026-08-24",
     "marketSource":  "Yahoo Finance",
     "newsSource":  "Google News RSS",
     "holidaySource":  "Nager.Date KR public holidays",
@@ -8,113 +8,107 @@
                      {
                          "label":  "S\u0026P 500",
                          "symbol":  "^GSPC",
-                         "price":  7674.37,
-                         "change":  33.21,
-                         "changePercent":  0.43,
+                         "price":  7652.86,
+                         "change":  -21.51,
+                         "changePercent":  -0.28,
                          "digits":  2,
-                         "asOf":  "2026-08-21",
+                         "asOf":  "2026-08-24",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "Nasdaq",
                          "symbol":  "^IXIC",
-                         "price":  26180.46,
-                         "change":  113.29,
-                         "changePercent":  0.43,
+                         "price":  25980.19,
+                         "change":  -200.27,
+                         "changePercent":  -0.76,
                          "digits":  2,
-                         "asOf":  "2026-08-21",
+                         "asOf":  "2026-08-24",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "Dow",
                          "symbol":  "^DJI",
-                         "price":  53277.01,
-                         "change":  517.8,
-                         "changePercent":  0.98,
+                         "price":  53417.16,
+                         "change":  140.15,
+                         "changePercent":  0.26,
                          "digits":  2,
-                         "asOf":  "2026-08-21",
+                         "asOf":  "2026-08-24",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "SOX",
                          "symbol":  "^SOX",
-                         "price":  11740.37,
-                         "change":  -59.65,
-                         "changePercent":  -0.51,
+                         "price":  11423.17,
+                         "change":  -317.2,
+                         "changePercent":  -2.7,
                          "digits":  2,
-                         "asOf":  "2026-08-21",
+                         "asOf":  "2026-08-24",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "VIX",
                          "symbol":  "^VIX",
-                         "price":  15.13,
-                         "change":  -0.88,
-                         "changePercent":  -5.5,
+                         "price":  15.85,
+                         "change":  0.72,
+                         "changePercent":  4.76,
                          "digits":  2,
-                         "asOf":  "2026-08-21",
+                         "asOf":  "2026-08-24",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "USD/KRW",
                          "symbol":  "USDKRW=X",
-                         "price":  1382.7,
-                         "change":  -8.1,
-                         "changePercent":  -0.58,
+                         "price":  1386,
+                         "change":  1,
+                         "changePercent":  0.08,
                          "digits":  1,
-                         "asOf":  "2026-08-24",
+                         "asOf":  "2026-08-25",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "WTI",
                          "symbol":  "CL=F",
-                         "price":  85.3,
-                         "change":  -1.76,
-                         "changePercent":  -2.02,
+                         "price":  84.51,
+                         "change":  -0.5,
+                         "changePercent":  -0.59,
                          "digits":  2,
-                         "asOf":  "2026-08-24",
+                         "asOf":  "2026-08-25",
                          "source":  "Yahoo Finance"
                      }
                  ],
     "signals":  [
                     {
                         "badge":  "US",
-                        "tone":  "watch",
+                        "tone":  "negative",
                         "title":  "Nasdaq trend check",
-                        "body":  "Nasdaq changed 0.43% in the latest session. This can affect growth, AI and semiconductor themes at the Korean open."
+                        "body":  "Nasdaq changed -0.76% in the latest session. This can affect growth, AI and semiconductor themes at the Korean open."
                     },
                     {
                         "badge":  "Semi",
-                        "tone":  "watch",
+                        "tone":  "negative",
                         "title":  "Philadelphia Semiconductor Index",
-                        "body":  "SOX changed -0.51% in the latest session. Korean semiconductor equipment, materials and HBM names are sensitive to this."
+                        "body":  "SOX changed -2.7% in the latest session. Korean semiconductor equipment, materials and HBM names are sensitive to this."
                     },
                     {
                         "badge":  "Risk",
                         "tone":  "watch",
                         "title":  "VIX risk appetite",
-                        "body":  "VIX is 15.13. Above 20 usually points to risk-off pressure; below 14 usually points to stronger risk appetite."
+                        "body":  "VIX is 15.85. Above 20 usually points to risk-off pressure; below 14 usually points to stronger risk appetite."
                     },
                     {
                         "badge":  "FX",
-                        "tone":  "positive",
+                        "tone":  "watch",
                         "title":  "USD/KRW direction",
-                        "body":  "USD/KRW changed -0.58% in the latest session. A stronger dollar can pressure foreign flows and import-cost-sensitive sectors."
+                        "body":  "USD/KRW changed 0.08% in the latest session. A stronger dollar can pressure foreign flows and import-cost-sensitive sectors."
                     },
                     {
                         "badge":  "Oil",
-                        "tone":  "positive",
+                        "tone":  "watch",
                         "title":  "WTI crude oil",
-                        "body":  "WTI changed -2.02% in the latest session. Check airlines, chemicals, refiners and logistics names."
+                        "body":  "WTI changed -0.59% in the latest session. Check airlines, chemicals, refiners and logistics names."
                     }
                 ],
     "news":  [
-                 {
-                     "title":  "OPINION: A stronger won can buy BOK more time - 네이트",
-                     "link":  "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1nb3JMcEdWcUo0alV4cHd3RHl2dDI4SjJ2cFdaU3ZHRl9GUWNuRTNLdk5LYnJObkJ3TC1RM0FtZmtHUXd2a0FVQWp0d083VFExZWhxcWMzQ05SYXgyNDV3SQ?oc=5",
-                     "source":  "네이트",
-                     "published":  "2026-08-24 15:40"
-                 },
                  {
                      "title":  "What benchmark interest rate do domestic financial groups expect for the second half of this year? - 경향신문",
                      "link":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBxR25lZ0RwUWtOTXNOSmJsZHdFeG5OTEhjSEhybzlUdWRUd3FrMTQ0QjBSTDN0bUVyV2dsV1AzSXMxWU1SdjJCMm1QR1hOMmZidlRxNTFjV0FBclRrTWc?oc=5",
@@ -122,8 +116,14 @@
                      "published":  "2026-08-21 22:59"
                  },
                  {
+                     "title":  "OPINION: A stronger won can buy BOK more time - 네이트",
+                     "link":  "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1nb3JMcEdWcUo0alV4cHd3RHl2dDI4SjJ2cFdaU3ZHRl9GUWNuRTNLdk5LYnJObkJ3TC1RM0FtZmtHUXd2a0FVQWp0d083VFExZWhxcWMzQ05SYXgyNDV3SQ?oc=5",
+                     "source":  "네이트",
+                     "published":  "2026-08-24 15:40"
+                 },
+                 {
                      "title":  "트럼프發 관세 폭탄 속 반도체 ‘110조 주주환원’ 증시 구원투수 등판 - 브레이크뉴스",
-                     "link":  "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5sRXdzdWR1VV9sUHlzbGNvZUNKcWd1SHNNZnpsM1NIUjhZRTVMWDdhLVU3d05aOG16dzc3YlpBXzZkUQ?oc=5",
+                     "link":  "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9MSmFNdFY1VU5KV3R2X1FhdFdZOEIydTdxVllxRmJrOEotdVRiZHZMVkxQUG5TQzRwVTFnVWw4QzFZTjN3QWZ3eA?oc=5",
                      "source":  "브레이크뉴스",
                      "published":  "2026-08-22 20:26"
                  },
@@ -146,28 +146,16 @@
                      "published":  "2026-03-04 17:00"
                  },
                  {
-                     "title":  "Asian stocks rise on soft US CPI, AI earnings rally - tmgm.com",
-                     "link":  "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeUcxbzRhRlZwN2tIT1RfNVlxYXhFYWlIaVFCdDQ1RkFWVFBvSVZoWWZTS0NOWTFlelBUTVR3d0RKbThyWC1PSEhpOHloU2dpWGM5V05WSFdmOTdOLXlUNXljWjZ2TE15cm1sWEFXdzktN3lxczA0c2RTX1lRZDRrdHNDRjN1Nmt5Mmc3S3liamFLV3FLQnJBS3M5RGF0NjJGRlBkWGVXOGZXN0lJdUt2VWRlM2NFeUU?oc=5",
-                     "source":  "tmgm.com",
-                     "published":  "2026-08-13 15:13"
-                 },
-                 {
                      "title":  "Global rate reset 세계적인 금리 재설정 - The Korea Herald",
                      "link":  "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBDa0lHZk1jMmVnWUhVa0g4WFYzYnZnTWQ1TFg2QkdPR0tiNEFzdElzckh4WUpMMlk2bi11SVJBazl3WVVKTndCU1hXeUpCM1NSUVRRaWRsWQ?oc=5",
                      "source":  "The Korea Herald",
                      "published":  "2026-06-26 16:00"
                  },
                  {
-                     "title":  "Three economic mistakes shaking Korea’s markets - Korea JoongAng Daily",
-                     "link":  "https://news.google.com/rss/articles/CBMiugFBVV95cUxOd0tIRnh4X3R4UXFrV2JkOVNuclJ5eGtqQXlvb1RBU0JlRDVNbkpXY0liZ2VPanJyZjNMbEVYOHp4WkRudUtLMmZQMUphOW0tMTZDMHAxbnBHSzloUGNOMGFlMGNZb0R4X1hzOUFtQTNWWXJNcURoc1cyMHdwZ2Q2WWN2QUhEZlhhNUVLY3dkVjY3bWtTM2kwYUJyVVFuZHJIb0RJaE9IaDNWa1RwR2htMDZLUnRvdGVZeGc?oc=5",
+                     "title":  "Policy failure is behind roller coaster market (KOR) - Korea JoongAng Daily",
+                     "link":  "https://news.google.com/rss/articles/CBMirgFBVV95cUxOU1FZUHVCNF9seC1RalRRbGVIT2YxcTNXWUpMOEk4WXdmMDR5UldIWVpxMkdTN2l0Yk5NOGRiQ2R4RWlyRVpubTZCMWNPcFg1RmthWkNfVF90Y3V6a3FoNFQ5Y1ZLOVlDeVRzTWhTQ1pSZHlQbVN1ZFNoRnZVSUt5X1o4QWxMblVBM2l4V05OUnBnV2JZUDV3dl9XclJNWlBzV3hCcVdfTEhyU181VEE?oc=5",
                      "source":  "Korea JoongAng Daily",
-                     "published":  "2026-08-21 13:03"
-                 },
-                 {
-                     "title":  "South Koreans turn to bank savings amid stock market swings - 네이트",
-                     "link":  "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBVREF5UERTMWxTdmRyb2h5TDBFenpwbUJiTkJFbzFIcUE1bThYU05YbmZIT1lmRW1xYXliVDlVbmV5MDM0UnBrNjQ0OUd1VWQxb2hJUWhVeFh5WHQzclh2Tg?oc=5",
-                     "source":  "네이트",
-                     "published":  "2026-08-18 15:04"
+                     "published":  "2026-07-29 16:00"
                  },
                  {
                      "title":  "올해 코스피 75.6% 상승···G20·OECD 1위 - KOREA.net",
@@ -176,10 +164,22 @@
                      "published":  "2025-12-31 17:00"
                  },
                  {
-                     "title":  "Policy failure is behind roller coaster market (KOR) - Korea JoongAng Daily",
-                     "link":  "https://news.google.com/rss/articles/CBMirgFBVV95cUxOU1FZUHVCNF9seC1RalRRbGVIT2YxcTNXWUpMOEk4WXdmMDR5UldIWVpxMkdTN2l0Yk5NOGRiQ2R4RWlyRVpubTZCMWNPcFg1RmthWkNfVF90Y3V6a3FoNFQ5Y1ZLOVlDeVRzTWhTQ1pSZHlQbVN1ZFNoRnZVSUt5X1o4QWxMblVBM2l4V05OUnBnV2JZUDV3dl9XclJNWlBzV3hCcVdfTEhyU181VEE?oc=5",
+                     "title":  "Samsung and KB Take Early Lead in ‘Samsung Electronics-SK hynix + Bonds’ ETFs… Mirae Asset and Korea Investment Strike Back - IT조선",
+                     "link":  "https://news.google.com/rss/articles/CBMicEFVX3lxTE8zM0xDNk5SamM0Y1RoSlRlSmQ3b1RGVngtaFRhSFZuTXFNSWN4US11a0RVWTlRWG5meVZmb2NfV0Zhb1hzdXplNHFuVW83X1lVMndSMnZjQ2otN3Izb2o3R0dEamFfWG55NFF5NlhwUUXSAXRBVV95cUxNbmtZeGZfYUhRLTlWd1JHMFotbmZ0eGVfd25FTEtjTzNnTkt5SGt2MzVVOG9WeDA4OV9yV0NwMEktbXdrVE1sSFlpQ1ZHSGVma0U2SlVpd0dnbFc5NF9CNDh1RHJNSmFmZkh3R1dfQm94Sktqcg?oc=5",
+                     "source":  "IT조선",
+                     "published":  "2026-08-17 04:41"
+                 },
+                 {
+                     "title":  "‘To make matters worse’ KOSPI plunges 6%… Semiconductors wobble, plus a rate hike - 경향신문",
+                     "link":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9HZnFoV0o0OENuV0RuZ1MxVjJTVVI4eTY5N0liRDZoMGdwcmZNNHpTLVc5NzY0c01qaDdqX0RPLV81dlMyemhiRDhZZEhHOVRORFl4cHNDU2dNVVNXb2c?oc=5",
+                     "source":  "경향신문",
+                     "published":  "2026-07-16 16:00"
+                 },
+                 {
+                     "title":  "Three economic mistakes shaking Korea’s markets - Korea JoongAng Daily",
+                     "link":  "https://news.google.com/rss/articles/CBMiugFBVV95cUxOd0tIRnh4X3R4UXFrV2JkOVNuclJ5eGtqQXlvb1RBU0JlRDVNbkpXY0liZ2VPanJyZjNMbEVYOHp4WkRudUtLMmZQMUphOW0tMTZDMHAxbnBHSzloUGNOMGFlMGNZb0R4X1hzOUFtQTNWWXJNcURoc1cyMHdwZ2Q2WWN2QUhEZlhhNUVLY3dkVjY3bWtTM2kwYUJyVVFuZHJIb0RJaE9IaDNWa1RwR2htMDZLUnRvdGVZeGc?oc=5",
                      "source":  "Korea JoongAng Daily",
-                     "published":  "2026-07-29 16:00"
+                     "published":  "2026-08-21 13:03"
                  }
              ]
 }
