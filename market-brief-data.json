@@ -1,6 +1,6 @@
 ﻿{
-    "updatedAt":  "2026-09-04 16:00:05 +09:00",
-    "targetBusinessDate":  "2026-09-03",
+    "updatedAt":  "2026-09-05 16:00:04 +09:00",
+    "targetBusinessDate":  "2026-09-04",
     "marketSource":  "Yahoo Finance",
     "newsSource":  "Google News RSS",
     "holidaySource":  "Nager.Date KR public holidays",
@@ -8,69 +8,69 @@
                      {
                          "label":  "S\u0026P 500",
                          "symbol":  "^GSPC",
-                         "price":  7747.71,
-                         "change":  81.11,
-                         "changePercent":  1.06,
+                         "price":  7718.6,
+                         "change":  -29.11,
+                         "changePercent":  -0.38,
                          "digits":  2,
-                         "asOf":  "2026-09-03",
+                         "asOf":  "2026-09-04",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "Nasdaq",
                          "symbol":  "^IXIC",
-                         "price":  26584.06,
-                         "change":  366.23,
-                         "changePercent":  1.4,
+                         "price":  26506.99,
+                         "change":  -77.07,
+                         "changePercent":  -0.29,
                          "digits":  2,
-                         "asOf":  "2026-09-03",
+                         "asOf":  "2026-09-04",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "Dow",
                          "symbol":  "^DJI",
-                         "price":  53686.11,
-                         "change":  624.16,
-                         "changePercent":  1.18,
+                         "price":  53414.25,
+                         "change":  -271.86,
+                         "changePercent":  -0.51,
                          "digits":  2,
-                         "asOf":  "2026-09-03",
+                         "asOf":  "2026-09-04",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "SOX",
                          "symbol":  "^SOX",
-                         "price":  11352.13,
-                         "change":  12.88,
-                         "changePercent":  0.11,
+                         "price":  11735.26,
+                         "change":  383.13,
+                         "changePercent":  3.37,
                          "digits":  2,
-                         "asOf":  "2026-09-03",
+                         "asOf":  "2026-09-04",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "VIX",
                          "symbol":  "^VIX",
-                         "price":  14.32,
-                         "change":  -0.88,
-                         "changePercent":  -5.79,
+                         "price":  14.53,
+                         "change":  0.21,
+                         "changePercent":  1.47,
                          "digits":  2,
-                         "asOf":  "2026-09-03",
+                         "asOf":  "2026-09-04",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "USD/KRW",
                          "symbol":  "USDKRW=X",
-                         "price":  1350.8,
-                         "change":  -7.6,
-                         "changePercent":  -0.56,
+                         "price":  1351.1,
+                         "change":  -4.3,
+                         "changePercent":  -0.32,
                          "digits":  1,
-                         "asOf":  "2026-09-04",
+                         "asOf":  "2026-09-05",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "WTI",
                          "symbol":  "CL=F",
-                         "price":  91.42,
-                         "change":  0.12,
-                         "changePercent":  0.13,
+                         "price":  91.48,
+                         "change":  0.18,
+                         "changePercent":  0.2,
                          "digits":  2,
                          "asOf":  "2026-09-04",
                          "source":  "Yahoo Finance"
@@ -79,36 +79,42 @@
     "signals":  [
                     {
                         "badge":  "US",
-                        "tone":  "positive",
+                        "tone":  "watch",
                         "title":  "Nasdaq trend check",
-                        "body":  "Nasdaq changed 1.4% in the latest session. This can affect growth, AI and semiconductor themes at the Korean open."
+                        "body":  "Nasdaq changed -0.29% in the latest session. This can affect growth, AI and semiconductor themes at the Korean open."
                     },
                     {
                         "badge":  "Semi",
-                        "tone":  "watch",
+                        "tone":  "positive",
                         "title":  "Philadelphia Semiconductor Index",
-                        "body":  "SOX changed 0.11% in the latest session. Korean semiconductor equipment, materials and HBM names are sensitive to this."
+                        "body":  "SOX changed 3.37% in the latest session. Korean semiconductor equipment, materials and HBM names are sensitive to this."
                     },
                     {
                         "badge":  "Risk",
                         "tone":  "watch",
                         "title":  "VIX risk appetite",
-                        "body":  "VIX is 14.32. Above 20 usually points to risk-off pressure; below 14 usually points to stronger risk appetite."
+                        "body":  "VIX is 14.53. Above 20 usually points to risk-off pressure; below 14 usually points to stronger risk appetite."
                     },
                     {
                         "badge":  "FX",
                         "tone":  "positive",
                         "title":  "USD/KRW direction",
-                        "body":  "USD/KRW changed -0.56% in the latest session. A stronger dollar can pressure foreign flows and import-cost-sensitive sectors."
+                        "body":  "USD/KRW changed -0.32% in the latest session. A stronger dollar can pressure foreign flows and import-cost-sensitive sectors."
                     },
                     {
                         "badge":  "Oil",
                         "tone":  "watch",
                         "title":  "WTI crude oil",
-                        "body":  "WTI changed 0.13% in the latest session. Check airlines, chemicals, refiners and logistics names."
+                        "body":  "WTI changed 0.2% in the latest session. Check airlines, chemicals, refiners and logistics names."
                     }
                 ],
     "news":  [
+                 {
+                     "title":  "[Park Su-jin\u0027s Money Watch] Amid expectations that U.S. interest rates will remain unchanged, the KOSPI closes in the 6600 range - 뉴스워치",
+                     "link":  "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBJcVVQeXpDbjVrZUVoRVR3czZJSDZzZ3JVazBwaGxadG1SYXczWlJNZnkwakhmYzgzNFN3Nk04MldVSm85SkFOZ0lRX3FITThzQ1k2dWthSWdDVEtIUW5QQy1CdWtGc0FV?oc=5",
+                     "source":  "뉴스워치",
+                     "published":  "2026-09-04 17:43"
+                 },
                  {
                      "title":  "Can the government really beat the market? - Korea JoongAng Daily",
                      "link":  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONnFObmN5akxQNjZYdU9LMGJFenZKdTQtN1RWb0FpQ1RNRl9QbTZGanQ0NjVHX3E3X280S2E2TGllRmxuTDl0MGdrbGI4Tk9SZG02OThtVEx1WTVOdGZQNmFIN2RTbWg4dzZySFpzUXg3dGg1a3p3OWc5UndxLW42dHRlcDA2RGdvaklNSGdveDRfTkdxb2ZJM0JBQ0xHVXRreXUwN1BNOEdOQlU?oc=5",
@@ -116,9 +122,9 @@
                      "published":  "2026-09-04 10:28"
                  },
                  {
-                     "title":  "KOSPI loses cash and conviction - news.nate.com",
+                     "title":  "KOSPI loses cash and conviction - 네이트",
                      "link":  "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5rcGY4bW5ZdVJrQVIxQXBEWnp3MENxaGRUVmx1emNpVXRXeE45SkRCaUdxMlRzVkVHSVhZWkFZMXZMX1Z4VFFBUXNWYWpUYXp3cFN3eW1SblBROTJ6dnp1LQ?oc=5",
-                     "source":  "news.nate.com",
+                     "source":  "네이트",
                      "published":  "2026-09-03 18:03"
                  },
                  {
@@ -128,10 +134,16 @@
                      "published":  "2026-09-02 09:26"
                  },
                  {
-                     "title":  "‘Manspi’ was just within reach··Volatile financial markets, exchange rate in the 1,500-won range, KOSPI barely hanging on at 7,200 - 경향신문",
-                     "link":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9abjBKV25tZklkaE9BaGVHWERBMXZhZEU5My1BdjBsZlExcjlEWU16ZGZXVkJtNElYeXRwSU1PT2VEeU9EU2ZkTWxUQjBZMDEtLU56YkREZVJidVhkRWc?oc=5",
+                     "title":  "[News Today] “Leveraged ETFs shake stock market” - news.kbs.co.kr",
+                     "link":  "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9oTWY1elhGaG5ZbzJTNTVPaWR2LXNjd3RRUHI0Y0ZySzJpUGVJSWJ2TjJjVFNaOERmSm16dnlFdUJsV0hXaElYa0E1REFOT2JvcDJadnRrRnpIMGs?oc=5",
+                     "source":  "news.kbs.co.kr",
+                     "published":  "2026-06-24 16:00"
+                 },
+                 {
+                     "title":  "What benchmark interest rate do domestic financial groups expect for the second half of this year? - 경향신문",
+                     "link":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBxR25lZ0RwUWtOTXNOSmJsZHdFeG5OTEhjSEhybzlUdWRUd3FrMTQ0QjBSTDN0bUVyV2dsV1AzSXMxWU1SdjJCMm1QR1hOMmZidlRxNTFjV0FBclRrTWc?oc=5",
                      "source":  "경향신문",
-                     "published":  "2026-05-20 16:00"
+                     "published":  "2026-08-21 16:00"
                  },
                  {
                      "title":  "NVIDIA Earnings, Warsh Speech to Decide KOSPI\u0027s Direction - 조선일보",
@@ -140,16 +152,22 @@
                      "published":  "2026-08-26 00:42"
                  },
                  {
-                     "title":  "Foreign Investors Return to Korean Stocks, Driving KOSPI Rally Near Record High - 알파경제",
-                     "link":  "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mYjdGZDQ3bnRxcEVVZ2dmdjVsSDZiQmVvTkhqZUE0d1FZdUFweklqZXQtTWs2TlBaQm1CaEdFQ21yQ3ZZaVhfV0g1OWYwZkdkSHIxNjZ6N0d6aGVYdDZzUE9jNWRGZ2tvakVQM2R3?oc=5",
-                     "source":  "알파경제",
-                     "published":  "2026-06-17 16:00"
+                     "title":  "정부, MSCI 선진국지수 추진···7월 외환시장 24시간 개방 - Korea.net",
+                     "link":  "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOFJZX3NvWXdaLUtSVUVQYUFoaWljeXBFMXlxRi1xQ29jdXBUbTQwVUlMZGtPbDRnb18yU3NubVZScnhLU0d2SzFETm00U0lpMGZvTFNfNUxfYUkyemZpVmJzb2RSYXN6WTZVbEZhSGgxOGRCLVpYMXRodXlteGl0b0VkVkQ?oc=5",
+                     "source":  "Korea.net",
+                     "published":  "2026-01-12 17:00"
                  },
                  {
-                     "title":  "변동성 커진 한국 증시…금융위 규제에 야당+시민단체 “졸속·미봉책” - 브레이크뉴스",
-                     "link":  "https://news.google.com/rss/articles/CBMiSEFVX3lxTE80bGF0ZVJISEs4bGM5VG5naHI3Q0RtUGhsdkRlbHBqeHZWajRQazVJaXY5NGRZWHRKZ3p3ZHFZYmw3M1J2VnJmag?oc=5",
-                     "source":  "브레이크뉴스",
-                     "published":  "2026-07-18 16:00"
+                     "title":  "Global rate reset 세계적인 금리 재설정 - koreaherald.com",
+                     "link":  "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBDa0lHZk1jMmVnWUhVa0g4WFYzYnZnTWQ1TFg2QkdPR0tiNEFzdElzckh4WUpMMlk2bi11SVJBazl3WVVKTndCU1hXeUpCM1NSUVRRaWRsWQ?oc=5",
+                     "source":  "koreaherald.com",
+                     "published":  "2026-06-26 16:00"
+                 },
+                 {
+                     "title":  "Samsung Electronics Drops Out of $1 Trillion Market Cap Club After Stock Plunge - 알파경제",
+                     "link":  "https://news.google.com/rss/articles/CBMibkFVX3lxTE56MVlfaF9vV3MtSXp6MTdTbGpsSHFYeVpBZGN3endob0FwdzY4MFVCODN5bHptdGVvMFVZaVMtN3QxQ3ptTFd1UVVJVFJramRURzZoNWpaVXBfTDV0eFpOM0lzdTlfQldEektsb1ZR?oc=5",
+                     "source":  "알파경제",
+                     "published":  "2026-07-29 06:00"
                  },
                  {
                      "title":  "Korea stocks plunged. Are risky ETFs to blame? - Korea JoongAng Daily",
@@ -162,24 +180,6 @@
                      "link":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9HZnFoV0o0OENuV0RuZ1MxVjJTVVI4eTY5N0liRDZoMGdwcmZNNHpTLVc5NzY0c01qaDdqX0RPLV81dlMyemhiRDhZZEhHOVRORFl4cHNDU2dNVVNXb2c?oc=5",
                      "source":  "경향신문",
                      "published":  "2026-07-16 16:00"
-                 },
-                 {
-                     "title":  "Asian Markets Plunge on Middle East Oil Surge - 조선일보",
-                     "link":  "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZnFPV3NjSFgwNTJwQTltUGtSMVJXdWMzVThkN2ozX0FGOVhBeWlIdWxiSlBqZ0VDM1NVNGYxQjJfVExvRXhELXRPQVA0a3JHa20zSzFZS3pvaTlld0d3R0hjejlIZFhEc0hDaWxqTGwwcmRES1JvaTZCYU1YN09zVWh4U1hzaU5XNXNXeGVR?oc=5",
-                     "source":  "조선일보",
-                     "published":  "2026-03-04 17:00"
-                 },
-                 {
-                     "title":  "Policy failure is behind roller coaster market (KOR) - Korea JoongAng Daily",
-                     "link":  "https://news.google.com/rss/articles/CBMirgFBVV95cUxOU1FZUHVCNF9seC1RalRRbGVIT2YxcTNXWUpMOEk4WXdmMDR5UldIWVpxMkdTN2l0Yk5NOGRiQ2R4RWlyRVpubTZCMWNPcFg1RmthWkNfVF90Y3V6a3FoNFQ5Y1ZLOVlDeVRzTWhTQ1pSZHlQbVN1ZFNoRnZVSUt5X1o4QWxMblVBM2l4V05OUnBnV2JZUDV3dl9XclJNWlBzV3hCcVdfTEhyU181VEE?oc=5",
-                     "source":  "Korea JoongAng Daily",
-                     "published":  "2026-07-29 16:00"
-                 },
-                 {
-                     "title":  "Why have 4%-range savings bank deposit rates suddenly disappeared···The reason they lowered rates in a rate-hike cycle - 경향신문",
-                     "link":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1McmJMTHJfS19kXzlDVG9FaFI5YTZoM0Z1UXlTOXk5VjBGQUZXU2Zkci1PTGdrNlF0LUYtb05LcjN2bldKRjBOUzdIU1VmbklnTXpqNnNoTjZ2RE5rUVE?oc=5",
-                     "source":  "경향신문",
-                     "published":  "2026-08-19 16:00"
                  }
              ]
 }
