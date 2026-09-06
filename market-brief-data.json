@@ -1,5 +1,5 @@
 ﻿{
-    "updatedAt":  "2026-09-05 16:00:04 +09:00",
+    "updatedAt":  "2026-09-06 16:00:07 +09:00",
     "targetBusinessDate":  "2026-09-04",
     "marketSource":  "Yahoo Finance",
     "newsSource":  "Google News RSS",
@@ -62,7 +62,7 @@
                          "change":  -4.3,
                          "changePercent":  -0.32,
                          "digits":  1,
-                         "asOf":  "2026-09-05",
+                         "asOf":  "2026-09-06",
                          "source":  "Yahoo Finance"
                      },
                      {
@@ -110,21 +110,21 @@
                 ],
     "news":  [
                  {
-                     "title":  "[Park Su-jin\u0027s Money Watch] Amid expectations that U.S. interest rates will remain unchanged, the KOSPI closes in the 6600 range - 뉴스워치",
-                     "link":  "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBJcVVQeXpDbjVrZUVoRVR3czZJSDZzZ3JVazBwaGxadG1SYXczWlJNZnkwakhmYzgzNFN3Nk04MldVSm85SkFOZ0lRX3FITThzQ1k2dWthSWdDVEtIUW5QQy1CdWtGc0FV?oc=5",
-                     "source":  "뉴스워치",
-                     "published":  "2026-09-04 17:43"
-                 },
-                 {
                      "title":  "Can the government really beat the market? - Korea JoongAng Daily",
                      "link":  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONnFObmN5akxQNjZYdU9LMGJFenZKdTQtN1RWb0FpQ1RNRl9QbTZGanQ0NjVHX3E3X280S2E2TGllRmxuTDl0MGdrbGI4Tk9SZG02OThtVEx1WTVOdGZQNmFIN2RTbWg4dzZySFpzUXg3dGg1a3p3OWc5UndxLW42dHRlcDA2RGdvaklNSGdveDRfTkdxb2ZJM0JBQ0xHVXRreXUwN1BNOEdOQlU?oc=5",
                      "source":  "Korea JoongAng Daily",
                      "published":  "2026-09-04 10:28"
                  },
                  {
-                     "title":  "KOSPI loses cash and conviction - 네이트",
+                     "title":  "[굿모닝 증시]\"美금리 우려 완화…한국증시 상승 출발 전망\" - 아시아경제",
+                     "link":  "https://news.google.com/rss/articles/CBMiYEFVX3lxTE03T3haeTlFeXRDaXYwTVNFR1RZclhYS3pTeFhycUM5QWg2MlUxbDZxWi03Q1g1aVJ3NWFRRDg3OG5tSmE0cUZZbzU4UDBMN3cyN0pGWmpmX1o1RmFQc21ybw?oc=5",
+                     "source":  "아시아경제",
+                     "published":  "2026-09-04 08:17"
+                 },
+                 {
+                     "title":  "KOSPI loses cash and conviction - news.nate.com",
                      "link":  "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5rcGY4bW5ZdVJrQVIxQXBEWnp3MENxaGRUVmx1emNpVXRXeE45SkRCaUdxMlRzVkVHSVhZWkFZMXZMX1Z4VFFBUXNWYWpUYXp3cFN3eW1SblBROTJ6dnp1LQ?oc=5",
-                     "source":  "네이트",
+                     "source":  "news.nate.com",
                      "published":  "2026-09-03 18:03"
                  },
                  {
@@ -132,12 +132,6 @@
                      "link":  "https://news.google.com/rss/articles/CBMiWEFVX3lxTE54MEZCcnRRNFBBSW1HRlBtVUlMQ28yY01Bb1l5TnR2Y3hFamNuT29ibDZPWV9uMXNhTlhPUFVuajFXcTI2bDd3UEdIc0k3LVh6Yks1OWkyWVk?oc=5",
                      "source":  "블록미디어",
                      "published":  "2026-09-02 09:26"
-                 },
-                 {
-                     "title":  "[News Today] “Leveraged ETFs shake stock market” - news.kbs.co.kr",
-                     "link":  "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9oTWY1elhGaG5ZbzJTNTVPaWR2LXNjd3RRUHI0Y0ZySzJpUGVJSWJ2TjJjVFNaOERmSm16dnlFdUJsV0hXaElYa0E1REFOT2JvcDJadnRrRnpIMGs?oc=5",
-                     "source":  "news.kbs.co.kr",
-                     "published":  "2026-06-24 16:00"
                  },
                  {
                      "title":  "What benchmark interest rate do domestic financial groups expect for the second half of this year? - 경향신문",
@@ -149,7 +143,7 @@
                      "title":  "NVIDIA Earnings, Warsh Speech to Decide KOSPI\u0027s Direction - 조선일보",
                      "link":  "https://news.google.com/rss/articles/CBMijgFBVV95cUxNY2VEYUJVZnBnb2g3SFIxRndLZDc0SHd1cTNacGVGZDFFdGs3U2lLb3ExY2t3NlBIYXJxck9KSDlFS2M4cExoTlRLRGZnSmdJbWNJaUtjZC1xNC0xUFg3aTg3VXQxYS1NQUJVLW9faGtpMlN2bDAzZ3JnMFllLThVQkpXdDd5N2hmNUJmbFp3?oc=5",
                      "source":  "조선일보",
-                     "published":  "2026-08-26 00:42"
+                     "published":  "2026-08-26 16:00"
                  },
                  {
                      "title":  "정부, MSCI 선진국지수 추진···7월 외환시장 24시간 개방 - Korea.net",
@@ -158,28 +152,34 @@
                      "published":  "2026-01-12 17:00"
                  },
                  {
-                     "title":  "Global rate reset 세계적인 금리 재설정 - koreaherald.com",
+                     "title":  "Global rate reset 세계적인 금리 재설정 - The Korea Herald",
                      "link":  "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBDa0lHZk1jMmVnWUhVa0g4WFYzYnZnTWQ1TFg2QkdPR0tiNEFzdElzckh4WUpMMlk2bi11SVJBazl3WVVKTndCU1hXeUpCM1NSUVRRaWRsWQ?oc=5",
-                     "source":  "koreaherald.com",
+                     "source":  "The Korea Herald",
                      "published":  "2026-06-26 16:00"
                  },
                  {
-                     "title":  "Samsung Electronics Drops Out of $1 Trillion Market Cap Club After Stock Plunge - 알파경제",
-                     "link":  "https://news.google.com/rss/articles/CBMibkFVX3lxTE56MVlfaF9vV3MtSXp6MTdTbGpsSHFYeVpBZGN3endob0FwdzY4MFVCODN5bHptdGVvMFVZaVMtN3QxQ3ptTFd1UVVJVFJramRURzZoNWpaVXBfTDV0eFpOM0lzdTlfQldEektsb1ZR?oc=5",
-                     "source":  "알파경제",
-                     "published":  "2026-07-29 06:00"
+                     "title":  "Is KOSPI party over, or moving to Wall Street? - news.nate.com",
+                     "link":  "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBONXQ5SkZMSU9mNy11ZUwxdGZ3c3Zhd01YMXA5M3B5UzhHWkRNOXEzcExkdU1CTWpkeHc5ZTFHUS1oUERNc3VLbjc3R2JfOFQ3Uld5dmNRWGM2UHRDSkxxNQ?oc=5",
+                     "source":  "news.nate.com",
+                     "published":  "2026-08-28 17:06"
                  },
                  {
-                     "title":  "Korea stocks plunged. Are risky ETFs to blame? - Korea JoongAng Daily",
-                     "link":  "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYnBMMmVBVnFqamFwbXo5X1N2NU1xUVRxel9BcXhUbDdWQ0lwLU1NZkZDTVNzUlRJa3N2NE1aU3BWMGlhVldnSlBPZmFTUld6SmhCUHJXVFI1U1czeWFXLVppRndPbG9HSnZwOTRIYzVyZ1dEam8zZDRwcjN1alkwY0ktaGgySVJvSDc5ZFRVQXJRRVgwREw0aVd3cVVrY1Z5Wk9v?oc=5",
+                     "title":  "Policy failure is behind roller coaster market (KOR) - Korea JoongAng Daily",
+                     "link":  "https://news.google.com/rss/articles/CBMirgFBVV95cUxOU1FZUHVCNF9seC1RalRRbGVIT2YxcTNXWUpMOEk4WXdmMDR5UldIWVpxMkdTN2l0Yk5NOGRiQ2R4RWlyRVpubTZCMWNPcFg1RmthWkNfVF90Y3V6a3FoNFQ5Y1ZLOVlDeVRzTWhTQ1pSZHlQbVN1ZFNoRnZVSUt5X1o4QWxMblVBM2l4V05OUnBnV2JZUDV3dl9XclJNWlBzV3hCcVdfTEhyU181VEE?oc=5",
                      "source":  "Korea JoongAng Daily",
-                     "published":  "2026-08-10 16:00"
+                     "published":  "2026-07-29 16:00"
                  },
                  {
-                     "title":  "‘To make matters worse’ KOSPI plunges 6%… Semiconductors wobble, plus a rate hike - 경향신문",
-                     "link":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9HZnFoV0o0OENuV0RuZ1MxVjJTVVI4eTY5N0liRDZoMGdwcmZNNHpTLVc5NzY0c01qaDdqX0RPLV81dlMyemhiRDhZZEhHOVRORFl4cHNDU2dNVVNXb2c?oc=5",
+                     "title":  "‘Manspi’ was just within reach··Volatile financial markets, exchange rate in the 1,500-won range, KOSPI barely hanging on at 7,200 - 경향신문",
+                     "link":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9abjBKV25tZklkaE9BaGVHWERBMXZhZEU5My1BdjBsZlExcjlEWU16ZGZXVkJtNElYeXRwSU1PT2VEeU9EU2ZkTWxUQjBZMDEtLU56YkREZVJidVhkRWc?oc=5",
                      "source":  "경향신문",
-                     "published":  "2026-07-16 16:00"
+                     "published":  "2026-05-20 16:00"
+                 },
+                 {
+                     "title":  "Asian Markets Plunge on Middle East Oil Surge - 조선일보",
+                     "link":  "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZnFPV3NjSFgwNTJwQTltUGtSMVJXdWMzVThkN2ozX0FGOVhBeWlIdWxiSlBqZ0VDM1NVNGYxQjJfVExvRXhELXRPQVA0a3JHa20zSzFZS3pvaTlld0d3R0hjejlIZFhEc0hDaWxqTGwwcmRES1JvaTZCYU1YN09zVWh4U1hzaU5XNXNXeGVR?oc=5",
+                     "source":  "조선일보",
+                     "published":  "2026-03-04 17:00"
                  }
              ]
 }
