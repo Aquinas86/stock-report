@@ -1,6 +1,6 @@
 ﻿{
-    "updatedAt":  "2026-09-07 16:00:04 +09:00",
-    "targetBusinessDate":  "2026-09-04",
+    "updatedAt":  "2026-09-08 16:00:04 +09:00",
+    "targetBusinessDate":  "2026-09-07",
     "marketSource":  "Yahoo Finance",
     "newsSource":  "Google News RSS",
     "holidaySource":  "Nager.Date KR public holidays",
@@ -48,31 +48,31 @@
                      {
                          "label":  "VIX",
                          "symbol":  "^VIX",
-                         "price":  14.53,
-                         "change":  0.21,
-                         "changePercent":  1.47,
+                         "price":  15.3,
+                         "change":  0.77,
+                         "changePercent":  5.3,
                          "digits":  2,
-                         "asOf":  "2026-09-04",
+                         "asOf":  "2026-09-07",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "USD/KRW",
                          "symbol":  "USDKRW=X",
-                         "price":  1341.9,
-                         "change":  -13.5,
-                         "changePercent":  -1,
+                         "price":  1345.4,
+                         "change":  0.3,
+                         "changePercent":  0.02,
                          "digits":  1,
-                         "asOf":  "2026-09-07",
+                         "asOf":  "2026-09-08",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "WTI",
                          "symbol":  "CL=F",
-                         "price":  91.48,
-                         "change":  0,
-                         "changePercent":  0,
+                         "price":  94.05,
+                         "change":  2.57,
+                         "changePercent":  2.81,
                          "digits":  2,
-                         "asOf":  "2026-09-07",
+                         "asOf":  "2026-09-08",
                          "source":  "Yahoo Finance"
                      }
                  ],
@@ -93,26 +93,26 @@
                         "badge":  "Risk",
                         "tone":  "watch",
                         "title":  "VIX risk appetite",
-                        "body":  "VIX is 14.53. Above 20 usually points to risk-off pressure; below 14 usually points to stronger risk appetite."
+                        "body":  "VIX is 15.3. Above 20 usually points to risk-off pressure; below 14 usually points to stronger risk appetite."
                     },
                     {
                         "badge":  "FX",
-                        "tone":  "positive",
+                        "tone":  "watch",
                         "title":  "USD/KRW direction",
-                        "body":  "USD/KRW changed -1% in the latest session. A stronger dollar can pressure foreign flows and import-cost-sensitive sectors."
+                        "body":  "USD/KRW changed 0.02% in the latest session. A stronger dollar can pressure foreign flows and import-cost-sensitive sectors."
                     },
                     {
                         "badge":  "Oil",
                         "tone":  "watch",
                         "title":  "WTI crude oil",
-                        "body":  "WTI changed 0% in the latest session. Check airlines, chemicals, refiners and logistics names."
+                        "body":  "WTI changed 2.81% in the latest session. Check airlines, chemicals, refiners and logistics names."
                     }
                 ],
     "news":  [
                  {
-                     "title":  "Can the government really beat the market? - Korea JoongAng Daily",
+                     "title":  "Can the government really beat the market? - koreajoongangdaily.com",
                      "link":  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONnFObmN5akxQNjZYdU9LMGJFenZKdTQtN1RWb0FpQ1RNRl9QbTZGanQ0NjVHX3E3X280S2E2TGllRmxuTDl0MGdrbGI4Tk9SZG02OThtVEx1WTVOdGZQNmFIN2RTbWg4dzZySFpzUXg3dGg1a3p3OWc5UndxLW42dHRlcDA2RGdvaklNSGdveDRfTkdxb2ZJM0JBQ0xHVXRreXUwN1BNOEdOQlU?oc=5",
-                     "source":  "Korea JoongAng Daily",
+                     "source":  "koreajoongangdaily.com",
                      "published":  "2026-09-04 10:28"
                  },
                  {
@@ -134,16 +134,16 @@
                      "published":  "2026-09-02 09:26"
                  },
                  {
-                     "title":  "NVIDIA Earnings, Warsh Speech to Decide KOSPI\u0027s Direction - 조선일보",
-                     "link":  "https://news.google.com/rss/articles/CBMijgFBVV95cUxNY2VEYUJVZnBnb2g3SFIxRndLZDc0SHd1cTNacGVGZDFFdGs3U2lLb3ExY2t3NlBIYXJxck9KSDlFS2M4cExoTlRLRGZnSmdJbWNJaUtjZC1xNC0xUFg3aTg3VXQxYS1NQUJVLW9faGtpMlN2bDAzZ3JnMFllLThVQkpXdDd5N2hmNUJmbFp3?oc=5",
-                     "source":  "조선일보",
-                     "published":  "2026-08-26 16:00"
-                 },
-                 {
                      "title":  "정부, MSCI 선진국지수 추진···7월 외환시장 24시간 개방 - Korea.net",
                      "link":  "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOFJZX3NvWXdaLUtSVUVQYUFoaWljeXBFMXlxRi1xQ29jdXBUbTQwVUlMZGtPbDRnb18yU3NubVZScnhLU0d2SzFETm00U0lpMGZvTFNfNUxfYUkyemZpVmJzb2RSYXN6WTZVbEZhSGgxOGRCLVpYMXRodXlteGl0b0VkVkQ?oc=5",
                      "source":  "Korea.net",
                      "published":  "2026-01-12 17:00"
+                 },
+                 {
+                     "title":  "NVIDIA Earnings, Warsh Speech to Decide KOSPI\u0027s Direction - 조선일보",
+                     "link":  "https://news.google.com/rss/articles/CBMijgFBVV95cUxNY2VEYUJVZnBnb2g3SFIxRndLZDc0SHd1cTNacGVGZDFFdGs3U2lLb3ExY2t3NlBIYXJxck9KSDlFS2M4cExoTlRLRGZnSmdJbWNJaUtjZC1xNC0xUFg3aTg3VXQxYS1NQUJVLW9faGtpMlN2bDAzZ3JnMFllLThVQkpXdDd5N2hmNUJmbFp3?oc=5",
+                     "source":  "조선일보",
+                     "published":  "2026-08-26 16:00"
                  },
                  {
                      "title":  "Global rate reset 세계적인 금리 재설정 - koreaherald.com",
@@ -152,34 +152,34 @@
                      "published":  "2026-06-26 16:00"
                  },
                  {
-                     "title":  "Policy failure is behind roller coaster market (KOR) - Korea JoongAng Daily",
+                     "title":  "South Korea Rises to 8th in Global Market Cap as AI Boom Lifts KOSPI - Korea IT Times",
+                     "link":  "https://news.google.com/rss/articles/CBMicEFVX3lxTE91c0pwLVpmam9JY0lhclgzamtPZDd4aXRIWmgwVXFhMExpdGJIY05wejRFZm9SNzVOZlR0N2R0a3NiSWhmbkotV0Q5RUVXTlFUMTVJUjJFM0g5OS1pUFM4blhQSURpTThLLWVieFFtSU8?oc=5",
+                     "source":  "Korea IT Times",
+                     "published":  "2026-04-28 16:00"
+                 },
+                 {
+                     "title":  "변동성 커진 한국 증시…금융위 규제에 야당+시민단체 “졸속·미봉책” - breaknews.com",
+                     "link":  "https://news.google.com/rss/articles/CBMiSEFVX3lxTE80bGF0ZVJISEs4bGM5VG5naHI3Q0RtUGhsdkRlbHBqeHZWajRQazVJaXY5NGRZWHRKZ3p3ZHFZYmw3M1J2VnJmag?oc=5",
+                     "source":  "breaknews.com",
+                     "published":  "2026-07-18 16:00"
+                 },
+                 {
+                     "title":  "Policy failure is behind roller coaster market (KOR) - koreajoongangdaily.com",
                      "link":  "https://news.google.com/rss/articles/CBMirgFBVV95cUxOU1FZUHVCNF9seC1RalRRbGVIT2YxcTNXWUpMOEk4WXdmMDR5UldIWVpxMkdTN2l0Yk5NOGRiQ2R4RWlyRVpubTZCMWNPcFg1RmthWkNfVF90Y3V6a3FoNFQ5Y1ZLOVlDeVRzTWhTQ1pSZHlQbVN1ZFNoRnZVSUt5X1o4QWxMblVBM2l4V05OUnBnV2JZUDV3dl9XclJNWlBzV3hCcVdfTEhyU181VEE?oc=5",
-                     "source":  "Korea JoongAng Daily",
+                     "source":  "koreajoongangdaily.com",
                      "published":  "2026-07-29 16:00"
                  },
                  {
-                     "title":  "‘Manspi’ was just within reach··Volatile financial markets, exchange rate in the 1,500-won range, KOSPI barely hanging on at 7,200 - 경향신문",
-                     "link":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9abjBKV25tZklkaE9BaGVHWERBMXZhZEU5My1BdjBsZlExcjlEWU16ZGZXVkJtNElYeXRwSU1PT2VEeU9EU2ZkTWxUQjBZMDEtLU56YkREZVJidVhkRWc?oc=5",
+                     "title":  "‘To make matters worse’ KOSPI plunges 6%… Semiconductors wobble, plus a rate hike - 경향신문",
+                     "link":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9HZnFoV0o0OENuV0RuZ1MxVjJTVVI4eTY5N0liRDZoMGdwcmZNNHpTLVc5NzY0c01qaDdqX0RPLV81dlMyemhiRDhZZEhHOVRORFl4cHNDU2dNVVNXb2c?oc=5",
                      "source":  "경향신문",
-                     "published":  "2026-05-20 16:00"
+                     "published":  "2026-07-16 16:00"
                  },
                  {
                      "title":  "올해 코스피 75.6% 상승···G20·OECD 1위 - Korea.net",
                      "link":  "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVjZOVWRlZm10SGd6VGdaYWRJNFNMNFZTV2Z0emVMZE9YQWkwZmhzSktSV1paTFBLMTFpd0NXZjFzdmtORVBUUGJyamZidU52LXdfcWxTcU9JTlpxQmhOc3R0cXNqMl9ZSFBuTjFLUUFWRWFBbnRkYUp5TUJER1h4cThqNG0?oc=5",
                      "source":  "Korea.net",
                      "published":  "2025-12-31 17:00"
-                 },
-                 {
-                     "title":  "Reality bites as Korea\u0027s retail investors struggle to escape leverage trap - 네이트",
-                     "link":  "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0yMzhhUXhBN3c3MVdoVjI1NXpHUzVhdzZhOGxxMlJaRFZpQ0ppWVNqRlN0UDNVSGFkMTVVV2FvSmhpWkoySVk0bk52N3JwejUzZDA4?oc=5",
-                     "source":  "네이트",
-                     "published":  "2026-07-23 16:00"
-                 },
-                 {
-                     "title":  "Editorial: Korea\u0027s 18% Plunge Reveals Economic Fragility - 조선일보",
-                     "link":  "https://news.google.com/rss/articles/CBMihwFBVV95cUxPazVoakJLMkt1Y2ppVS1FZnlBaXVEeTU4YkE4d2QxY0lSU0JWMmpLWkY2Y2lVV0FaaENEMXB5RS1MUnJnUlJmLWxlTDJacXA1RFRNU0lBSkoxQUpZZUJrRnVBRDI4dWwtNlZrTFNFNWMwbWVjRXk3cVExZWhtR282RnNoREVUbG8?oc=5",
-                     "source":  "조선일보",
-                     "published":  "2026-03-05 17:00"
                  }
              ]
 }
