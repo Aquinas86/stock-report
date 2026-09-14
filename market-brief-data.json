@@ -1,5 +1,5 @@
 ﻿{
-    "updatedAt":  "2026-09-13 16:00:04 +09:00",
+    "updatedAt":  "2026-09-14 16:00:05 +09:00",
     "targetBusinessDate":  "2026-09-11",
     "marketSource":  "Yahoo Finance",
     "newsSource":  "Google News RSS",
@@ -58,21 +58,21 @@
                      {
                          "label":  "USD/KRW",
                          "symbol":  "USDKRW=X",
-                         "price":  1342.4,
-                         "change":  -5.8,
-                         "changePercent":  -0.43,
+                         "price":  1346.9,
+                         "change":  -1.3,
+                         "changePercent":  -0.09,
                          "digits":  1,
-                         "asOf":  "2026-09-13",
+                         "asOf":  "2026-09-14",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "WTI",
                          "symbol":  "CL=F",
-                         "price":  100.05,
-                         "change":  -2.43,
-                         "changePercent":  -2.37,
+                         "price":  102.65,
+                         "change":  2.6,
+                         "changePercent":  2.6,
                          "digits":  2,
-                         "asOf":  "2026-09-11",
+                         "asOf":  "2026-09-14",
                          "source":  "Yahoo Finance"
                      }
                  ],
@@ -99,13 +99,13 @@
                         "badge":  "FX",
                         "tone":  "positive",
                         "title":  "USD/KRW direction",
-                        "body":  "USD/KRW changed -0.43% in the latest session. A stronger dollar can pressure foreign flows and import-cost-sensitive sectors."
+                        "body":  "USD/KRW changed -0.09% in the latest session. A stronger dollar can pressure foreign flows and import-cost-sensitive sectors."
                     },
                     {
                         "badge":  "Oil",
-                        "tone":  "positive",
+                        "tone":  "watch",
                         "title":  "WTI crude oil",
-                        "body":  "WTI changed -2.37% in the latest session. Check airlines, chemicals, refiners and logistics names."
+                        "body":  "WTI changed 2.6% in the latest session. Check airlines, chemicals, refiners and logistics names."
                     }
                 ],
     "news":  [
@@ -122,9 +122,9 @@
                      "published":  "2026-09-04 10:28"
                  },
                  {
-                     "title":  "Is KOSPI party over, or moving to Wall Street? - news.nate.com",
+                     "title":  "Is KOSPI party over, or moving to Wall Street? - 네이트",
                      "link":  "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBONXQ5SkZMSU9mNy11ZUwxdGZ3c3Zhd01YMXA5M3B5UzhHWkRNOXEzcExkdU1CTWpkeHc5ZTFHUS1oUERNc3VLbjc3R2JfOFQ3Uld5dmNRWGM2UHRDSkxxNQ?oc=5",
-                     "source":  "news.nate.com",
+                     "source":  "네이트",
                      "published":  "2026-08-28 17:06"
                  },
                  {
@@ -140,16 +140,10 @@
                      "published":  "2026-09-02 09:26"
                  },
                  {
-                     "title":  "올해 코스피 75.6% 상승···G20·OECD 1위 - korea.net",
+                     "title":  "올해 코스피 75.6% 상승···G20·OECD 1위 - Korea.net",
                      "link":  "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVjZOVWRlZm10SGd6VGdaYWRJNFNMNFZTV2Z0emVMZE9YQWkwZmhzSktSV1paTFBLMTFpd0NXZjFzdmtORVBUUGJyamZidU52LXdfcWxTcU9JTlpxQmhOc3R0cXNqMl9ZSFBuTjFLUUFWRWFBbnRkYUp5TUJER1h4cThqNG0?oc=5",
-                     "source":  "korea.net",
+                     "source":  "Korea.net",
                      "published":  "2025-12-31 17:00"
-                 },
-                 {
-                     "title":  "변동성 커진 한국 증시…금융위 규제에 야당+시민단체 “졸속·미봉책” - 브레이크뉴스",
-                     "link":  "https://news.google.com/rss/articles/CBMiSEFVX3lxTE80bGF0ZVJISEs4bGM5VG5naHI3Q0RtUGhsdkRlbHBqeHZWajRQazVJaXY5NGRZWHRKZ3p3ZHFZYmw3M1J2VnJmag?oc=5",
-                     "source":  "브레이크뉴스",
-                     "published":  "2026-07-18 16:00"
                  },
                  {
                      "title":  "Korea stocks plunged. Are risky ETFs to blame? - Korea JoongAng Daily",
@@ -158,16 +152,16 @@
                      "published":  "2026-08-10 16:00"
                  },
                  {
+                     "title":  "변동성 커진 한국 증시…금융위 규제에 야당+시민단체 “졸속·미봉책” - 브레이크뉴스",
+                     "link":  "https://news.google.com/rss/articles/CBMiSEFVX3lxTE80bGF0ZVJISEs4bGM5VG5naHI3Q0RtUGhsdkRlbHBqeHZWajRQazVJaXY5NGRZWHRKZ3p3ZHFZYmw3M1J2VnJmag?oc=5",
+                     "source":  "브레이크뉴스",
+                     "published":  "2026-07-18 16:00"
+                 },
+                 {
                      "title":  "‘Manspi’ was just within reach··Volatile financial markets, exchange rate in the 1,500-won range, KOSPI barely hanging on at 7,200 - 경향신문",
                      "link":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9abjBKV25tZklkaE9BaGVHWERBMXZhZEU5My1BdjBsZlExcjlEWU16ZGZXVkJtNElYeXRwSU1PT2VEeU9EU2ZkTWxUQjBZMDEtLU56YkREZVJidVhkRWc?oc=5",
                      "source":  "경향신문",
                      "published":  "2026-05-20 16:00"
-                 },
-                 {
-                     "title":  "KOSPI slips below 7,000 again as Morgan Stanley sparks chip sell-off - news.nate.com",
-                     "link":  "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA0WnRiUzhFQTdOTW5CZDNBaHhWZkNvMGg1QWtTSlJUX3NpSGpYZUZCREhBZkFIV1BaX19HZ25yelUtd0U3bG9HLU1RWFNpTktaeVk0?oc=5",
-                     "source":  "news.nate.com",
-                     "published":  "2026-07-16 16:00"
                  },
                  {
                      "title":  "Policy failure is behind roller coaster market (KOR) - Korea JoongAng Daily",
@@ -176,10 +170,16 @@
                      "published":  "2026-07-29 16:00"
                  },
                  {
-                     "title":  "Editorial: Korea\u0027s 18% Plunge Reveals Economic Fragility - 조선일보",
-                     "link":  "https://news.google.com/rss/articles/CBMihwFBVV95cUxPazVoakJLMkt1Y2ppVS1FZnlBaXVEeTU4YkE4d2QxY0lSU0JWMmpLWkY2Y2lVV0FaaENEMXB5RS1MUnJnUlJmLWxlTDJacXA1RFRNU0lBSkoxQUpZZUJrRnVBRDI4dWwtNlZrTFNFNWMwbWVjRXk3cVExZWhtR282RnNoREVUbG8?oc=5",
-                     "source":  "조선일보",
-                     "published":  "2026-03-05 17:00"
+                     "title":  "KOSPI slips below 7,000 again as Morgan Stanley sparks chip sell-off - 네이트",
+                     "link":  "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA0WnRiUzhFQTdOTW5CZDNBaHhWZkNvMGg1QWtTSlJUX3NpSGpYZUZCREhBZkFIV1BaX19HZ25yelUtd0U3bG9HLU1RWFNpTktaeVk0?oc=5",
+                     "source":  "네이트",
+                     "published":  "2026-07-16 16:00"
+                 },
+                 {
+                     "title":  "Won-dollar exchange rate falls to the 1,450-won range, with the key variable being ‘Middle East war’ - 경향신문",
+                     "link":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9GOENPTnVsSlNEa09jRGtXVkVjbjR3SDh0LS1hMzMzZDNmTFlaZVJOQUpiVmxjcUZON3F2aGtBM0dHTXJlR3FER3NPNU9YVnU2aTBCeUltR2E4Ui1xa2c?oc=5",
+                     "source":  "경향신문",
+                     "published":  "2026-07-26 16:00"
                  }
              ]
 }
