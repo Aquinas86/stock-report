@@ -1,5 +1,5 @@
 ﻿{
-    "updatedAt":  "2026-09-26 16:00:05 +09:00",
+    "updatedAt":  "2026-09-27 16:00:04 +09:00",
     "targetBusinessDate":  "2026-09-23",
     "marketSource":  "Yahoo Finance",
     "newsSource":  "Google News RSS",
@@ -62,7 +62,7 @@
                          "change":  -13,
                          "changePercent":  -0.95,
                          "digits":  1,
-                         "asOf":  "2026-09-26",
+                         "asOf":  "2026-09-27",
                          "source":  "Yahoo Finance"
                      },
                      {
@@ -122,16 +122,16 @@
                      "published":  "2026-09-04 16:00"
                  },
                  {
+                     "title":  "Won-dollar exchange rate falls to the 1,450-won range, with the key variable being ‘Middle East war’ - 경향신문",
+                     "link":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9GOENPTnVsSlNEa09jRGtXVkVjbjR3SDh0LS1hMzMzZDNmTFlaZVJOQUpiVmxjcUZON3F2aGtBM0dHTXJlR3FER3NPNU9YVnU2aTBCeUltR2E4Ui1xa2c?oc=5",
+                     "source":  "경향신문",
+                     "published":  "2026-07-26 16:00"
+                 },
+                 {
                      "title":  "Is KOSPI party over, or moving to Wall Street? - 네이트",
                      "link":  "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBONXQ5SkZMSU9mNy11ZUwxdGZ3c3Zhd01YMXA5M3B5UzhHWkRNOXEzcExkdU1CTWpkeHc5ZTFHUS1oUERNc3VLbjc3R2JfOFQ3Uld5dmNRWGM2UHRDSkxxNQ?oc=5",
                      "source":  "네이트",
                      "published":  "2026-08-28 17:06"
-                 },
-                 {
-                     "title":  "“Could it rise again in August?”···With the Bank of Korea tightening the reins, is the curtain rising again on the era of ‘high-interest deposits’? - 경향신문",
-                     "link":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBsT3BDc3hqWFhXZjQ4aEdHbEdCYW9Pc1J3MDRLeHRHbWNRMFhKNEJYZmR5X3pMV0hzMGVBMXg1a3VINTg3MDA4b05NVzR6UjVHQ1hwd2FmVFA1ajktemc?oc=5",
-                     "source":  "경향신문",
-                     "published":  "2026-07-17 16:00"
                  },
                  {
                      "title":  "\"Avoiding Korean Stocks... Once Shining, South Korea\u0027s Market Now Lags as an Investment Destination\" - asiae.co.kr",
@@ -170,10 +170,10 @@
                      "published":  "2026-08-05 16:00"
                  },
                  {
-                     "title":  "KOSPI plunges 8%, circuit breaker triggered···trading halted for 20 minutes - 경향신문",
-                     "link":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTE05Q3A5cDFOa21URTBULUtLTi0wQUYtUXQ1UXMzWmRmZUJRekZyQldobzMxUER4TGxrWTZQRnVxeWU0M0F3aDFQYXZfdGE3c1hXNFd3RXk5eXlmb284SVE?oc=5",
+                     "title":  "“Could it rise again in August?”···With the Bank of Korea tightening the reins, is the curtain rising again on the era of ‘high-interest deposits’? - 경향신문",
+                     "link":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBsT3BDc3hqWFhXZjQ4aEdHbEdCYW9Pc1J3MDRLeHRHbWNRMFhKNEJYZmR5X3pMV0hzMGVBMXg1a3VINTg3MDA4b05NVzR6UjVHQ1hwd2FmVFA1ajktemc?oc=5",
                      "source":  "경향신문",
-                     "published":  "2026-03-09 16:00"
+                     "published":  "2026-07-17 16:00"
                  },
                  {
                      "title":  "Pessimists Cheer the \u0027Circuit Breaker\u0027... This Time, Warnings of \"Ominous Signs\" for KOSPI - asiae.co.kr",
