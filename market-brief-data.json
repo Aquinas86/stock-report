@@ -1,5 +1,5 @@
 ﻿{
-    "updatedAt":  "2026-09-27 16:00:04 +09:00",
+    "updatedAt":  "2026-09-28 16:00:07 +09:00",
     "targetBusinessDate":  "2026-09-23",
     "marketSource":  "Yahoo Finance",
     "newsSource":  "Google News RSS",
@@ -58,21 +58,21 @@
                      {
                          "label":  "USD/KRW",
                          "symbol":  "USDKRW=X",
-                         "price":  1354.4,
-                         "change":  -13,
-                         "changePercent":  -0.95,
+                         "price":  1362.6,
+                         "change":  -4.8,
+                         "changePercent":  -0.35,
                          "digits":  1,
-                         "asOf":  "2026-09-27",
+                         "asOf":  "2026-09-28",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "WTI",
                          "symbol":  "CL=F",
-                         "price":  92.41,
-                         "change":  -2.2,
-                         "changePercent":  -2.33,
+                         "price":  93.7,
+                         "change":  1.29,
+                         "changePercent":  1.4,
                          "digits":  2,
-                         "asOf":  "2026-09-25",
+                         "asOf":  "2026-09-28",
                          "source":  "Yahoo Finance"
                      }
                  ],
@@ -99,20 +99,20 @@
                         "badge":  "FX",
                         "tone":  "positive",
                         "title":  "USD/KRW direction",
-                        "body":  "USD/KRW changed -0.95% in the latest session. A stronger dollar can pressure foreign flows and import-cost-sensitive sectors."
+                        "body":  "USD/KRW changed -0.35% in the latest session. A stronger dollar can pressure foreign flows and import-cost-sensitive sectors."
                     },
                     {
                         "badge":  "Oil",
-                        "tone":  "positive",
+                        "tone":  "watch",
                         "title":  "WTI crude oil",
-                        "body":  "WTI changed -2.33% in the latest session. Check airlines, chemicals, refiners and logistics names."
+                        "body":  "WTI changed 1.4% in the latest session. Check airlines, chemicals, refiners and logistics names."
                     }
                 ],
     "news":  [
                  {
-                     "title":  "Korean Retail Investors Return to U.S. Stocks as Won Weakens Against Dollar - 알파경제",
+                     "title":  "Korean Retail Investors Return to U.S. Stocks as Won Weakens Against Dollar - alphabiz.co.kr",
                      "link":  "https://news.google.com/rss/articles/CBMibkFVX3lxTE90OTZ6N0hneG9jTi12N01sOEFxZUd0enZLMEpvQUVzX19jYUkydEU5MnpQbXRpb0t4Q01XSlNDVE9YNlhNUUtjanVnRFVZbWNRRmJ0bGxpYVFxS1Y3NXowWkFMQzRvRXlHWENIald3?oc=5",
-                     "source":  "알파경제",
+                     "source":  "alphabiz.co.kr",
                      "published":  "2026-09-22 06:00"
                  },
                  {
@@ -134,9 +134,9 @@
                      "published":  "2026-08-28 17:06"
                  },
                  {
-                     "title":  "\"Avoiding Korean Stocks... Once Shining, South Korea\u0027s Market Now Lags as an Investment Destination\" - asiae.co.kr",
+                     "title":  "\"Avoiding Korean Stocks... Once Shining, South Korea\u0027s Market Now Lags as an Investment Destination\" - 아시아경제",
                      "link":  "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBhUXQ3TnpOWkhVTmlWc2NwZGJyMWdhMzJvc082WExnQlIya0M3NVBSazNES0Q2SmxfYnMzZGgzV0VNTDBqWGFpbUZ3eWFaWWlWcDhLZko1Tlhib3hKM1B1T1JzMng?oc=5",
-                     "source":  "asiae.co.kr",
+                     "source":  "아시아경제",
                      "published":  "2026-03-31 16:00"
                  },
                  {
@@ -158,15 +158,15 @@
                      "published":  "2026-07-29 16:00"
                  },
                  {
-                     "title":  "NVIDIA Earnings, Warsh Speech to Decide KOSPI\u0027s Direction - 조선일보",
+                     "title":  "NVIDIA Earnings, Warsh Speech to Decide KOSPI\u0027s Direction - chosun.com",
                      "link":  "https://news.google.com/rss/articles/CBMijgFBVV95cUxNY2VEYUJVZnBnb2g3SFIxRndLZDc0SHd1cTNacGVGZDFFdGs3U2lLb3ExY2t3NlBIYXJxck9KSDlFS2M4cExoTlRLRGZnSmdJbWNJaUtjZC1xNC0xUFg3aTg3VXQxYS1NQUJVLW9faGtpMlN2bDAzZ3JnMFllLThVQkpXdDd5N2hmNUJmbFp3?oc=5",
-                     "source":  "조선일보",
+                     "source":  "chosun.com",
                      "published":  "2026-08-26 16:00"
                  },
                  {
-                     "title":  "KRX Raises August Margin Requirements for KOSPI 200, KOSDAQ 150 and Samsung Electronics Derivatives - 알파경제",
+                     "title":  "KRX Raises August Margin Requirements for KOSPI 200, KOSDAQ 150 and Samsung Electronics Derivatives - alphabiz.co.kr",
                      "link":  "https://news.google.com/rss/articles/CBMibkFVX3lxTE5SWmxISDFBYVlBUDliWTVsdlIwMTZLVnllY0U0RWM5cVFLS3Yyckx1c2FrVGxzU1hETE11UzV5bHJrZGMxYS16MXVHU2M0STIyRnBFR0JwMmxiT2xMemFpdXNlOGdQbi01Tm8zRENR?oc=5",
-                     "source":  "알파경제",
+                     "source":  "alphabiz.co.kr",
                      "published":  "2026-08-05 16:00"
                  },
                  {
@@ -176,9 +176,9 @@
                      "published":  "2026-07-17 16:00"
                  },
                  {
-                     "title":  "Pessimists Cheer the \u0027Circuit Breaker\u0027... This Time, Warnings of \"Ominous Signs\" for KOSPI - asiae.co.kr",
+                     "title":  "Pessimists Cheer the \u0027Circuit Breaker\u0027... This Time, Warnings of \"Ominous Signs\" for KOSPI - 아시아경제",
                      "link":  "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBqcXFNX3VCc2c2M2Z1WTdFMkVKeVVmMkxDYzVtQnpKcWtqWEQ2TF9kSGxEV0FndElhU1ZFM0ZwWkhXS1FCaXE1LUduMzIxNzljNFJ3NUVYN3dmZWVtZkJKa1hwanE?oc=5",
-                     "source":  "asiae.co.kr",
+                     "source":  "아시아경제",
                      "published":  "2026-03-06 17:00"
                  }
              ]
