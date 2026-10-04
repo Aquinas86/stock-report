@@ -1,5 +1,5 @@
 ﻿{
-    "updatedAt":  "2026-10-03 16:00:07 +09:00",
+    "updatedAt":  "2026-10-04 16:00:04 +09:00",
     "targetBusinessDate":  "2026-10-02",
     "marketSource":  "Yahoo Finance",
     "newsSource":  "Google News RSS",
@@ -110,9 +110,9 @@
                 ],
     "news":  [
                  {
-                     "title":  "The Two Faces of the Semiconductor Boom: Fueling Stock Market Volatility and Driving Housing Demand - 아시아경제",
+                     "title":  "The Two Faces of the Semiconductor Boom: Fueling Stock Market Volatility and Driving Housing Demand - asiae.co.kr",
                      "link":  "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBteC1TRy1JdlRTeDduR0lsUVVlUlV0OC1nSW84M3J1cXBhZHdZVkdORXRycVFQLWNzd01kcnhScEJyajBKS0twZ0dhWGRaM0FQVzBKU1dzQjRvTC1MSGk0RG82N3M?oc=5",
-                     "source":  "아시아경제",
+                     "source":  "asiae.co.kr",
                      "published":  "2026-09-11 16:00"
                  },
                  {
@@ -134,16 +134,16 @@
                      "published":  "2026-09-12 15:23"
                  },
                  {
-                     "title":  "Won-dollar exchange rate falls to the 1,450-won range, with the key variable being ‘Middle East war’ - 경향신문",
-                     "link":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9GOENPTnVsSlNEa09jRGtXVkVjbjR3SDh0LS1hMzMzZDNmTFlaZVJOQUpiVmxjcUZON3F2aGtBM0dHTXJlR3FER3NPNU9YVnU2aTBCeUltR2E4Ui1xa2c?oc=5",
-                     "source":  "경향신문",
-                     "published":  "2026-07-26 16:00"
-                 },
-                 {
                      "title":  "Is KOSPI party over, or moving to Wall Street? - 네이트",
                      "link":  "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBONXQ5SkZMSU9mNy11ZUwxdGZ3c3Zhd01YMXA5M3B5UzhHWkRNOXEzcExkdU1CTWpkeHc5ZTFHUS1oUERNc3VLbjc3R2JfOFQ3Uld5dmNRWGM2UHRDSkxxNQ?oc=5",
                      "source":  "네이트",
                      "published":  "2026-08-28 17:06"
+                 },
+                 {
+                     "title":  "“Could it rise again in August?”···With the Bank of Korea tightening the reins, is the curtain rising again on the era of ‘high-interest deposits’? - 경향신문",
+                     "link":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBsT3BDc3hqWFhXZjQ4aEdHbEdCYW9Pc1J3MDRLeHRHbWNRMFhKNEJYZmR5X3pMV0hzMGVBMXg1a3VINTg3MDA4b05NVzR6UjVHQ1hwd2FmVFA1ajktemc?oc=5",
+                     "source":  "경향신문",
+                     "published":  "2026-07-17 16:00"
                  },
                  {
                      "title":  "정부, MSCI 선진국지수 추진···7월 외환시장 24시간 개방 - Korea.net",
@@ -158,16 +158,16 @@
                      "published":  "2026-06-26 16:00"
                  },
                  {
+                     "title":  "트럼프發 관세 폭탄 속 반도체 ‘110조 주주환원’ 증시 구원투수 등판 - 브레이크뉴스",
+                     "link":  "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9MSmFNdFY1VU5KV3R2X1FhdFdZOEIydTdxVllxRmJrOEotdVRiZHZMVkxQUG5TQzRwVTFnVWw4QzFZTjN3QWZ3eA?oc=5",
+                     "source":  "브레이크뉴스",
+                     "published":  "2026-08-22 16:00"
+                 },
+                 {
                      "title":  "NVIDIA Earnings, Warsh Speech to Decide KOSPI\u0027s Direction - 조선일보",
                      "link":  "https://news.google.com/rss/articles/CBMijgFBVV95cUxNY2VEYUJVZnBnb2g3SFIxRndLZDc0SHd1cTNacGVGZDFFdGs3U2lLb3ExY2t3NlBIYXJxck9KSDlFS2M4cExoTlRLRGZnSmdJbWNJaUtjZC1xNC0xUFg3aTg3VXQxYS1NQUJVLW9faGtpMlN2bDAzZ3JnMFllLThVQkpXdDd5N2hmNUJmbFp3?oc=5",
                      "source":  "조선일보",
                      "published":  "2026-08-26 16:00"
-                 },
-                 {
-                     "title":  "변동성 커진 한국 증시…금융위 규제에 야당+시민단체 “졸속·미봉책” - 브레이크뉴스",
-                     "link":  "https://news.google.com/rss/articles/CBMiSEFVX3lxTE80bGF0ZVJISEs4bGM5VG5naHI3Q0RtUGhsdkRlbHBqeHZWajRQazVJaXY5NGRZWHRKZ3p3ZHFZYmw3M1J2VnJmag?oc=5",
-                     "source":  "브레이크뉴스",
-                     "published":  "2026-07-18 16:00"
                  },
                  {
                      "title":  "Policy failure is behind roller coaster market (KOR) - Korea JoongAng Daily",
