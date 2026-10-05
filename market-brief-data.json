@@ -1,5 +1,5 @@
 ﻿{
-    "updatedAt":  "2026-10-04 16:00:04 +09:00",
+    "updatedAt":  "2026-10-05 16:00:05 +09:00",
     "targetBusinessDate":  "2026-10-02",
     "marketSource":  "Yahoo Finance",
     "newsSource":  "Google News RSS",
@@ -58,21 +58,21 @@
                      {
                          "label":  "USD/KRW",
                          "symbol":  "USDKRW=X",
-                         "price":  1342.5,
-                         "change":  -18.1,
-                         "changePercent":  -1.33,
+                         "price":  1344.3,
+                         "change":  -16.2,
+                         "changePercent":  -1.19,
                          "digits":  1,
-                         "asOf":  "2026-10-03",
+                         "asOf":  "2026-10-05",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "WTI",
                          "symbol":  "CL=F",
-                         "price":  91.11,
-                         "change":  -1.76,
-                         "changePercent":  -1.9,
+                         "price":  90.16,
+                         "change":  -0.95,
+                         "changePercent":  -1.04,
                          "digits":  2,
-                         "asOf":  "2026-10-02",
+                         "asOf":  "2026-10-05",
                          "source":  "Yahoo Finance"
                      }
                  ],
@@ -99,20 +99,26 @@
                         "badge":  "FX",
                         "tone":  "positive",
                         "title":  "USD/KRW direction",
-                        "body":  "USD/KRW changed -1.33% in the latest session. A stronger dollar can pressure foreign flows and import-cost-sensitive sectors."
+                        "body":  "USD/KRW changed -1.19% in the latest session. A stronger dollar can pressure foreign flows and import-cost-sensitive sectors."
                     },
                     {
                         "badge":  "Oil",
                         "tone":  "positive",
                         "title":  "WTI crude oil",
-                        "body":  "WTI changed -1.9% in the latest session. Check airlines, chemicals, refiners and logistics names."
+                        "body":  "WTI changed -1.04% in the latest session. Check airlines, chemicals, refiners and logistics names."
                     }
                 ],
     "news":  [
                  {
-                     "title":  "The Two Faces of the Semiconductor Boom: Fueling Stock Market Volatility and Driving Housing Demand - asiae.co.kr",
+                     "title":  "\u0027트럼프 배당금\u0027 뭇매…고금리·고유가 속 한국증시 \u00277천피\u0027 안간힘 - 브레이크뉴스",
+                     "link":  "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBqOThrYWJfakJtU2pxMS1pekRlanlfUXU4dGd1RlBfYlE0YjJveHg3N3NEdjduM1dzVmFyNzgtVjl5WjZfZmFLdg?oc=5",
+                     "source":  "브레이크뉴스",
+                     "published":  "2026-10-05 01:37"
+                 },
+                 {
+                     "title":  "The Two Faces of the Semiconductor Boom: Fueling Stock Market Volatility and Driving Housing Demand - 아시아경제",
                      "link":  "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBteC1TRy1JdlRTeDduR0lsUVVlUlV0OC1nSW84M3J1cXBhZHdZVkdORXRycVFQLWNzd01kcnhScEJyajBKS0twZ0dhWGRaM0FQVzBKU1dzQjRvTC1MSGk0RG82N3M?oc=5",
-                     "source":  "asiae.co.kr",
+                     "source":  "아시아경제",
                      "published":  "2026-09-11 16:00"
                  },
                  {
@@ -140,28 +146,16 @@
                      "published":  "2026-08-28 17:06"
                  },
                  {
-                     "title":  "“Could it rise again in August?”···With the Bank of Korea tightening the reins, is the curtain rising again on the era of ‘high-interest deposits’? - 경향신문",
-                     "link":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBsT3BDc3hqWFhXZjQ4aEdHbEdCYW9Pc1J3MDRLeHRHbWNRMFhKNEJYZmR5X3pMV0hzMGVBMXg1a3VINTg3MDA4b05NVzR6UjVHQ1hwd2FmVFA1ajktemc?oc=5",
+                     "title":  "‘Manspi’ was just within reach··Volatile financial markets, exchange rate in the 1,500-won range, KOSPI barely hanging on at 7,200 - 경향신문",
+                     "link":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9abjBKV25tZklkaE9BaGVHWERBMXZhZEU5My1BdjBsZlExcjlEWU16ZGZXVkJtNElYeXRwSU1PT2VEeU9EU2ZkTWxUQjBZMDEtLU56YkREZVJidVhkRWc?oc=5",
                      "source":  "경향신문",
-                     "published":  "2026-07-17 16:00"
+                     "published":  "2026-05-20 16:00"
                  },
                  {
                      "title":  "정부, MSCI 선진국지수 추진···7월 외환시장 24시간 개방 - Korea.net",
                      "link":  "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOFJZX3NvWXdaLUtSVUVQYUFoaWljeXBFMXlxRi1xQ29jdXBUbTQwVUlMZGtPbDRnb18yU3NubVZScnhLU0d2SzFETm00U0lpMGZvTFNfNUxfYUkyemZpVmJzb2RSYXN6WTZVbEZhSGgxOGRCLVpYMXRodXlteGl0b0VkVkQ?oc=5",
                      "source":  "Korea.net",
                      "published":  "2026-01-12 17:00"
-                 },
-                 {
-                     "title":  "Global rate reset 세계적인 금리 재설정 - The Korea Herald",
-                     "link":  "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBDa0lHZk1jMmVnWUhVa0g4WFYzYnZnTWQ1TFg2QkdPR0tiNEFzdElzckh4WUpMMlk2bi11SVJBazl3WVVKTndCU1hXeUpCM1NSUVRRaWRsWQ?oc=5",
-                     "source":  "The Korea Herald",
-                     "published":  "2026-06-26 16:00"
-                 },
-                 {
-                     "title":  "트럼프發 관세 폭탄 속 반도체 ‘110조 주주환원’ 증시 구원투수 등판 - 브레이크뉴스",
-                     "link":  "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9MSmFNdFY1VU5KV3R2X1FhdFdZOEIydTdxVllxRmJrOEotdVRiZHZMVkxQUG5TQzRwVTFnVWw4QzFZTjN3QWZ3eA?oc=5",
-                     "source":  "브레이크뉴스",
-                     "published":  "2026-08-22 16:00"
                  },
                  {
                      "title":  "NVIDIA Earnings, Warsh Speech to Decide KOSPI\u0027s Direction - 조선일보",
@@ -180,6 +174,12 @@
                      "link":  "https://news.google.com/rss/articles/CBMibkFVX3lxTE5SWmxISDFBYVlBUDliWTVsdlIwMTZLVnllY0U0RWM5cVFLS3Yyckx1c2FrVGxzU1hETE11UzV5bHJrZGMxYS16MXVHU2M0STIyRnBFR0JwMmxiT2xMemFpdXNlOGdQbi01Tm8zRENR?oc=5",
                      "source":  "알파경제",
                      "published":  "2026-08-05 16:00"
+                 },
+                 {
+                     "title":  "Pessimists Cheer the \u0027Circuit Breaker\u0027... This Time, Warnings of \"Ominous Signs\" for KOSPI - 아시아경제",
+                     "link":  "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBqcXFNX3VCc2c2M2Z1WTdFMkVKeVVmMkxDYzVtQnpKcWtqWEQ2TF9kSGxEV0FndElhU1ZFM0ZwWkhXS1FCaXE1LUduMzIxNzljNFJ3NUVYN3dmZWVtZkJKa1hwanE?oc=5",
+                     "source":  "아시아경제",
+                     "published":  "2026-03-06 17:00"
                  }
              ]
 }
