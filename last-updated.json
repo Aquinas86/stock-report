@@ -1,6 +1,6 @@
 ﻿{
-    "updatedAt":  "2026-10-08 16:00:15 +09:00",
-    "targetBusinessDate":  "2026-10-07",
+    "updatedAt":  "2026-10-09 16:00:15 +09:00",
+    "targetBusinessDate":  "2026-10-08",
     "excludedRule":  "Korean weekends and public holidays",
     "sourceSheet":  "https://docs.google.com/spreadsheets/d/1cWdydzWsSSZE2ySlBSkD4FxGZdHp2Z63SLO0caNqSio/edit?gid=0#gid=0",
     "holidaySource":  "https://date.nager.at/api/v3/PublicHolidays"
