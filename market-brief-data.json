@@ -1,6 +1,6 @@
 ﻿{
-    "updatedAt":  "2026-11-20 16:00:04 +09:00",
-    "targetBusinessDate":  "2026-11-19",
+    "updatedAt":  "2026-11-21 16:05:03 +09:00",
+    "targetBusinessDate":  "2026-11-20",
     "marketSource":  "Yahoo Finance",
     "newsSource":  "Google News RSS",
     "holidaySource":  "Nager.Date KR public holidays",
@@ -8,112 +8,90 @@
                      {
                          "label":  "S\u0026P 500",
                          "symbol":  "^GSPC",
-                         "price":  7175.83,
-                         "change":  -147.8,
-                         "changePercent":  -2.02,
+                         "price":  null,
+                         "change":  null,
+                         "changePercent":  null,
                          "digits":  2,
-                         "asOf":  "2026-11-19",
-                         "source":  "Yahoo Finance"
+                         "asOf":  "",
+                         "source":  "Yahoo Finance",
+                         "error":  "작업 시간을 초과했습니다."
                      },
                      {
                          "label":  "Nasdaq",
                          "symbol":  "^IXIC",
-                         "price":  23879.2,
-                         "change":  -550.68,
-                         "changePercent":  -2.25,
+                         "price":  null,
+                         "change":  null,
+                         "changePercent":  null,
                          "digits":  2,
-                         "asOf":  "2026-11-19",
-                         "source":  "Yahoo Finance"
+                         "asOf":  "",
+                         "source":  "Yahoo Finance",
+                         "error":  "작업 시간을 초과했습니다."
                      },
                      {
                          "label":  "Dow",
                          "symbol":  "^DJI",
-                         "price":  49097.06,
-                         "change":  -1101.11,
-                         "changePercent":  -2.19,
+                         "price":  null,
+                         "change":  null,
+                         "changePercent":  null,
                          "digits":  2,
-                         "asOf":  "2026-11-19",
-                         "source":  "Yahoo Finance"
+                         "asOf":  "",
+                         "source":  "Yahoo Finance",
+                         "error":  "작업 시간을 초과했습니다."
                      },
                      {
                          "label":  "SOX",
                          "symbol":  "^SOX",
-                         "price":  9419.72,
-                         "change":  -233.08,
-                         "changePercent":  -2.41,
+                         "price":  null,
+                         "change":  null,
+                         "changePercent":  null,
                          "digits":  2,
-                         "asOf":  "2026-11-19",
-                         "source":  "Yahoo Finance"
+                         "asOf":  "",
+                         "source":  "Yahoo Finance",
+                         "error":  "작업 시간을 초과했습니다."
                      },
                      {
                          "label":  "VIX",
                          "symbol":  "^VIX",
-                         "price":  28.44,
-                         "change":  3.88,
-                         "changePercent":  15.8,
+                         "price":  null,
+                         "change":  null,
+                         "changePercent":  null,
                          "digits":  2,
-                         "asOf":  "2026-11-19",
-                         "source":  "Yahoo Finance"
+                         "asOf":  "",
+                         "source":  "Yahoo Finance",
+                         "error":  "작업 시간을 초과했습니다."
                      },
                      {
                          "label":  "USD/KRW",
                          "symbol":  "USDKRW=X",
-                         "price":  1336.1,
-                         "change":  5.7,
-                         "changePercent":  0.43,
+                         "price":  null,
+                         "change":  null,
+                         "changePercent":  null,
                          "digits":  1,
-                         "asOf":  "2026-11-20",
-                         "source":  "Yahoo Finance"
+                         "asOf":  "",
+                         "source":  "Yahoo Finance",
+                         "error":  "작업 시간을 초과했습니다."
                      },
                      {
                          "label":  "WTI",
                          "symbol":  "CL=F",
-                         "price":  82.88,
-                         "change":  -0.33,
-                         "changePercent":  -0.4,
+                         "price":  null,
+                         "change":  null,
+                         "changePercent":  null,
                          "digits":  2,
-                         "asOf":  "2026-11-20",
-                         "source":  "Yahoo Finance"
+                         "asOf":  "",
+                         "source":  "Yahoo Finance",
+                         "error":  "작업 시간을 초과했습니다."
                      }
                  ],
     "signals":  [
-                    {
-                        "badge":  "US",
-                        "tone":  "negative",
-                        "title":  "Nasdaq trend check",
-                        "body":  "Nasdaq changed -2.25% in the latest session. This can affect growth, AI and semiconductor themes at the Korean open."
-                    },
-                    {
-                        "badge":  "Semi",
-                        "tone":  "negative",
-                        "title":  "Philadelphia Semiconductor Index",
-                        "body":  "SOX changed -2.41% in the latest session. Korean semiconductor equipment, materials and HBM names are sensitive to this."
-                    },
-                    {
-                        "badge":  "Risk",
-                        "tone":  "negative",
-                        "title":  "VIX risk appetite",
-                        "body":  "VIX is 28.44. Above 20 usually points to risk-off pressure; below 14 usually points to stronger risk appetite."
-                    },
-                    {
-                        "badge":  "FX",
-                        "tone":  "watch",
-                        "title":  "USD/KRW direction",
-                        "body":  "USD/KRW changed 0.43% in the latest session. A stronger dollar can pressure foreign flows and import-cost-sensitive sectors."
-                    },
-                    {
-                        "badge":  "Oil",
-                        "tone":  "watch",
-                        "title":  "WTI crude oil",
-                        "body":  "WTI changed -0.4% in the latest session. Check airlines, chemicals, refiners and logistics names."
-                    }
+
                 ],
     "news":  [
                  {
                      "title":  "News RSS could not be loaded",
                      "link":  "https://news.google.com/",
                      "source":  "Google News",
-                     "published":  "2026-11-20 16:00"
+                     "published":  "2026-11-21 16:05"
                  }
              ]
 }
