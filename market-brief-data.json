@@ -1,5 +1,5 @@
 ﻿{
-    "updatedAt":  "2026-11-22 16:00:06 +09:00",
+    "updatedAt":  "2026-11-23 16:00:04 +09:00",
     "targetBusinessDate":  "2026-11-20",
     "marketSource":  "Yahoo Finance",
     "newsSource":  "Google News RSS",
@@ -58,21 +58,21 @@
                      {
                          "label":  "USD/KRW",
                          "symbol":  "USDKRW=X",
-                         "price":  1337.8,
-                         "change":  3,
-                         "changePercent":  0.23,
+                         "price":  1344.2,
+                         "change":  9.4,
+                         "changePercent":  0.7,
                          "digits":  1,
-                         "asOf":  "2026-11-22",
+                         "asOf":  "2026-11-23",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "WTI",
                          "symbol":  "CL=F",
-                         "price":  83.41,
-                         "change":  0.2,
-                         "changePercent":  0.24,
+                         "price":  83.24,
+                         "change":  -0.74,
+                         "changePercent":  -0.88,
                          "digits":  2,
-                         "asOf":  "2026-11-20",
+                         "asOf":  "2026-11-23",
                          "source":  "Yahoo Finance"
                      }
                  ],
@@ -99,16 +99,22 @@
                         "badge":  "FX",
                         "tone":  "watch",
                         "title":  "USD/KRW direction",
-                        "body":  "USD/KRW changed 0.23% in the latest session. A stronger dollar can pressure foreign flows and import-cost-sensitive sectors."
+                        "body":  "USD/KRW changed 0.7% in the latest session. A stronger dollar can pressure foreign flows and import-cost-sensitive sectors."
                     },
                     {
                         "badge":  "Oil",
                         "tone":  "watch",
                         "title":  "WTI crude oil",
-                        "body":  "WTI changed 0.24% in the latest session. Check airlines, chemicals, refiners and logistics names."
+                        "body":  "WTI changed -0.88% in the latest session. Check airlines, chemicals, refiners and logistics names."
                     }
                 ],
     "news":  [
+                 {
+                     "title":  "Samsung Electronics, SK hynix fall as U.S. tech sell-off rattles market - 매일경제",
+                     "link":  "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1LOGdDbTFYSTFWc2FOZllyMHJObXNLVUdIWmtBN1FCS2JzS0pPczdydGF0UVhwbTF2MkdpdVVGejVjNS1LVkR6a3k1X2VEeEs0NTR3?oc=5",
+                     "source":  "매일경제",
+                     "published":  "2026-11-23 11:54"
+                 },
                  {
                      "title":  "Korean Financial Groups See Limited Stock Market Recovery, Further Won Strength - 알파경제",
                      "link":  "https://news.google.com/rss/articles/CBMibkFVX3lxTE5kYU5MS056MlF0TWYxZjhoeDhoVko0WW5rdnY0dUp4WVh2SnZtYTJ6blV3UkhiNEdobzVqSlI5WEgwTUkyM29UMXdNZFNQbW9nR2Z1TmFKei0takJjX09DZHZPak50c3NaV0xUMkF3?oc=5",
@@ -134,22 +140,16 @@
                      "published":  "2026-10-16 16:00"
                  },
                  {
-                     "title":  "[Park Su-jin\u0027s Money Watch] KOSPI Ends Higher Despite U.S. Federal Reserve Rate Increase - 뉴스워치",
-                     "link":  "https://news.google.com/rss/articles/CBMiakFVX3lxTE5RMFZ3cEhXYkFQa3N2eFh3ZnpiVG9OaF9QN2hUN1I0UlItb2h3QmdqZU41dEozMXF5Y0l6REN3TDVoVmthTks4MTJoQ1I0WDdlaHRFZmJVbWZQdTdiY1FLVHQtOGs5Zm1SbUE?oc=5",
-                     "source":  "뉴스워치",
-                     "published":  "2026-09-18 16:00"
-                 },
-                 {
                      "title":  "South Korea’s Stock Market Plunges as President Lee Marks 500 Days in Office - 최보식의언론",
                      "link":  "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1LZ1B0clhRelR5LWhNVWJaZElwM0Q1aHlLaXpORGoxZVQwT3ZiRWRzNFdKQzJXZ2pteGpSRjJXZUhxMjRRZG5rV05ZaFIyMkhZVUk3X0RYdFJqWDJPQmljN0ZrMm7SAWhBVV95cUxOaWxMdUgyMFBRN1JtRVEyWE92SzVZV0FyclpPb0ktWG9welVOMHkyalQ3aWRzWDZ4cV9Rd2h2enBxanM1cnQ4cGxMWDlVUzIxaFJlczBQN1ZRR1VFem5RazBzTUNBa193bA?oc=5",
                      "source":  "최보식의언론",
                      "published":  "2026-10-17 16:00"
                  },
                  {
-                     "title":  "AI is lifting markets, but concentration risk is growing - Korea JoongAng Daily",
-                     "link":  "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbkNwUGZfVkVISjhHVC15dFFReHplZ09UVUt6aG5xYnljckhfcjBaQjlqOE1OQ1E0U2JzM20xUXU2bjh1LVFhY3NSd0ZET3diZlYyZEJEQnFBMFV5eUdEcXN1VUxyUU9IMWdOWDkzS1d4U3RwQTR5V05zZjFrc3ZoQW8zWXV1U0Y1X2c2TkJHVjZJcl9CSUpndGtQYWl2RW5PZnVuVy1pemtncDJuZHBob1RIdTVVb3c?oc=5",
-                     "source":  "Korea JoongAng Daily",
-                     "published":  "2026-10-16 16:00"
+                     "title":  "[Park Su-jin\u0027s Money Watch] KOSPI Ends Higher Despite U.S. Federal Reserve Rate Increase - 뉴스워치",
+                     "link":  "https://news.google.com/rss/articles/CBMiakFVX3lxTE5RMFZ3cEhXYkFQa3N2eFh3ZnpiVG9OaF9QN2hUN1I0UlItb2h3QmdqZU41dEozMXF5Y0l6REN3TDVoVmthTks4MTJoQ1I0WDdlaHRFZmJVbWZQdTdiY1FLVHQtOGs5Zm1SbUE?oc=5",
+                     "source":  "뉴스워치",
+                     "published":  "2026-09-18 16:00"
                  },
                  {
                      "title":  "정부, MSCI 선진국지수 추진···7월 외환시장 24시간 개방 - Korea.net",
@@ -158,16 +158,16 @@
                      "published":  "2026-01-12 17:00"
                  },
                  {
+                     "title":  "Policy failure is behind roller coaster market (KOR) - Korea JoongAng Daily",
+                     "link":  "https://news.google.com/rss/articles/CBMirgFBVV95cUxOU1FZUHVCNF9seC1RalRRbGVIT2YxcTNXWUpMOEk4WXdmMDR5UldIWVpxMkdTN2l0Yk5NOGRiQ2R4RWlyRVpubTZCMWNPcFg1RmthWkNfVF90Y3V6a3FoNFQ5Y1ZLOVlDeVRzTWhTQ1pSZHlQbVN1ZFNoRnZVSUt5X1o4QWxMblVBM2l4V05OUnBnV2JZUDV3dl9XclJNWlBzV3hCcVdfTEhyU181VEE?oc=5",
+                     "source":  "Korea JoongAng Daily",
+                     "published":  "2026-07-29 16:00"
+                 },
+                 {
                      "title":  "South Korean Retail Investors Shift $7 Billion Into Bonds as Stock Market Slumps Nearly 30% - 알파경제",
                      "link":  "https://news.google.com/rss/articles/CBMibkFVX3lxTE45RWpmRjUzVW9FQmpPM0JDUHVZMmFhaW1ZOGh1V0xkck16Umw2N3pyRXJUcjB0VFJnTHJHazhWc3pXdC16SmhFaDU4LWk2WjF3TXMwVWlRaTZSUFQtc1hscHU0dE9GWFNyU0MzTlh3?oc=5",
                      "source":  "알파경제",
                      "published":  "2026-10-14 16:00"
-                 },
-                 {
-                     "title":  "Can the government really beat the market? - Korea JoongAng Daily",
-                     "link":  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONnFObmN5akxQNjZYdU9LMGJFenZKdTQtN1RWb0FpQ1RNRl9QbTZGanQ0NjVHX3E3X280S2E2TGllRmxuTDl0MGdrbGI4Tk9SZG02OThtVEx1WTVOdGZQNmFIN2RTbWg4dzZySFpzUXg3dGg1a3p3OWc5UndxLW42dHRlcDA2RGdvaklNSGdveDRfTkdxb2ZJM0JBQ0xHVXRreXUwN1BNOEdOQlU?oc=5",
-                     "source":  "Korea JoongAng Daily",
-                     "published":  "2026-09-04 16:00"
                  },
                  {
                      "title":  "KOSPI plunges 8%, circuit breaker triggered···trading halted for 20 minutes - 경향신문",
@@ -176,10 +176,10 @@
                      "published":  "2026-03-09 16:00"
                  },
                  {
-                     "title":  "Korean Retail Investors Return to U.S. Stocks as Won Weakens Against Dollar - 알파경제",
-                     "link":  "https://news.google.com/rss/articles/CBMibkFVX3lxTE90OTZ6N0hneG9jTi12N01sOEFxZUd0enZLMEpvQUVzX19jYUkydEU5MnpQbXRpb0t4Q01XSlNDVE9YNlhNUUtjanVnRFVZbWNRRmJ0bGxpYVFxS1Y3NXowWkFMQzRvRXlHWENIald3?oc=5",
-                     "source":  "알파경제",
-                     "published":  "2026-09-22 16:00"
+                     "title":  "Can the government really beat the market? - Korea JoongAng Daily",
+                     "link":  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONnFObmN5akxQNjZYdU9LMGJFenZKdTQtN1RWb0FpQ1RNRl9QbTZGanQ0NjVHX3E3X280S2E2TGllRmxuTDl0MGdrbGI4Tk9SZG02OThtVEx1WTVOdGZQNmFIN2RTbWg4dzZySFpzUXg3dGg1a3p3OWc5UndxLW42dHRlcDA2RGdvaklNSGdveDRfTkdxb2ZJM0JBQ0xHVXRreXUwN1BNOEdOQlU?oc=5",
+                     "source":  "Korea JoongAng Daily",
+                     "published":  "2026-09-04 16:00"
                  }
              ]
 }
