@@ -1,6 +1,6 @@
 ﻿{
-    "updatedAt":  "2026-11-23 16:00:04 +09:00",
-    "targetBusinessDate":  "2026-11-20",
+    "updatedAt":  "2026-11-24 16:00:04 +09:00",
+    "targetBusinessDate":  "2026-11-23",
     "marketSource":  "Yahoo Finance",
     "newsSource":  "Google News RSS",
     "holidaySource":  "Nager.Date KR public holidays",
@@ -8,118 +8,118 @@
                      {
                          "label":  "S\u0026P 500",
                          "symbol":  "^GSPC",
-                         "price":  6910.39,
-                         "change":  -265.44,
-                         "changePercent":  -3.7,
+                         "price":  7237.17,
+                         "change":  326.78,
+                         "changePercent":  4.73,
                          "digits":  2,
-                         "asOf":  "2026-11-20",
+                         "asOf":  "2026-11-23",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "Nasdaq",
                          "symbol":  "^IXIC",
-                         "price":  22617.73,
-                         "change":  -1261.47,
-                         "changePercent":  -5.28,
+                         "price":  24089.56,
+                         "change":  1471.83,
+                         "changePercent":  6.51,
                          "digits":  2,
-                         "asOf":  "2026-11-20",
+                         "asOf":  "2026-11-23",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "Dow",
                          "symbol":  "^DJI",
-                         "price":  48147.33,
-                         "change":  -949.73,
-                         "changePercent":  -1.93,
+                         "price":  49595.31,
+                         "change":  1447.98,
+                         "changePercent":  3.01,
                          "digits":  2,
-                         "asOf":  "2026-11-20",
+                         "asOf":  "2026-11-23",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "SOX",
                          "symbol":  "^SOX",
-                         "price":  8408.59,
-                         "change":  -1011.13,
-                         "changePercent":  -10.73,
+                         "price":  9588.05,
+                         "change":  1179.46,
+                         "changePercent":  14.03,
                          "digits":  2,
-                         "asOf":  "2026-11-20",
+                         "asOf":  "2026-11-23",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "VIX",
                          "symbol":  "^VIX",
-                         "price":  35.89,
-                         "change":  7.45,
-                         "changePercent":  26.2,
+                         "price":  26.62,
+                         "change":  -9.27,
+                         "changePercent":  -25.83,
                          "digits":  2,
-                         "asOf":  "2026-11-20",
+                         "asOf":  "2026-11-23",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "USD/KRW",
                          "symbol":  "USDKRW=X",
                          "price":  1344.2,
-                         "change":  9.4,
-                         "changePercent":  0.7,
+                         "change":  -0.1,
+                         "changePercent":  -0.01,
                          "digits":  1,
-                         "asOf":  "2026-11-23",
+                         "asOf":  "2026-11-24",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "WTI",
                          "symbol":  "CL=F",
-                         "price":  83.24,
-                         "change":  -0.74,
-                         "changePercent":  -0.88,
+                         "price":  80,
+                         "change":  -0.17,
+                         "changePercent":  -0.21,
                          "digits":  2,
-                         "asOf":  "2026-11-23",
+                         "asOf":  "2026-11-24",
                          "source":  "Yahoo Finance"
                      }
                  ],
     "signals":  [
                     {
                         "badge":  "US",
-                        "tone":  "negative",
+                        "tone":  "positive",
                         "title":  "Nasdaq trend check",
-                        "body":  "Nasdaq changed -5.28% in the latest session. This can affect growth, AI and semiconductor themes at the Korean open."
+                        "body":  "Nasdaq changed 6.51% in the latest session. This can affect growth, AI and semiconductor themes at the Korean open."
                     },
                     {
                         "badge":  "Semi",
-                        "tone":  "negative",
+                        "tone":  "positive",
                         "title":  "Philadelphia Semiconductor Index",
-                        "body":  "SOX changed -10.73% in the latest session. Korean semiconductor equipment, materials and HBM names are sensitive to this."
+                        "body":  "SOX changed 14.03% in the latest session. Korean semiconductor equipment, materials and HBM names are sensitive to this."
                     },
                     {
                         "badge":  "Risk",
                         "tone":  "negative",
                         "title":  "VIX risk appetite",
-                        "body":  "VIX is 35.89. Above 20 usually points to risk-off pressure; below 14 usually points to stronger risk appetite."
+                        "body":  "VIX is 26.62. Above 20 usually points to risk-off pressure; below 14 usually points to stronger risk appetite."
                     },
                     {
                         "badge":  "FX",
-                        "tone":  "watch",
+                        "tone":  "positive",
                         "title":  "USD/KRW direction",
-                        "body":  "USD/KRW changed 0.7% in the latest session. A stronger dollar can pressure foreign flows and import-cost-sensitive sectors."
+                        "body":  "USD/KRW changed -0.01% in the latest session. A stronger dollar can pressure foreign flows and import-cost-sensitive sectors."
                     },
                     {
                         "badge":  "Oil",
                         "tone":  "watch",
                         "title":  "WTI crude oil",
-                        "body":  "WTI changed -0.88% in the latest session. Check airlines, chemicals, refiners and logistics names."
+                        "body":  "WTI changed -0.21% in the latest session. Check airlines, chemicals, refiners and logistics names."
                     }
                 ],
     "news":  [
-                 {
-                     "title":  "Samsung Electronics, SK hynix fall as U.S. tech sell-off rattles market - 매일경제",
-                     "link":  "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1LOGdDbTFYSTFWc2FOZllyMHJObXNLVUdIWmtBN1FCS2JzS0pPczdydGF0UVhwbTF2MkdpdVVGejVjNS1LVkR6a3k1X2VEeEs0NTR3?oc=5",
-                     "source":  "매일경제",
-                     "published":  "2026-11-23 11:54"
-                 },
                  {
                      "title":  "Korean Financial Groups See Limited Stock Market Recovery, Further Won Strength - 알파경제",
                      "link":  "https://news.google.com/rss/articles/CBMibkFVX3lxTE5kYU5MS056MlF0TWYxZjhoeDhoVko0WW5rdnY0dUp4WVh2SnZtYTJ6blV3UkhiNEdobzVqSlI5WEgwTUkyM29UMXdNZFNQbW9nR2Z1TmFKei0takJjX09DZHZPak50c3NaV0xUMkF3?oc=5",
                      "source":  "알파경제",
                      "published":  "2026-11-20 06:00"
+                 },
+                 {
+                     "title":  "Samsung Electronics, SK hynix fall as U.S. tech sell-off rattles market - 매일경제",
+                     "link":  "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1LOGdDbTFYSTFWc2FOZllyMHJObXNLVUdIWmtBN1FCS2JzS0pPczdydGF0UVhwbTF2MkdpdVVGejVjNS1LVkR6a3k1X2VEeEs0NTR3?oc=5",
+                     "source":  "매일경제",
+                     "published":  "2026-11-23 11:55"
                  },
                  {
                      "title":  "The Two Faces of the Semiconductor Boom: Fueling Stock Market Volatility and Driving Housing Demand - 아시아경제",
