@@ -1,6 +1,6 @@
 ﻿{
-    "updatedAt":  "2026-11-26 16:00:04 +09:00",
-    "targetBusinessDate":  "2026-11-25",
+    "updatedAt":  "2026-11-27 16:00:04 +09:00",
+    "targetBusinessDate":  "2026-11-26",
     "marketSource":  "Yahoo Finance",
     "newsSource":  "Google News RSS",
     "holidaySource":  "Nager.Date KR public holidays",
@@ -48,31 +48,31 @@
                      {
                          "label":  "VIX",
                          "symbol":  "^VIX",
-                         "price":  28.29,
-                         "change":  1.93,
-                         "changePercent":  7.32,
+                         "price":  26.8,
+                         "change":  -1.49,
+                         "changePercent":  -5.27,
                          "digits":  2,
-                         "asOf":  "2026-11-25",
+                         "asOf":  "2026-11-26",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "USD/KRW",
                          "symbol":  "USDKRW=X",
-                         "price":  1343.1,
-                         "change":  0.4,
-                         "changePercent":  0.03,
+                         "price":  1336.4,
+                         "change":  -6.5,
+                         "changePercent":  -0.49,
                          "digits":  1,
-                         "asOf":  "2026-11-26",
+                         "asOf":  "2026-11-27",
                          "source":  "Yahoo Finance"
                      },
                      {
                          "label":  "WTI",
                          "symbol":  "CL=F",
-                         "price":  83.98,
-                         "change":  0.3,
-                         "changePercent":  0.36,
+                         "price":  86.01,
+                         "change":  2.33,
+                         "changePercent":  2.78,
                          "digits":  2,
-                         "asOf":  "2026-11-26",
+                         "asOf":  "2026-11-27",
                          "source":  "Yahoo Finance"
                      }
                  ],
@@ -93,93 +93,27 @@
                         "badge":  "Risk",
                         "tone":  "negative",
                         "title":  "VIX risk appetite",
-                        "body":  "VIX is 28.29. Above 20 usually points to risk-off pressure; below 14 usually points to stronger risk appetite."
+                        "body":  "VIX is 26.8. Above 20 usually points to risk-off pressure; below 14 usually points to stronger risk appetite."
                     },
                     {
                         "badge":  "FX",
-                        "tone":  "watch",
+                        "tone":  "positive",
                         "title":  "USD/KRW direction",
-                        "body":  "USD/KRW changed 0.03% in the latest session. A stronger dollar can pressure foreign flows and import-cost-sensitive sectors."
+                        "body":  "USD/KRW changed -0.49% in the latest session. A stronger dollar can pressure foreign flows and import-cost-sensitive sectors."
                     },
                     {
                         "badge":  "Oil",
                         "tone":  "watch",
                         "title":  "WTI crude oil",
-                        "body":  "WTI changed 0.36% in the latest session. Check airlines, chemicals, refiners and logistics names."
+                        "body":  "WTI changed 2.78% in the latest session. Check airlines, chemicals, refiners and logistics names."
                     }
                 ],
     "news":  [
                  {
-                     "title":  "[FP News] Household Loan Rates Top 5% on BOK Rate-Hike Outlook as Market Slump Complicates Policy - 파이낸셜포스트",
-                     "link":  "https://news.google.com/rss/articles/CBMidEFVX3lxTE5KbEFlanhYZUdReFJURDdla3AycFJjMGVUWVNIYXJ2Qi02OTlSRHB5SG9jTFBMT0o1bEhIR0UzNVN5M0FRTmNPS2w0R0RaVlk5UzlXbV9ua0FyM0k1OHVqYmJ1SWVyWHRZcXVYNHN6bzdwTXM1?oc=5",
-                     "source":  "파이낸셜포스트",
-                     "published":  "2026-11-26 08:34"
-                 },
-                 {
-                     "title":  "Korean Financial Groups See Limited Stock Market Recovery, Further Won Strength - 알파경제",
-                     "link":  "https://news.google.com/rss/articles/CBMibkFVX3lxTE5kYU5MS056MlF0TWYxZjhoeDhoVko0WW5rdnY0dUp4WVh2SnZtYTJ6blV3UkhiNEdobzVqSlI5WEgwTUkyM29UMXdNZFNQbW9nR2Z1TmFKei0takJjX09DZHZPak50c3NaV0xUMkF3?oc=5",
-                     "source":  "알파경제",
-                     "published":  "2026-11-20 06:00"
-                 },
-                 {
-                     "title":  "The Two Faces of the Semiconductor Boom: Fueling Stock Market Volatility and Driving Housing Demand - 아시아경제",
-                     "link":  "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBteC1TRy1JdlRTeDduR0lsUVVlUlV0OC1nSW84M3J1cXBhZHdZVkdORXRycVFQLWNzd01kcnhScEJyajBKS0twZ0dhWGRaM0FQVzBKU1dzQjRvTC1MSGk0RG82N3M?oc=5",
-                     "source":  "아시아경제",
-                     "published":  "2026-09-11 16:00"
-                 },
-                 {
-                     "title":  "Korea stocks plunged. Are risky ETFs to blame? - Korea JoongAng Daily",
-                     "link":  "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYnBMMmVBVnFqamFwbXo5X1N2NU1xUVRxel9BcXhUbDdWQ0lwLU1NZkZDTVNzUlRJa3N2NE1aU3BWMGlhVldnSlBPZmFTUld6SmhCUHJXVFI1U1czeWFXLVppRndPbG9HSnZwOTRIYzVyZ1dEam8zZDRwcjN1alkwY0ktaGgySVJvSDc5ZFRVQXJRRVgwREw0aVd3cVVrY1Z5Wk9v?oc=5",
-                     "source":  "Korea JoongAng Daily",
-                     "published":  "2026-08-10 16:00"
-                 },
-                 {
-                     "title":  "AI and semiconductor stocks shed $1 trillion in market value over four days... Will the China-driven shock concentrate on Korea? - 경향신문",
-                     "link":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTE95bG40VXA3U1ZpanctWmg3V3FJeVpmNVlja2tlSTViOEJnMVU1WnM0c2N1Rl93cUxwb1hING1rX1FTV1lVNjFxaUtURlFDT3pJX1h1S3dkLVhieHltVmc?oc=5",
-                     "source":  "경향신문",
-                     "published":  "2026-10-16 16:00"
-                 },
-                 {
-                     "title":  "South Korea’s Stock Market Plunges as President Lee Marks 500 Days in Office - 최보식의언론",
-                     "link":  "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1LZ1B0clhRelR5LWhNVWJaZElwM0Q1aHlLaXpORGoxZVQwT3ZiRWRzNFdKQzJXZ2pteGpSRjJXZUhxMjRRZG5rV05ZaFIyMkhZVUk3X0RYdFJqWDJPQmljN0ZrMm7SAWhBVV95cUxOaWxMdUgyMFBRN1JtRVEyWE92SzVZV0FyclpPb0ktWG9welVOMHkyalQ3aWRzWDZ4cV9Rd2h2enBxanM1cnQ4cGxMWDlVUzIxaFJlczBQN1ZRR1VFem5RazBzTUNBa193bA?oc=5",
-                     "source":  "최보식의언론",
-                     "published":  "2026-10-17 16:00"
-                 },
-                 {
-                     "title":  "정부, MSCI 선진국지수 추진···7월 외환시장 24시간 개방 - Korea.net",
-                     "link":  "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOFJZX3NvWXdaLUtSVUVQYUFoaWljeXBFMXlxRi1xQ29jdXBUbTQwVUlMZGtPbDRnb18yU3NubVZScnhLU0d2SzFETm00U0lpMGZvTFNfNUxfYUkyemZpVmJzb2RSYXN6WTZVbEZhSGgxOGRCLVpYMXRodXlteGl0b0VkVkQ?oc=5",
-                     "source":  "Korea.net",
-                     "published":  "2026-01-12 17:00"
-                 },
-                 {
-                     "title":  "Policy failure is behind roller coaster market (KOR) - Korea JoongAng Daily",
-                     "link":  "https://news.google.com/rss/articles/CBMirgFBVV95cUxOU1FZUHVCNF9seC1RalRRbGVIT2YxcTNXWUpMOEk4WXdmMDR5UldIWVpxMkdTN2l0Yk5NOGRiQ2R4RWlyRVpubTZCMWNPcFg1RmthWkNfVF90Y3V6a3FoNFQ5Y1ZLOVlDeVRzTWhTQ1pSZHlQbVN1ZFNoRnZVSUt5X1o4QWxMblVBM2l4V05OUnBnV2JZUDV3dl9XclJNWlBzV3hCcVdfTEhyU181VEE?oc=5",
-                     "source":  "Korea JoongAng Daily",
-                     "published":  "2026-07-29 16:00"
-                 },
-                 {
-                     "title":  "South Korean Retail Investors Shift $7 Billion Into Bonds as Stock Market Slumps Nearly 30% - 알파경제",
-                     "link":  "https://news.google.com/rss/articles/CBMibkFVX3lxTE45RWpmRjUzVW9FQmpPM0JDUHVZMmFhaW1ZOGh1V0xkck16Umw2N3pyRXJUcjB0VFJnTHJHazhWc3pXdC16SmhFaDU4LWk2WjF3TXMwVWlRaTZSUFQtc1hscHU0dE9GWFNyU0MzTlh3?oc=5",
-                     "source":  "알파경제",
-                     "published":  "2026-10-14 16:00"
-                 },
-                 {
-                     "title":  "KOSPI plunges 8%, circuit breaker triggered···trading halted for 20 minutes - 경향신문",
-                     "link":  "https://news.google.com/rss/articles/CBMiXkFVX3lxTE05Q3A5cDFOa21URTBULUtLTi0wQUYtUXQ1UXMzWmRmZUJRekZyQldobzMxUER4TGxrWTZQRnVxeWU0M0F3aDFQYXZfdGE3c1hXNFd3RXk5eXlmb284SVE?oc=5",
-                     "source":  "경향신문",
-                     "published":  "2026-03-09 16:00"
-                 },
-                 {
-                     "title":  "Pessimists Cheer the \u0027Circuit Breaker\u0027... This Time, Warnings of \"Ominous Signs\" for KOSPI - 아시아경제",
-                     "link":  "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBqcXFNX3VCc2c2M2Z1WTdFMkVKeVVmMkxDYzVtQnpKcWtqWEQ2TF9kSGxEV0FndElhU1ZFM0ZwWkhXS1FCaXE1LUduMzIxNzljNFJ3NUVYN3dmZWVtZkJKa1hwanE?oc=5",
-                     "source":  "아시아경제",
-                     "published":  "2026-03-06 17:00"
-                 },
-                 {
-                     "title":  "AI is lifting markets, but concentration risk is growing - Korea JoongAng Daily",
-                     "link":  "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbkNwUGZfVkVISjhHVC15dFFReHplZ09UVUt6aG5xYnljckhfcjBaQjlqOE1OQ1E0U2JzM20xUXU2bjh1LVFhY3NSd0ZET3diZlYyZEJEQnFBMFV5eUdEcXN1VUxyUU9IMWdOWDkzS1d4U3RwQTR5V05zZjFrc3ZoQW8zWXV1U0Y1X2c2TkJHVjZJcl9CSUpndGtQYWl2RW5PZnVuVy1pemtncDJuZHBob1RIdTVVb3c?oc=5",
-                     "source":  "Korea JoongAng Daily",
-                     "published":  "2026-10-16 16:00"
+                     "title":  "News RSS could not be loaded",
+                     "link":  "https://news.google.com/",
+                     "source":  "Google News",
+                     "published":  "2026-11-27 16:00"
                  }
              ]
 }
